@@ -1,0 +1,55 @@
+body,
+html {
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+#app {
+  background-color: #d4ebe4;
+}
+
+#menu-row-spacing {
+  height: 5vh;
+}
+
+#menu-row-content {
+  height: 10vh;
+}
+
+.container {
+}
+
+.menu-items {
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 8rem;
+}
+
+.menu {
+}
+
+.menu-logo {
+  /* height: 200px; */
+  width: 80%;
+}
+
+.logo {
+
+}
+
+.menu-popup {
+  border-top: 4px solid black;
+  height: 80vh;
+}
+
+.menu-button {
+    height: 60px;
+}
