@@ -17,39 +17,84 @@ html {
 
 #menu-row-spacing {
   height: 5vh;
+  width: 100vw;
 }
 
 #menu-row-content {
   height: 10vh;
+  width: 100vw;
+}
+/* MENU */
+
+.container-menu {
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  background-color: #d4ebe4;
+  z-index: 999;
 }
 
-.container {
+.container-header {
+}
+
+.second {
+  color: #6b7a9b;
+  bottom: 5vh;
 }
 
 .menu-items {
-  font-size: 2rem;
-  font-family: sans-serif;
   text-align: center;
-  margin: 8rem;
-}
-
-.menu {
+  font-size: 5rem;
+  font-family: sans-serif;
+  margin-bottom: 3rem;
 }
 
 .menu-logo {
   /* height: 200px; */
-  width: 80%;
+  width: 200px;
 }
 
 .logo {
-
 }
 
 .menu-popup {
-  border-top: 4px solid black;
   height: 80vh;
 }
 
 .menu-button {
-    height: 60px;
+  height: 50px;
+}
+
+/* HOMEPAGE */
+
+.home-text {
+  font-size: 6rem;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+.homepage-btn {
+  width: 80vw;
+  height: 160px;
+  background-color: #87d0c7;
+  margin: 30px;
+  font-size: 60px;
+  text-align: left;
+  justify-self: center;
+  border-radius: 1rem;
+}
+
+.hompage-btn-text {
+  padding-left: 60px;
+  z-index: 1;
+}
+
+.wrap-btn {
+  background-color: white;
+  padding-top: 50px;
+  border-radius: 70px 70px 0 0;
 }
