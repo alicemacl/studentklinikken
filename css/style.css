@@ -10,8 +10,9 @@ body, html {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 
-    font-family: sans-serif;
+    font-family: 'GraphikBody', sans-serif;
 
+    background-color: var(--lightBlue);
 }
 
 * {
@@ -32,3 +33,34 @@ body, html {
 }
 
 
+.main-btn {
+    cursor: pointer;
+    background-color: var(--mainBlue);
+    color: var(--mainBlack);
+    width: 90vw;
+    padding: 2rem 4rem;
+    font-size: 4rem;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.main-btn:active {
+    outline: none;
+}
+
+.main-btn::after {
+    content: '';
+	border-top: 25px solid transparent;
+	border-left: 30px solid var(--mainBlack);
+    border-bottom: 25px solid transparent;
+    float: right;
+    margin: 1.4rem 0;
+}
+
+.home-page .main-btn {
+    margin-top: 2.2rem;
+}
+
+.home-page .main-btn::first-child {
+    margin-top: 0;
+}

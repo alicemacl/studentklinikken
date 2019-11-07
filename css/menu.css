@@ -4,7 +4,6 @@ html {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  background-color: #d4ebe4;
 }
 
 * {
@@ -56,7 +55,7 @@ html {
 .header {
   position: sticky;
   top: 0; 
-  background-color: #d4ebe4;
+  background-color: var(--lightBlue);
   z-index: 999;
 }
 
@@ -71,17 +70,21 @@ html {
 
 /* HOMEPAGE */
 
+.intro-text {
+  background-color: var(--lightBlue);
+}
 .home-text {
   font-size: 6rem;
   font-family: sans-serif;
   text-align: center;
   margin-bottom: 4vh;
+  
 }
 
 .homepage-btn {
   width: 80vw;
   height: 160px;
-  background-color: #87d0c7;
+  background-color: var(--mainBlue);
   margin: 30px;
   font-size: 60px;
   text-align: left;
@@ -120,7 +123,7 @@ html {
 .behandlinger-btn {
   width: 80vw;
   height: 160px;
-  background-color: #87d0c7;
+  background-color: var(--lightBlue);
   margin: 30px;
   font-size: 30px;
   text-align: left;
