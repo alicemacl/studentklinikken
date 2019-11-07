@@ -1,0 +1,34 @@
+@import url("fonts.css");
+@import url("menu.css");
+@import url("footer.css");
+
+/* Basics */
+body, html {
+    margin: 0;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    font-family: sans-serif;
+
+}
+
+* {
+    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+}
+
+:root {
+    --mainBlue: #87D0C7; /* PRIMARY */
+    --blueShade: #79A5B3; /* HOVER */
+    --lightBlue: #D4EBE4; /* For boxes and backgrounds */
+    
+    --mainPurple: #6B7A9B; /* SECONDARY */
+    --purpleShade: #6F84A1; /* HOVER */
+
+    --mainBlack: #333333; /* For all texts */
+}
+
+
