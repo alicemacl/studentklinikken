@@ -19,12 +19,13 @@ const Home = {
               </button>
             </router-link>
               
-            
+            <router-link to='/ansatte'>
             <button class="homepage-btn row">
               <p class="hompage-btn-text col-10">Sjekk dine timer</p>
               <img class="align-self-center col-1" src="../assets/arrow-right.png">
-              
             </button> 
+            </router-link>
+
           </div>
         </div>
         <footer-component></footer-component>

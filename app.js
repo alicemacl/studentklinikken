@@ -5,8 +5,3 @@ new Vue({
     el: "#app",
     router: router
 })
-
-new Vue({
-    el: "#admin",
-    router: router
-})
