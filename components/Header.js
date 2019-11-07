@@ -1,15 +1,15 @@
 const Header = Vue.component("header-component", {
   template: `
-    <div class="container-header">
+    <div class="header">
         <div class="row" id="menu-row-spacing"></div> 
         <div class="row" id="menu-row-content"> 
             <div class="col-sm-3"></div>
-            <div class="col-sm-6 logo d-flex justify-content-center align-items-center">
-                <img class="menu-logo" src="../assets/Logo-farger.png">
+            <div class="col-sm-6 d-flex justify-content-center align-items-center">
+                <router-link to='/'><img class="logo" src="../assets/Logo-farger.png"></router-link>
             </div>
             <div class="col-sm-3 d-flex justify-content-center align-items-center">
                 <button @click="toggle" >
-                    <img class="menu-button" src="../assets/menu-button.png">
+                    <img class="button" src="../assets/menu-button.png">
                 </button>
             </div>
         </div>

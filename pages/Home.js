@@ -10,13 +10,16 @@ const Home = {
             <button class="homepage-btn row">
               <p class="hompage-btn-text col-10">Bestill time </p>
               <img class="col-1 align-self-center" src="../assets/arrow-right.png">
-              
             </button>
-            <button class="homepage-btn row">
-              <p class="hompage-btn-text col-10">Se behandlinger</p>
-              <img class="col-1 align-self-center" src="../assets/arrow-right.png">
+
+            <router-link to='/behandlinger'>
+              <button class="homepage-btn row">
+                <p class="hompage-btn-text col-10">Se behandlinger</p>
+                <img class="col-1 align-self-center" src="../assets/arrow-right.png">
+              </button>
+            </router-link>
               
-            </button>
+            
             <button class="homepage-btn row">
               <p class="hompage-btn-text col-10">Sjekk dine timer</p>
               <img class="align-self-center col-1" src="../assets/arrow-right.png">
