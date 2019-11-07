@@ -27,6 +27,7 @@ const Home = {
             </button> 
           </div>
         </div>
+        <footer-component></footer-component>
     </div> 
     `,
 
