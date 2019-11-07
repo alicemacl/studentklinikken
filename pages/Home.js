@@ -1,7 +1,10 @@
 const Home = {
   template: `
     <div>
-        <footer-component/>
+    <menu-component />
+    <h1>Hei</h1>
+    <footer-component/>
+       
     </div> 
     `
 };

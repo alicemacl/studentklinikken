@@ -1,17 +1,45 @@
 const Footer = Vue.component('footer-component', {
     template: `
         <div class="footer">
-            <img id="logo" src="assets/logo-svarthvit.png">
-            <div class="ringOss">
-                <p>Ring oss</p>
-                <p>+47 12345678</p>
+
+            <div class="text">
+
+                <div class="title">
+
+                    <div class="logo">
+                        <img id="logoSrc" src="assets/logo-svarthvit.png">
+                    </div>
+
+                    <div class="schoolName">
+                        <p id="schoolName1">Studentklinikken</p>
+                        <p id="schoolName2">Av Høyskolen kristiania</p>
+                    </div>
+                    
+                </div> 
+
+                <div class="callUs">
+                    <p id="callUs1">Ring oss</p>
+                    <p id="callUs2">971 17 690</p>
+                </div>
+
+                <div class="epost">
+                    <p id="epost1">E-post</p>
+                    <p id="epost2">studentklinikken@kristiania.no</p>
+                </div>
+
+                <div class="info">
+                    <p id="info1">Besøk oss</p>
+                    <p id="info2">Prinsens gate 9</p>
+                    <p id="info3">0153 Oslo</p>
+                    <p id="info4">Henvend deg i Besøksresepsjonen</p>
+                </div>
+
+                <button class="button">
+                    <p id="buttonText">Bestill time</p>
+                    <div id="buttonArrow"></div>
+                <button/>
+                
             </div>
-            <div class="e-post">
-                <p>E-post</p>
-                <p>studentklinikken@kristiania.no</p>
-            </div>
-            
-            <button class="button">Bestill time<button/>
         </div>,
     
     `
