@@ -1,0 +1,49 @@
+/* BEHANDLINGER*/
+.behandlinger {
+  background-color: white;
+  border-radius: 70px 70px 0 0;
+  padding: 5rem; 
+}
+
+.behandlinger .headline {
+  font-size: 6rem;
+}
+
+.behandlinger .text {
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+.behandlinger .btn {
+  width: 80vw;
+  height: 160px;
+  background-color: #d4ebe4;
+  padding-left: 3rem;
+  margin: 10px;
+  font-size: 30px;
+  text-align: left;
+  justify-self: center;
+  border-radius: 1rem;
+}
+
+.behandlinger .info-container {
+
+    padding-left: 1rem;
+}
+
+.behandlinger h3 {
+    font-size: 6rem;
+    margin-top: 6rem; 
+}
+
+.behandlinger h4 {
+    font-size: 3rem;
+}
+
+.behandlinger .info-bokser {
+    padding: 2rem 0; 
+}
+
+.behandlinger .info {
+    font-size: 2rem;
+}
