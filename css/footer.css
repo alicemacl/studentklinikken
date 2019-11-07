@@ -1,119 +1,76 @@
 .footer{
     background-color:#6B7A9B;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
 }
 
-.text{
-    width: 100%;
-    margin: 3rem;
+.footer .text {
+    padding: 3rem;
     display: flex;
     flex-direction: column;
 }
 
-.title{
+.footer .title{
     display: flex;
     flex: 1;
     border: black;
     border-width: 3mm;
 }
 
-.logo{
+.footer .logo{
     flex: 1;
 }
 
-#logoSrc{
+.footer #logoSrc{
     width: 15em;
     height: 15em;
 }
 
-.schoolName{
+.footer .schoolName{
     flex:2;
     margin-top: 3%;
 }
 
-#schoolName1{
+.footer #schoolName1{
     font-size: 4.5em;
     color: white;
     margin: 0;
 }
 
-#schoolName2{
+.footer #schoolName2{
     font-size: 2.5em;
     font-weight: 300;
     color: white;
     margin: 0;   
 }
 
-.callUs{
+.footer .infoText{
     flex: 2;
     margin-top:10%;
 }
 
-#callUs1{
+.footer #info1{
     font-size: 3em;
     color: white;
     margin: 0;
 }
 
-#callUs2{
-    font-size: 3em;
-    font-weight: 200;
-    color: white;
-    margin: 0;
-}
-
-.epost{
-    margin-top:5%;
-}
-
-#epost1{
-    font-size: 3em;
-    color: white;
-    margin: 0;
-}
-
-#epost2{
-    font-size: 3em;
-    font-weight: 200;
-    color: white;
-    margin: 0;
-}
-
-.info{
-    margin-top:5%;
-}
-
-#info1{
-    font-size: 3em;
-    color: white;
-    margin: 0;
-}
-
-#info2{
+.footer #info2{
     font-size: 3em;
     font-weight: 200;
     color: white;
     margin: 0; 
 }
 
-#info3{
-    font-size: 3em;
-    font-weight: 200;
-    color: white;
-    margin: 0;
-}
-
-#info4{
+.footer #info3{
     font-size: 2.5em;
     font-weight: 200;
     color: white;
     margin: 0;
 }
 
-.button{
+.footer .button{
     margin-top:10%;
     margin-bottom: 5%;
     width: 875px;
@@ -122,7 +79,7 @@
     background-color: #87D0C7;
 }
 
-#buttonText{
+.footer #buttonText{
     color: rgb(0, 0, 0);
     font-size: 3em;
     left: -250px;
@@ -130,7 +87,7 @@
     position: relative;
 }
 
-#buttonArrow {
+.footer #buttonArrow {
     width: 0; 
     height: 0; 
     border-top: 20px solid transparent;
