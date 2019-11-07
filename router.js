@@ -1,4 +1,5 @@
 import Home from "./pages/Home.js"
+import Behandlinger from "./pages/Behandlinger.js"
 
 const router = new VueRouter ({
     mode: 'history', 
@@ -7,6 +8,11 @@ const router = new VueRouter ({
             path: '/', 
             name: 'home', 
             component: Home
+        },
+        {
+            path: '/behandlinger', 
+            name: 'behandlinger', 
+            component: Behandlinger
         }
     ]
 });

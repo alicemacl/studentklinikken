@@ -4,6 +4,7 @@ html {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  background-color: #d4ebe4;
 }
 
 * {
@@ -12,7 +13,6 @@ html {
   -webkit-box-sizing: inherit;
 }
 #app {
-  background-color: #d4ebe4;
 }
 
 #menu-row-spacing {
@@ -26,7 +26,7 @@ html {
 }
 /* MENU */
 
-.container-menu {
+.menu {
   left: 0;
   right: 0;
   position: fixed;
@@ -35,36 +35,37 @@ html {
   overflow: hidden;
   background-color: #d4ebe4;
   z-index: 999;
+  margin-top: -2rem; 
 }
-
-.container-header {
-}
-
-.second {
+.menu .second-box {
   color: #6b7a9b;
   bottom: 5vh;
 }
 
-.menu-items {
+.menu .items {
   text-align: center;
   font-size: 5rem;
   font-family: sans-serif;
   margin-bottom: 3rem;
+  margin-top: 1rem;
 }
 
-.menu-logo {
+.menu .popup {
+  height: 80vh;
+}
+.header {
+  position: sticky;
+  top: 0; 
+  background-color: #d4ebe4;
+  z-index: 999;
+}
+
+.header .logo {
   /* height: 200px; */
   width: 200px;
 }
 
-.logo {
-}
-
-.menu-popup {
-  height: 80vh;
-}
-
-.menu-button {
+.header .button {
   height: 50px;
 }
 
@@ -95,6 +96,34 @@ html {
 
 .wrap-btn {
   background-color: white;
-  padding-top: 50px;
+  padding-top: 100px;
   border-radius: 70px 70px 0 0;
+  padding-bottom: 150px;
+}
+
+/* BEHANDLINGER*/
+.container-behandlinger {
+  background-color: white;
+  border-radius: 70px 70px 0 0;
+}
+
+.behandlinger-headline {
+  margin: 2rem;
+  font-size: 6rem;
+}
+
+.behandlinger-text {
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+.behandlinger-btn {
+  width: 80vw;
+  height: 160px;
+  background-color: #87d0c7;
+  margin: 30px;
+  font-size: 30px;
+  text-align: left;
+  justify-self: center;
+  border-radius: 1rem;
 }
