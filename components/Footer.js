@@ -37,10 +37,10 @@ const Footer = Vue.component('footer-component', {
                 <button class="button">
                     <p id="buttonText">Bestill time</p>
                     <div id="buttonArrow"></div>
-                <button/>
+                </button>
                 
             </div>
-        </div>,
+        </div>
     
     `
 });
