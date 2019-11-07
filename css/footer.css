@@ -1,0 +1,100 @@
+.footer{
+    background-color:#6B7A9B;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer .text {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .title{
+    display: flex;
+    flex: 1;
+    border: black;
+    border-width: 3mm;
+}
+
+.footer .logo{
+    flex: 1;
+}
+
+.footer #logoSrc{
+    width: 15em;
+    height: 15em;
+}
+
+.footer .schoolName{
+    flex:2;
+    margin-top: 3%;
+}
+
+.footer #schoolName1{
+    font-size: 4.5em;
+    color: white;
+    margin: 0;
+}
+
+.footer #schoolName2{
+    font-size: 2.5em;
+    font-weight: 300;
+    color: white;
+    margin: 0;   
+}
+
+.footer .infoText{
+    flex: 2;
+    margin-top:10%;
+}
+
+.footer #info1{
+    font-size: 3em;
+    color: white;
+    margin: 0;
+}
+
+.footer #info2{
+    font-size: 3em;
+    font-weight: 200;
+    color: white;
+    margin: 0; 
+}
+
+.footer #info3{
+    font-size: 2.5em;
+    font-weight: 200;
+    color: white;
+    margin: 0;
+}
+
+.footer .button{
+    margin-top:10%;
+    margin-bottom: 5%;
+    width: 875px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #87D0C7;
+}
+
+.footer #buttonText{
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    left: -250px;
+    top: 35px;
+    position: relative;
+}
+
+.footer #buttonArrow {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-left: 20px solid black;
+    left: 775px;
+    top: -35px;
+    position: relative;
+ 
+}

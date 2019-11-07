@@ -1,7 +1,9 @@
 const Home = {
   template: `
     <div>
-        <menu-component />
+    <menu-component />
+    <footer-component/>
+       
     </div> 
     `
 };
