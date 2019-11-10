@@ -50,7 +50,8 @@ button:focus {
 
 .btn-primary {
     background-color: var(--mainBlue);
-    color: var(--mainBlack)
+    color: var(--mainBlack);
+    border: none;
 }
 
 .btn-secondary {
@@ -78,10 +79,10 @@ button:focus {
     margin: 1.4rem 0;
 }
 
-.home-page .action-btn {
+.wrapper .action-btn {
     margin-bottom: 2.2rem;
 }
 
-.home-page .action-btn::last-child {
+.wrapper .action-btn::last-child {
     margin-bottom: 0;
 }

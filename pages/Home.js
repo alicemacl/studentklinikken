@@ -2,7 +2,7 @@ const Home = {
   template: `
     <div>
         <header-component />
-        <div class="home-page">
+        <div class="wrapper">
           <div class="intro-text">
             <h1 class="home-text"> Du kan forvente behandling av høy kvalitet, 
             hvor ditt behov står sentralt.</h1>
