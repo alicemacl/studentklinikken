@@ -5,7 +5,7 @@ const Behandlinger = {
             <header-component />
             <div class="container-behandlinger d-flex flex-column align-items-center">
                 <div class="text-center">
-                    <h1 class="behandlinger-headline">Behandlinger</h1>
+                    <h1 class="main-header">Behandlinger</h1>
                     <p class="behandlinger-text">Vi behandler akutte og langvarige <br> plager / ubehag, 
                     men kan også hjelpe <br> til med forebyggende tiltak. <br>
                     Du kan forvente en individuell <br> samtale, undersøkelse, 

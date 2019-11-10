@@ -1,11 +1,16 @@
 .footer {
     background-color:#6B7A9B;
     width: 100vw;
-    padding: 3rem 3rem;
+    padding: 3rem 4rem;
+}
+
+.footer-logo {
+    display: block;
+
 }
 
 .footer-logo img {
-    width: 305px;
+    width: 100%;
 }
 
 .footer .text {
@@ -48,7 +53,7 @@
     margin: 0;   
 }
 
-.footer .infoText{
+.footer .info-text {
     flex: 2;
     margin-top:10%;
 }

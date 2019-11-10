@@ -1,0 +1,58 @@
+/* container */
+
+.container {
+    display: flex;
+    
+    height:100vh;
+    margin:0 auto;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-content-end {
+    justify-content: flex-end;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.col-4 {
+    flex: 4;
+}
+
+.col-5 {
+    flex: 5;
+}
+
+.col-6 {
+    flex: 6;
+}
+
+.col-7 {
+    flex: 7;
+}
+
+.col-8 {
+    flex: 8;
+}
+
+.col-9 {
+    flex: 9;
+}

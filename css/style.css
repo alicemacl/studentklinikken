@@ -1,6 +1,7 @@
 @import url("fonts.css");
 @import url("menu.css");
 @import url("footer.css");
+@import url("grid.css");
 
 /* Basics */
 body, html {
@@ -13,6 +14,11 @@ body, html {
     font-family: var(--regularFont);
 
     background-color: var(--lightBlue);
+
+    scroll-behavior: smooth;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -22,21 +28,22 @@ body, html {
 }
 
 :root {
-    /* Colors */
-    --mainBlue: #87D0C7; /* PRIMARY */
-    --blueShade: #79A5B3; /* HOVER */
-    --lightBlue: #D4EBE4; /* For boxes and backgrounds */
+    /* colors */
+    --mainBlue: #87D0C7; /* primary */
+    --blueShade: #79A5B3; /* primary hover */
+    --lightBlue: #D4EBE4; /* for boxes and backgrounds */
     
-    --mainPurple: #6B7A9B; /* SECONDARY */
-    --purpleShade: #6F84A1; /* HOVER */
+    --mainPurple: #6B7A9B; /* secondary */
+    --purpleShade: #6F84A1; /* secondary hover */
 
-    --mainBlack: #333333; /* For all texts */
+    --mainBlack: #333333; /* For all text */
 
-    /* type */
+    /* font-family */
     --regularFont: 'GraphikRegular', sans-serif;
     --mediumFont: 'GraphikMedium', sans-serif;
     --boldFont: 'GraphikBold', sans-serif;
 
+    /* font-size and line-height */
     --bodyText: 18px;
     --bodyTextHeight: 26px;
     --bigQuote: 24px;
@@ -54,7 +61,6 @@ body, html {
 
 .action-btn {
     cursor: pointer;
-    width: 90vw;
     padding: 2rem 4rem;
     font-size: 4rem;
     text-align: left;
@@ -72,6 +78,12 @@ button:focus {
     border: none;
 }
 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:visited {
+    background-color: var(--blueShade);
+    color: var(--mainBlack);
+    border:none;
+}
+
 .btn-secondary {
     background: none;
     border: 10px solid var(--mainBlue);
@@ -83,9 +95,12 @@ button:focus {
     border: none;
 }
 
-.action-btn:active, .main-btn:focus {
-    outline: none;
-    border: none;
+.btn-width-90 {
+    width:90vw;
+}
+
+.btn-width-100 {
+    width: 100%;
 }
 
 .action-btn::after {
@@ -137,14 +152,22 @@ button:focus {
 
 /* Typefaces */
 
-.regularType {
+.regular-font {
     font-family: var(--regularFont)
 }
 
-.mediumType {
+.medium-font {
     font-family: var(--mediumFont)
 }
 
-.boldType {
+.bold-font {
     font-family: var(--boldFont)
+}
+
+/* header styles */
+
+.main-header {
+    font-size: var(--firstHeader);
+    line-height: var(--firstHeaderHeight);
+    font-family: var(--mediumFont);
 }
