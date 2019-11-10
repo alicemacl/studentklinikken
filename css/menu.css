@@ -75,7 +75,7 @@ html {
 }
 .home-text {
   font-size: 6rem;
-  font-family: sans-serif;
+  font-family: 'GraphikBody', sans-serif;
   text-align: center;
   margin-bottom: 4vh;
   

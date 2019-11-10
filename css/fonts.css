@@ -4,12 +4,12 @@
 /* HEADLINES */
 @font-face {
     font-family: 'GraphikHeader';
-    src: url('/assets/typeface/GraphikMedium.otf') format('otf');
+    src: url('/assets/typeface/GraphikMedium.otf');
 }
 
 
 /* BODY TEXT */
 @font-face {
     font-family: 'GraphikBody';
-    src: url('/assets/typeface/GraphikRegular.otf') format('otf');
+    src: url('/assets/typeface/GraphikRegular.otf');
 }

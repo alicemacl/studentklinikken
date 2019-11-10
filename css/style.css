@@ -22,6 +22,7 @@ body, html {
 }
 
 :root {
+    /* Colors */
     --mainBlue: #87D0C7; /* PRIMARY */
     --blueShade: #79A5B3; /* HOVER */
     --lightBlue: #D4EBE4; /* For boxes and backgrounds */
@@ -30,25 +31,45 @@ body, html {
     --purpleShade: #6F84A1; /* HOVER */
 
     --mainBlack: #333333; /* For all texts */
+
 }
 
-
-.main-btn {
+.action-btn {
     cursor: pointer;
-    background-color: var(--mainBlue);
-    color: var(--mainBlack);
     width: 90vw;
     padding: 2rem 4rem;
     font-size: 4rem;
     text-align: left;
     border-radius: 20px;
-}
-
-.main-btn:active {
     outline: none;
 }
 
-.main-btn::after {
+button:focus {
+    outline: none;
+}
+
+.btn-primary {
+    background-color: var(--mainBlue);
+    color: var(--mainBlack)
+}
+
+.btn-secondary {
+    background: none;
+    border: 10px solid var(--mainBlue);
+    color: var(--mainBlack)
+}
+
+.btn-clean {
+    background: none;
+    border: none;
+}
+
+.action-btn:active, .main-btn:focus {
+    outline: none;
+    border: none;
+}
+
+.action-btn::after {
     content: '';
 	border-top: 25px solid transparent;
 	border-left: 30px solid var(--mainBlack);
@@ -57,10 +78,10 @@ body, html {
     margin: 1.4rem 0;
 }
 
-.home-page .main-btn {
-    margin-top: 2.2rem;
+.home-page .action-btn {
+    margin-bottom: 2.2rem;
 }
 
-.home-page .main-btn::first-child {
-    margin-top: 0;
+.home-page .action-btn::last-child {
+    margin-bottom: 0;
 }
