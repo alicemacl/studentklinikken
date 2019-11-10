@@ -1,21 +1,10 @@
 const Footer = Vue.component('footer-component', {
     template: `
-        <div class="footer">
+        <footer class="footer">
 
-            <div class="text">
-
-                <div class="title">
-
-                    <div class="logo">
-                        <img id="logoSrc" src="assets/logo-svarthvit.png">
-                    </div>
-
-                    <div class="schoolName">
-                        <p id="schoolName1">Studentklinikken</p>
-                        <p id="schoolName2">Av Høyskolen kristiania</p>
-                    </div>
-
-                </div> 
+                <div class="footer-logo">
+                    <img src="/assets/logo-text-white.png" />
+                </div>
 
                 <div class="infoText">
                     <p id="info1">Ring oss</p>
@@ -40,7 +29,7 @@ const Footer = Vue.component('footer-component', {
                 <button/>
                 
             </div>
-        </div>,
+        </footer>,
     
     `
 });

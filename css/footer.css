@@ -1,8 +1,11 @@
-.footer{
+.footer {
     background-color:#6B7A9B;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    width: 100vw;
+    padding: 3rem 3rem;
+}
+
+.footer-logo img {
+    width: 305px;
 }
 
 .footer .text {
@@ -11,7 +14,7 @@
     flex-direction: column;
 }
 
-.footer .title{
+.footer .title {
     display: flex;
     flex: 1;
     border: black;

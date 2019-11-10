@@ -57,9 +57,11 @@
 
 .intro-text {
   background-color: var(--lightBlue);
+  padding: 3rem 4rem;
 }
 .home-text {
-  font-size: 6rem;
+  font-size: 7rem;
+  line-height: 7.8rem;
   font-family: 'GraphikBody', sans-serif;
   text-align: center;
   margin-bottom: 4vh;
@@ -84,9 +86,9 @@
 
 .wrap-btn {
   background-color: white;
-  padding-top: 100px;
+  padding-top: 7rem;
   border-radius: 70px 70px 0 0;
-  padding-bottom: 150px;
+  padding-bottom: 10rem;
 }
 
 /* BEHANDLINGER*/

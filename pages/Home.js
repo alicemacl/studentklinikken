@@ -14,13 +14,13 @@ const Home = {
             </button>
 
             <router-link to='/behandlinger'>
-              <button class="action-btn btn-secondary">
+              <button class="action-btn btn-primary">
                 Se behandlinger
               </button>
             </router-link>
               
             
-            <button class="action-btn btn-clean">
+            <button class="action-btn btn-secondary">
               Sjekk dine timer
               
             </button> 
