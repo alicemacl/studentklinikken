@@ -23,9 +23,8 @@ const Footer = Vue.component('footer-component', {
                     <p id="info3">Henvend deg i Besøksresepsjonen</p>
                 </div>
 
-                <button class="button">
-                    <p id="buttonText">Bestill time</p>
-                    <div id="buttonArrow"></div>
+                <button class="action-btn btn-primary margin-top-5 margin-bottom-3">
+                    Bestill time
                 <button/>
                 
             </div>
