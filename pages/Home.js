@@ -7,7 +7,7 @@ const Home = {
             <h1 class="home-text"> Du kan forvente behandling av høy kvalitet, 
             hvor ditt behov står sentralt.</h1>
           </div>
-          <div class="wrap-btn d-flex flex-column align-items-center">
+          <div class="container white-top">
           
             <button class="action-btn btn-primary btn-width-90">
               Bestill time

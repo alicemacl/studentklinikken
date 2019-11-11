@@ -61,10 +61,10 @@ body, html {
 
 .action-btn {
     cursor: pointer;
-    padding: 2rem 4rem;
-    font-size: 4rem;
+    padding: 1rem 2rem;
+    font-size: var(--bodyText);
     text-align: left;
-    border-radius: 20px;
+    border-radius: 10px;
     outline: none;
 }
 
@@ -78,7 +78,10 @@ button:focus {
     border: none;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:visited {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited {
     background-color: var(--blueShade);
     color: var(--mainBlack);
     border:none;
@@ -86,7 +89,7 @@ button:focus {
 
 .btn-secondary {
     background: none;
-    border: 10px solid var(--mainBlue);
+    border: 3px solid var(--mainBlue);
     color: var(--mainBlack)
 }
 
@@ -105,11 +108,10 @@ button:focus {
 
 .action-btn::after {
     content: '';
-	border-top: 25px solid transparent;
-	border-left: 30px solid var(--mainBlack);
-    border-bottom: 25px solid transparent;
+	border-top: 10px solid transparent;
+	border-left: 15px solid var(--mainBlack);
+    border-bottom: 10px solid transparent;
     float: right;
-    margin: 1.4rem 0;
 }
 
 .wrapper .action-btn {

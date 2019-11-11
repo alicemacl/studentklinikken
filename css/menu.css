@@ -88,11 +88,11 @@
 
 .intro-text {
   background-color: var(--lightBlue);
-  padding: 3rem 4rem;
+  padding: 1.5rem;
 }
 .home-text {
-  font-size: 7rem;
-  line-height: 7.8rem;
+  font-size: var(--firstHeader);
+  line-height: var(--firstHeaderHeight);
   font-family: var(--regularFont);
   text-align: center;
   margin-bottom: 4vh;
