@@ -61,7 +61,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 5rem; 
+  padding-top: 5rem;
 }
 
 .osteopati .osteopati-start {
@@ -72,8 +72,7 @@
 .osteopati .osteopati-logo {
   width: 100px;
   margin: auto;
-  margin-bottom: 20px; 
-  
+  margin-bottom: 20px;
 }
 
 .osteopati h1 {
@@ -88,7 +87,7 @@
   font-size: var(--smallHeader);
   font-family: var(--regularFont);
   margin-bottom: 50px;
-  padding: 0 1rem 0 1rem; 
+  padding: 0 1rem 0 1rem;
 }
 
 .osteopati .img-box {
@@ -107,7 +106,7 @@
 
 .osteopati-box {
   background-color: var(--lightBlue);
-  border-radius:30px 30px 0 0;
+  border-radius: 30px 30px 0 0;
   padding: 5;
   text-align: center;
   margin-top: -3rem;
@@ -133,7 +132,7 @@
 
 .osteopati-box .info-box-text {
   margin: 0 2rem 0 3rem;
-  padding: 2rem 0 2rem 2rem; 
+  padding: 2rem 0 2rem 2rem;
 }
 
 .osteopati-box h3 {
@@ -155,7 +154,6 @@
   align-self: center;
 }
 
-
 .osteopati .btn {
   margin: auto;
   margin-bottom: 20px;
@@ -166,7 +164,7 @@
   background-color: white;
   border-radius: 30px 30px 0 0;
   text-align: center;
-  z-index: 13; 
+  z-index: 13;
 }
 
 .osteopati-box-last h1 {
@@ -186,7 +184,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 5rem; 
+  padding-top: 5rem;
 }
 
 .akupunktur .logo-header {
@@ -197,8 +195,7 @@
 .akupunktur .akupunktur-logo {
   width: 100px;
   margin: auto;
-  margin-bottom: 20px; 
-  
+  margin-bottom: 20px;
 }
 
 .akupunktur h1 {
@@ -213,7 +210,7 @@
   font-size: var(--smallHeader);
   font-family: var(--regularFont);
   margin-bottom: 50px;
-  padding: 0 1rem 0 1rem; 
+  padding: 0 1rem 0 1rem;
 }
 
 .akupunktur .btn {
@@ -223,7 +220,7 @@
 /* Her Alice */
 .akupunktur-box {
   background-color: var(--lightBlue);
-  border-radius:30px 30px 0 0;
+  border-radius: 30px 30px 0 0;
   padding: 5;
   text-align: center;
   margin-top: -2rem;
@@ -253,9 +250,71 @@
   background-color: white;
   border-radius: 30px 30px 0 0;
   text-align: center;
-  z-index: 13; 
+  z-index: 13;
 }
 
 .akupunktur-box-last .akupunktur-box-last-info {
   text-align: start;
+}
+
+/* KOSTHOLDSVEILEDNING*/
+
+.kostholdsveiledning {
+  background-color: white;
+  border-radius: 30px 30px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.kostholdsveiledning .logo-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.kostholdsveiledning .kostholdsveiledning-logo {
+  width: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.kostholdsveiledning h1 {
+  font-size: var(--firstHeader);
+  font-family: var(--boldFont);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.kostholdsveiledning .logo-header-info {
+  text-align: center;
+  font-size: var(--smallHeader);
+  font-family: var(--regularFont);
+  margin-bottom: 50px;
+  padding: 0 1rem 0 1rem;
+}
+
+.kostholdsveiledning .btn {
+  margin-bottom: 20px;
+  margin-left: 1.3rem;
+}
+
+.kostholdsveiledning .last-box {
+  margin-top: -2rem;
+  z-index: 13;
+  padding-top: 2rem;
+}
+
+.kostholdsveiledning .kostholdsveiledning-info {
+  text-align: start;
+  padding-right: 130px;
+  padding-left: 30px;
+  padding-bottom: 2rem;
+  background-image: url(../assets/kostholdsveiledning-bakgrunn.png);
+  background-size: 300px 400px;
+}
+
+.kostholdsveiledning p {
+  font-size: var(--bigQuote);
+  padding: 1rem;
 }

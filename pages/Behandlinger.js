@@ -1,5 +1,5 @@
 const Behandlinger = {
-    template: `
+  template: `
     <div>
         <div>
             <header-component />
@@ -29,10 +29,12 @@ const Behandlinger = {
                         <h2>Akupunktur</h2>
                     </Button>
                     </router-link>
+                    <router-link to="/behandlinger/kosthildsveiledning">
                     <Button class="btn">
                         <p>Vil du spise riktig?</p>
                         <h2>Kostholdveiledning</h2>
                     </Button>
+                    </router-link>
                     <Button class="btn">
                         <p>Teste din fysiske tilstand?</p>
                         <h2>Fysiologisk Testlab</h2>
@@ -88,7 +90,8 @@ const Behandlinger = {
             <footer-component />
         </div>
     </div>
-    `,
+    `
 };
 
 export default Behandlinger;
+
