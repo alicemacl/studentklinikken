@@ -10,7 +10,7 @@ const Menu = Vue.component("menu-component", {
           <div class="second-box fixed-bottom">
             <h2 class="items">Ny bruker</h2>
             <h2 class="items">Logg inn</h2>  
-            <h2 class="items">Bestill time</h2> 
+            <h2 class="items"><router-link to='/timebestilling'>Bestille time</router-link></h2> 
           </div>
         </div>
     </div>
