@@ -9,14 +9,9 @@ const router = new VueRouter({
   routes: [
     {
       path: "/",
-      name: "osteopati",
-      component: Osteopati
-      /*
-      path: "/",
       name: "home",
       component: Home
-      */
-    }, /*
+    },
     {
       
       path: "/behandlinger",
@@ -28,7 +23,7 @@ const router = new VueRouter({
       path: "/behandlinger/osteopati",
       name: "osteopati",
       component: Osteopati
-    }, */
+    },
     {
       path: "/behandlinger/akupunktur",
       name: "akupunktur",
