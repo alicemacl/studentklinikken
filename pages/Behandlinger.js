@@ -94,3 +94,4 @@ const Behandlinger = {
 };
 
 export default Behandlinger;
+

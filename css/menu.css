@@ -1,103 +1,176 @@
 body,
 html {
-  margin: 0;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  background-color: #d4ebe4;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: var(--lightBlue);
+    scroll-behavior: smooth;
+    /*font-smoothing: antialiased;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 * {
-  box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  -webkit-box-sizing: inherit;
-}
-#app {
+    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
 }
 
+#app {}
+
 #menu-row-spacing {
-  height: 5vh;
-  width: 100vw;
+    height: 5vh;
+    width: 100vw;
 }
 
 #menu-row-content {
-  height: 10vh;
-  width: 100vw;
+    height: 10vh;
+    width: 100vw;
+    justify-content: space-between;
 }
+
+
 /* MENU */
 
 .menu {
-  left: 0;
-  right: 0;
-  position: fixed;
-  height: 100vh;
-  min-width: 100vw;
-  overflow: hidden;
-  background-color: #d4ebe4;
-  z-index: 999;
-  margin-top: -2rem; 
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+    background-color: var(--lightBlue);
+    z-index: 999;
+    margin-top: -2rem;
+    font-family: var(--regularFont);
 }
+
+.menu .first-box a {
+    color: var(--mainBlack);
+    text-decoration: none;
+}
+
+.menu .first-box a:hover {
+    color: var(--mainBlack);
+    text-decoration: none;
+}
+
+.menu .first-box a:focus {
+    color: var(--mainPurple);
+}
+
 .menu .second-box {
-  color: #6b7a9b;
-  bottom: 5vh;
+    color: var(--mainPurple);
+    bottom: 5vh;
+}
+
+.menu .secound-box a {
+    color: var(--mainPurple);
+    text-decoration: none;
+}
+
+.menu .secound-box a:hover {
+    text-decoration: none;
 }
 
 .menu .items {
-  text-align: center;
-  font-size: 5rem;
-  font-family: sans-serif;
-  margin-bottom: 3rem;
-  margin-top: 1rem;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.menu .menu-item {
+    font-size: 5rem;
+    line-height: 9.6rem;
 }
 
 .menu .popup {
-  height: 80vh;
+    height: 80vh;
 }
+
 .header {
-  position: sticky;
-  top: 0; 
-  background-color: #d4ebe4;
-  z-index: 999;
+    position: sticky;
+    top: 0;
+    background-color: var(--lightBlue);
+    z-index: 999;
+    height: 300px;
 }
 
 .header .logo {
-  /* height: 200px; */
-  width: 200px;
+    /* height: 200px; */
+    width: 100px;
 }
 
 .header .button {
-  height: 50px;
+    height: 20px;
 }
+
+.col-sm-6 {
+    width: unset;
+}
+
+.col-sm-3 {
+    width: unset;
+}
+
 
 /* HOMEPAGE */
 
+.intro-text {
+    background-color: var(--lightBlue);
+    padding: 1.5rem;
+}
+
+.row {
+    margin-left: unset;
+    margin-right: unset;
+}
+
+.display-none {
+    display: none;
+}
+
 .home-text {
-  font-size: 6rem;
-  font-family: sans-serif;
-  text-align: center;
-  margin-bottom: 4vh;
+    font-size: var(--firstHeader);
+    line-height: var(--firstHeaderHeight);
+    font-family: var(--regularFont);
+    text-align: center;
+    margin-bottom: 4vh;
+    /*  margin-bottom: 10vh;
+    margin-left: 8rem;
+    margin-right: 8rem; */
 }
 
 .homepage-btn {
-  width: 80vw;
-  height: 160px;
-  background-color: #87d0c7;
-  margin: 30px;
-  font-size: 60px;
-  text-align: left;
-  justify-self: center;
-  border-radius: 1rem;
+    width: 80vw;
+    height: 160px;
+    /* background-color: var(--mainBlue);*/
+    margin: 30px;
+    font-size: 60px;
+    text-align: left;
+    justify-self: center;
+    border-radius: 1rem;
 }
 
 .hompage-btn-text {
-  padding-left: 60px;
-  z-index: 1;
+    padding-left: 60px;
+    z-index: 1;
 }
 
 .wrap-btn {
-  background-color: white;
-  padding-top: 100px;
-  border-radius: 70px 70px 0 0;
-  padding-bottom: 150px;
+    background-color: var(--white);
+    padding-top: 100px;
+    border-radius: 70px 70px 0 0;
+    padding-bottom: 150px;
 }
 
+
+/*
+background-color: white;
+padding-top: 7rem;
+border-radius: 70px 70px 0 0;
+padding-bottom: 10rem;
+
+}*/
