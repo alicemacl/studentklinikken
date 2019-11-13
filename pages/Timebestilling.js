@@ -2,7 +2,7 @@ const Timebestilling = {
   template: `
     <div>
       
-      <div class="container">
+      <div class="timebestilling">
 
         <h5 id="headline">Personopplysninger</h5>
 

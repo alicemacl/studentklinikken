@@ -1,4 +1,6 @@
-.container {
+/* Personopplysninger */
+
+.timebestilling {
     background-color: white;
     padding-top: 2rem;
     border-radius: 60px 60px 0 0;
@@ -9,16 +11,16 @@
     height: 100%;
   }
 
-#headline{
+.timebestilling #headline{
     margin: 0.5rem;
     margin-bottom: 2rem;
 }
    
-.box{
+.timebestilling .box{
     margin: 0.5rem 0;
 }
 
-.info{
+.timebestilling .info{
     width: 100%;
     height: 3.5rem;
     border: solid black 1px;
@@ -28,23 +30,57 @@
     padding-left: 20px;
 }
 
-.post-box{
+.timebestilling .post-box{
     display: flex;
     flex-direction: row;
 }
 
-.box1{
+.timebestilling .box1{
     margin-left:0rem;
     margin-right:0.25rem;
     flex: 1;
 }
 
-.box2{ 
+.timebestilling .box2{ 
     margin-left:0.25rem;
     margin-right:0rem;
     flex: 2;
 }
 
-.btn{
+.timebestilling .btn{
     margin-top: 2rem;
+}
+
+
+/*  Gjennomgang */
+
+.gjennomgang {
+    background-color: white;
+    padding-top: 2rem;
+    border-radius: 60px 60px 0 0;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.gjennomgang .headline{
+    margin: 2rem;
+}
+
+.gjennomgang .info-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.gjennomgang .info-1 {
+    flex: 1;
+    
+}
+
+.gjennomgang .info-2 {
+    flex: 1;
 }
