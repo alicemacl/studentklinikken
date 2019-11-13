@@ -17,14 +17,18 @@ const Behandlinger = {
                     <p class="text">Du trenger ikke henvisning fra lege.</p>
                 </div>
                 <div class="d-flex flex-column justify-content-center">
+                    <router-link to='/behandlinger/osteopati'>
                     <Button class="btn">
                         <p>Muskel- og/eller skjelettsmerter?</p>
                         <h2>Osteopati</h2>
                     </Button>
+                    </router-link>
+                    <router-link to="/behandlinger/akupunktur">
                     <Button class="btn">
                         <p>Kroniske smerter eller stress?</p>
                         <h2>Akupunktur</h2>
                     </Button>
+                    </router-link>
                     <Button class="btn">
                         <p>Vil du spise riktig?</p>
                         <h2>Kostholdveiledning</h2>

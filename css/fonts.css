@@ -1,15 +1,20 @@
 /* Import */
 
 
-/* HEADLINES */
+/* Medium */
 @font-face {
-    font-family: 'GraphikHeader';
-    src: url('/assets/typeface/GraphikMedium.otf') format('otf');
+    font-family: 'GraphikMedium';
+    src: url('/assets/typeface/GraphikMedium.otf');
 }
 
-
-/* BODY TEXT */
+/* Regular */
 @font-face {
-    font-family: 'GraphikBody';
-    src: url('/assets/typeface/GraphikRegular.otf') format('otf');
+    font-family: 'GraphikRegular';
+    src: url('/assets/typeface/GraphikRegular.otf');
+}
+
+/* Bold */
+@font-face {
+    font-family: 'GraphikBold';
+    src: url('/assets/typeface/GraphikBold.otf');
 }
