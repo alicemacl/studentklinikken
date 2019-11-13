@@ -111,12 +111,12 @@ button:focus {
 
 .action-btn::after {
     content: '';
-	border-top: 10px solid transparent;
-	border-left: 12px solid var(--mainBlack);
-    border-bottom: 10px solid transparent;
+	border-top: 8px solid transparent;
+	border-left: 8px solid var(--mainBlack);
+    border-bottom: 8px solid transparent;
     float: right;
-    height:10px;
-    margin-top:3px;
+    height:8px;
+    margin-top:4.5px;
 }
 
 .home-page .action-btn {
