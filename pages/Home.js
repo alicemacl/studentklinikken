@@ -6,20 +6,24 @@ const Home = {
           <div class="home-text"> Du kan forvente behandling av høy kvalitet, 
           hvor ditt behov står sentralt.</div>
           <div class="wrap-btn d-flex flex-column align-items-center">
-          
+
+          <router-link to='/bestilltime'>
             <button class="action-btn btn-primary btn-width-90">
-              Bestill time
+             Bestill time
             </button>
-            <router-link to='/behandlinger'>
+            </router-link>
+                <router-link to='/behandlinger'>
               <button class="action-btn btn-secondary btn-width-90">
                 Se behandlinger
               </button>
             </router-link>
               
             
-            <button class="action-btn btn-clean btn-width-90">
+            <button class="action-btn btn-secondary btn-width-90">
               Sjekk dine timer
             </button> 
+            </router-link>
+
           </div>
         </div>
         <footer-component></footer-component>
