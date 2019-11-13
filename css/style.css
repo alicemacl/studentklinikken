@@ -1,0 +1,180 @@
+@import url("fonts.css");
+@import url("menu.css");
+@import url("footer.css");
+@import url('behandlinger.css'); 
+/* @import url("grid.css"); */
+
+/* Basics */
+body, html {
+    margin: 0;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    font-family: var(--regularFont);
+
+    background-color: var(--lightBlue);
+
+    scroll-behavior: smooth;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+}
+
+:root {
+    /* colors */
+    --mainBlue: #87D0C7; /* primary */
+    --blueShade: #79A5B3; /* primary hover */
+    --lightBlue: #D4EBE4; /* for boxes and backgrounds */
+    
+    --mainPurple: #6B7A9B; /* secondary */
+    --purpleShade: #6F84A1; /* secondary hover */
+
+    --mainBlack: #333333; /* For all text */
+
+    /* font-family */
+    --regularFont: 'GraphikRegular', sans-serif;
+    --mediumFont: 'GraphikMedium', sans-serif;
+    --boldFont: 'GraphikBold', sans-serif;
+
+    /* font-size and line-height */
+    --bodyText: 18px;
+    --bodyTextHeight: 26px;
+    --bodySmall: 14px;
+    --bigQuote: 24px;
+    --bigQuoteHeight: 34px;
+    --firstHeader: 40px;
+    --firstHeaderHeight: 44px;
+    --secondHeader: 30px;
+    --secondHeaderHeight: 35px;
+    --smallHeader: 24px;
+    --smallHeaderHeight: 26px;
+
+}
+
+/* button styles */
+
+.action-btn {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
+    font-family: var(--mediumFont);
+    text-align: left;
+    border-radius: 10px;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn-primary {
+    background-color: var(--mainBlue);
+    color: var(--mainBlack);
+    border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: var(--blueShade);
+    color: var(--mainBlack);
+    border:none;
+}
+
+.btn-secondary {
+    background: none;
+    border: 3px solid var(--mainBlue);
+    color: var(--mainBlack)
+}
+
+.btn-clean {
+    background: none;
+    border: none;
+}
+
+.btn-width-90 {
+    width:90vw;
+}
+
+.btn-width-100 {
+    width: 100%;
+}
+
+.action-btn::after {
+    content: '';
+	border-top: 10px solid transparent;
+	border-left: 15px solid var(--mainBlack);
+    border-bottom: 10px solid transparent;
+    float: right;
+    padding-top:0.5rem;
+}
+
+.wrapper .action-btn {
+    margin-bottom: 2.2rem;
+}
+
+.wrapper .action-btn::last-child {
+    margin-bottom: 0;
+}
+
+/* button styles end */
+
+/* margins */
+
+.margin-tb-2 {
+    margin: 2rem 0;
+}
+
+.margin-tb-1 {
+    margin: 1rem 0;
+}
+
+.margin-top-2 {
+    margin-top: 2rem
+}
+
+.margin-top-1 {
+    margin-top: 1rem;
+}
+
+.margin-bottom-2 {
+    margin-bottom: 2rem;
+}
+
+.margin-bottom-1 {
+    margin-bottom: 1rem;
+}
+
+/* margins end */
+
+/* Typefaces */
+
+.regular-font {
+    font-family: var(--regularFont)
+}
+
+.medium-font {
+    font-family: var(--mediumFont)
+}
+
+.bold-font {
+    font-family: var(--boldFont)
+}
+
+/* header styles */
+
+.main-header {
+    font-size: var(--firstHeader);
+    line-height: var(--firstHeaderHeight);
+    font-family: var(--mediumFont);
+}
