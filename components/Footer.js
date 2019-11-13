@@ -1,8 +1,7 @@
 const Footer = Vue.component('footer-component', {
     template: `
         <footer class="footer">
-
-                <div class="footer-logo">
+            <div class="footer-logo">
                     <img src="./assets/logo-hvit-stor.png" />
                 </div>
 
