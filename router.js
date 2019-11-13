@@ -9,19 +9,26 @@ const router = new VueRouter({
   routes: [
     {
       path: "/",
+      name: "osteopati",
+      component: Osteopati
+      /*
+      path: "/",
       name: "home",
       component: Home
-    },
+      */
+    }, /*
     {
+      
       path: "/behandlinger",
       name: "behandlinger",
       component: Behandlinger
+      
     }, 
     {
       path: "/behandlinger/osteopati",
       name: "osteopati",
       component: Osteopati
-    }, 
+    }, */
     {
       path: "/behandlinger/akupunktur",
       name: "akupunktur",
