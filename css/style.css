@@ -20,6 +20,8 @@ body, html {
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    font-size: 62.5%;
 }
 
 * {
@@ -45,26 +47,24 @@ body, html {
     --boldFont: 'GraphikBold', sans-serif;
 
     /* font-size and line-height */
-    --bodyText: 18px;
-    --bodyTextHeight: 26px;
-    --bodySmall: 14px;
-    --bodySmallHeight: 16px;
-    --bigQuote: 24px;
-    --bigQuoteHeight: 34px;
-    --firstHeader: 40px;
-    --firstHeaderHeight: 44px;
-    --secondHeader: 30px;
-    --secondHeaderHeight: 35px;
-    --smallHeader: 24px;
-    --smallHeaderHeight: 26px;
-
+    --bodyText: 1.8rem;
+    --bodyTextHeight: 2.5rem;
+    --bodySmall: 1.4rem;
+    --bodySmallHeight: 1.8rem;
+    --bigQuote: 2.4rem;
+    --bigQuoteHeight: 3.4rem;
+    --firstHeader: 4rem;
+    --firstHeaderHeight: 4.4rem;
+    --secondHeader: 3rem;
+    --secondHeaderHeight: 3.5rem;
+    --smallHeader: 2.4rem;
+    --smallHeaderHeight: 2.6rem;
 }
 
 /* button styles */
 
 .action-btn {
     cursor: pointer;
-    padding: 1rem 2rem;
     font-size: var(--bodyText);
     line-height: var(--bodyTextHeight);
     font-family: var(--mediumFont);
@@ -81,6 +81,7 @@ button:focus {
     background-color: var(--mainBlue);
     color: var(--mainBlack);
     border: none;
+    padding: 1rem 2rem;
 }
 
 .btn-primary:hover,
@@ -95,12 +96,14 @@ button:focus {
 .btn-secondary {
     background: none;
     border: 3px solid var(--mainBlue);
-    color: var(--mainBlack)
+    color: var(--mainBlack);
+    padding: 1rem 2rem;
 }
 
 .btn-clean {
     background: none;
     border: none;
+    padding: 0;
 }
 
 .btn-width-90 {
@@ -113,8 +116,8 @@ button:focus {
 
 .action-btn::after {
     content: '';
-	  border-top: 8px solid transparent;
-	  border-left: 8px solid var(--mainBlack);
+	border-top: 8px solid transparent;
+	border-left: 8px solid var(--mainBlack);
     border-bottom: 8px solid transparent;
     float: right;
     height:8px;
@@ -157,6 +160,7 @@ button:focus {
     margin-bottom: 1rem;
 }
 
+
 /* margins end */
 
 /* Typefaces */
@@ -171,6 +175,16 @@ button:focus {
 
 .bold-font {
     font-family: var(--boldFont)
+}
+
+.body-text {
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight)
+}
+
+.small-text {
+    font-size: var(--bodySmall);
+    line-height: var(--bodySmallHeight);
 }
 
 /* header styles */
