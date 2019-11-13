@@ -53,14 +53,14 @@
 
 .menu .items {
   text-align: center;
-  font-size: 5rem;
+  font-size: 2rem;
   margin-bottom: 3rem;
   margin-top: 1rem;
 }
 
 .menu .menu-item {
-  font-size: 5rem;
-  line-height: 9.6rem;
+  font-size: 30px;
+  line-height: 47px;
 }
 
 
@@ -71,17 +71,37 @@
   position: sticky;
   background-color: var(--lightBlue);
   z-index: 999;
-  height: 250px;
+  height: 170px;
   width: 100vw;
 }
 
-.header img {
-  /* height: 200px; */
-  width: 200px;
+.header .header-flex {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 170px;
+  margin: 0 1.5rem;
 }
 
-.header .button {
-  height: 50px;
+.header .empty {
+  /* flex-grow: 2; */
+  flex:2;
+}
+.header .header-logo {
+/*   flex-shrink: 10;
+  flex-grow: 5; */
+  flex:3;
+}
+
+.header .header-logo img {
+  width:80px;
+}
+
+.header .menu-btn {
+  flex:1;
+  /* flex-shrink: 3; */
 }
 
 /* HOMEPAGE */
@@ -95,8 +115,7 @@
   line-height: var(--firstHeaderHeight);
   font-family: var(--regularFont);
   text-align: center;
-  margin-bottom: 4vh;
-  
+  margin: 1rem 1rem 3rem 1rem;
 }
 
 .homepage-btn {
@@ -117,8 +136,8 @@
 
 .wrap-btn {
   background-color: white;
-  padding-top: 7rem;
-  border-radius: 70px 70px 0 0;
+  padding-top: 2rem;
+  border-radius: 30px 30px 0 0;
   padding-bottom: 10rem;
 }
 
