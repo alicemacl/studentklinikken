@@ -13,7 +13,7 @@ const Osteopati = {
                 </div>
             
                 <img class="img" src="../assets/img-osteopati.png">   
-            
+<!-- ALICE FIKS HER! -->
                 <div class="osteopati-box">
                     <h2>Når skal du til osteopat?</h2>
                     <div class="when-osteopati d-flex justify-self-center">
@@ -34,7 +34,7 @@ const Osteopati = {
                             <p class="col-1">Belastningskader</p>
                         </div>
                     </div>
-            
+<!-- Til her -->
                 <div class="info-box">
                     <div class="info-box-text">
                     <h3>Terapeuten fokuserer på å avdekke funksjons- og 
