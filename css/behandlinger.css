@@ -1,8 +1,9 @@
 /* BEHANDLINGER*/
+
 .behandlinger {
   background-color: white;
   border-radius: 70px 70px 0 0;
-  padding: 5rem; 
+  padding: 5rem;
 }
 
 .behandlinger .headline {
@@ -27,23 +28,149 @@
 }
 
 .behandlinger .info-container {
-
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 .behandlinger h3 {
-    font-size: 6rem;
-    margin-top: 6rem; 
+  font-size: 5rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
 }
 
 .behandlinger h4 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .behandlinger .info-bokser {
-    padding: 2rem 0; 
+  padding: 3rem 0;
 }
 
 .behandlinger .info {
-    font-size: 2rem;
+  font-size: var(--bigQuote);
+}
+
+.behandlinger .rettigheter {
+  margin-bottom: 3rem;
+}
+
+/* OSTEOPATI */
+
+.osteopati {
+  background-color: white;
+  border-radius: 40px 40px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5rem; 
+}
+
+.osteopati .osteopati-start {
+  display: flex;
+  flex-direction: column;
+}
+
+.osteopati .osteopati-logo {
+  width: 100px;
+  margin: auto;
+  margin-bottom: 20px; 
+  
+}
+
+.osteopati h1 {
+  font-size: var(--firstHeader);
+  font-family: var(--boldFont);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.osteopati .info {
+  text-align: center;
+  font-size: var(--smallHeader);
+  font-family: var(--regularFont);
+  margin-bottom: 50px;
+  padding: 0 1rem 0 1rem; 
+}
+
+.osteopati .img-box {
+  display: flex;
+  width: 100vw;
+}
+
+.osteopati .img {
+  display: flex;
+  width: 100vw;
+  margin-top: 50px;
+  z-index: 3;
+}
+
+.osteopati-box {
+  background-color: var(--lightBlue);
+  border-radius:40px 40px 0 0;
+  padding: 5;
+  text-align: center;
+  margin-top: -3rem;
+  z-index: 10;
+  right: 0;
+  left: 0;
+}
+
+.osteopati-box h2 {
+  font-size: var(--secondHeader);
+  padding: 5rem 5rem 0 5rem;
+}
+.osteopati-box p {
+  font-size: var(--bodyText);
+  padding: 1rem;
+}
+
+.osteopati-box .info-box {
+  background: url("../assets/ost-eop-ati-bakgrunn.png") left no-repeat;
+  background-size: contain;
+}
+
+.osteopati-box .info-box-text {
+  margin: 0 2rem 0 3rem;
+  padding: 2rem 0 2rem 2rem; 
+}
+
+.osteopati-box h3 {
+  font-size: var(--bodyTextHeight);
+  font-family: var(--regularFont);
+  margin-left: 3rem;
+  padding-right: 0rem;
+  text-align: left;
+}
+
+.osteopati .when-osteopati {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.osteopati .row {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+
+.osteopati .btn {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.osteopati .osteopati-box-last {
+  padding-top: 50px;
+  background-color: white;
+  border-radius: 30px 30px 0 0;
+  text-align: center;
+  z-index: 13; 
+}
+
+.osteopati-box-last h1 {
+  text-align: start;
+  padding-left: 1rem;
+}
+
+.osteopati-box-last .info-box {
+  text-align: start;
 }

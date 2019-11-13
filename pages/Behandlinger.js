@@ -6,13 +6,13 @@ const Behandlinger = {
             <div class="behandlinger d-flex flex-column align-items-center">
                 <div class="text-center">
                     <h1 class="headline">Behandlinger</h1>
-                    <p class="text">Vi behandler akutte og langvarige <br> plager / ubehag, 
-                    men kan også hjelpe <br> til med forebyggende tiltak. <br>
-                    Du kan forvente en individuell <br> samtale, undersøkelse, 
-                    behandling <br> og råd rettet mot dine behov.</p>
+                    <p class="text">Vi behandler akutte og langvarige plager / ubehag, 
+                    men kan også hjelpe  til med forebyggende tiltak.
+                    Du kan forvente en individuell samtale, undersøkelse, 
+                    behandling og råd rettet mot dine behov.</p>
 
-                    <p class="text">Studentene har selv ansvar for <br> konsultasjonene, 
-                    men har alltid en erfaren <br> veileder tilgjengelig.</p>
+                    <p class="text">Studentene har selv ansvar for konsultasjonene, 
+                    men har alltid en erfaren veileder tilgjengelig.</p>
             
                     <p class="text">Du trenger ikke henvisning fra lege.</p>
                 </div>
@@ -51,9 +51,9 @@ const Behandlinger = {
                         <p class="info">Gratis!</p>
                     </div>
 
-                    <p class="info">* Rabatten gjelder: Honnør over 60 år, ungdom <br>
+                    <p class="info">* Rabatten gjelder: Honnør over 60 år, ungdom
                     under 18 år, studenter og HK ansatte.</p>
-                    <p class="info">Sommerklinikken for akupunktur og osteopati <br> har egen priser.</p>
+                    <p class="info">Sommerklinikken for akupunktur og osteopati har egen priser.</p>
                 
                     <h3>Åpningstider</h3>
                     <div class="info-bokser">
@@ -66,7 +66,7 @@ const Behandlinger = {
                     </div>
 
                     <h3>Dine rettigheter som pasient</h3>
-                    <p class="info">
+                    <p class="info rettigheter">
                     Vi forholder oss til en rekke lover og regler 
                     som ivaretar dine pasientrettigheter. 
                     Våre studenter må samtykke til å følge dette 
