@@ -2,22 +2,22 @@ const Home = {
   template: `
     <div>
         <header-component />
-        <div>
+        <div class="home-page">
           <div class="home-text"> Du kan forvente behandling av høy kvalitet, 
           hvor ditt behov står sentralt.</div>
           <div class="wrap-btn d-flex flex-column align-items-center">
           
-            <button class="action-btn btn-primary">
+            <button class="action-btn btn-primary btn-width-90">
               Bestill time
             </button>
             <router-link to='/behandlinger'>
-              <button class="action-btn btn-secondary">
+              <button class="action-btn btn-secondary btn-width-90">
                 Se behandlinger
               </button>
             </router-link>
               
             
-            <button class="action-btn btn-clean">
+            <button class="action-btn btn-clean btn-width-90">
               Sjekk dine timer
             </button> 
           </div>
