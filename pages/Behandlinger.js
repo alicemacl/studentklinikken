@@ -91,4 +91,4 @@ const Behandlinger = {
     `,
 };
 
-export default Behandlinger; 
+export default Behandlinger;
