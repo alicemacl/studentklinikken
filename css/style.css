@@ -1,6 +1,7 @@
 @import url("fonts.css");
 @import url("menu.css");
 @import url("footer.css");
+@import url('behandlinger.css'); 
 /* @import url("grid.css"); */
 
 /* Basics */
@@ -111,8 +112,8 @@ button:focus {
 
 .action-btn::after {
     content: '';
-	border-top: 8px solid transparent;
-	border-left: 8px solid var(--mainBlack);
+	  border-top: 8px solid transparent;
+	  border-left: 8px solid var(--mainBlack);
     border-bottom: 8px solid transparent;
     float: right;
     height:8px;

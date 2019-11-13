@@ -1,5 +1,5 @@
 const Header = Vue.component("header-component", {
-  template: `
+    template: `
   <div class="header">
     <div class="row" id="menu-row-spacing"></div> 
     <div class="row" id="menu-row-content"> 
@@ -14,25 +14,25 @@ const Header = Vue.component("header-component", {
       </div>
   </div>
   <div class="row" id="menu-row-spacing"></div> 
-    <!-- <menu-component @close="toggle" :closable="true"></menu-component> -->
-        <Menu @close="toggle" :align="align" :closable="true">
-            <div v-if="open">
-                <span @click="innerOpen=true">
-                    <menu-component></menu-component>
-                </span>
-                <Menu @close="innerOpen=false" :align="align" :closable="true">
-                    <div v-if="innerOpen">
-                    </div>   
-                </Menu>
-            </div>
-        </Menu>
-    </div> 
+ <!-- <menu-component @close="toggle" :closable="true"></menu-component> -->
+ <Menu @close="toggle" :align="align" :closable="true">
+      <div v-if="open">
+          <span @click="innerOpen=true">
+              <menu-component></menu-component>
+          </span>
+          <Menu @close="innerOpen=false" :align="align" :closable="true">
+              <div v-if="innerOpen">
+              </div>   
+          </Menu>
+      </div>
+ </Menu>
+</div> 
      `,
     data() {
         return {
-        open: false,
-        innerOpen: false, 
-        align: "center"
+            open: false,
+            innerOpen: false,
+            align: "center"
         };
     },
     methods: {
