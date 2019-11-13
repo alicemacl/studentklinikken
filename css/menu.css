@@ -101,29 +101,3 @@ html {
   padding-bottom: 150px;
 }
 
-/* BEHANDLINGER*/
-.container-behandlinger {
-  background-color: white;
-  border-radius: 70px 70px 0 0;
-}
-
-.behandlinger-headline {
-  margin: 2rem;
-  font-size: 6rem;
-}
-
-.behandlinger-text {
-  font-size: 3rem;
-  margin: 2rem;
-}
-
-.behandlinger-btn {
-  width: 80vw;
-  height: 160px;
-  background-color: #87d0c7;
-  margin: 30px;
-  font-size: 30px;
-  text-align: left;
-  justify-self: center;
-  border-radius: 1rem;
-}
