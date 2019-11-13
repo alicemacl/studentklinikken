@@ -1,0 +1,44 @@
+.bestilltime {
+    height: 80vh;
+}
+
+.bestilltime .bestill-time {
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.bestilltime h1 {
+    font-size: 5vh;
+    text-align: center;
+}
+
+.bestilltime .hva-onsker-du-time-til {
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.hva-onsker-du-time-til h2 {
+    font-size: 2, 5vh;
+    border-radius: 3rem;
+}
+
+.bestilltime .velg-dato-og-tid {
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.bestilltime .personopplysninger {
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.bestilltime .Gjennomgang {
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.button {
+    background-color: rgb(83, 83, 245);
+}
+
+.box {}

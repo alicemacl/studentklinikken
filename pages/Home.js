@@ -1,16 +1,17 @@
 const Home = {
-  template: `
+    template: `
     <div>
         <header-component />
         <div>
           <h1 class="home-text"> Du kan forvente behandling av høy kvalitet, 
           hvor ditt behov står sentralt.</h1>
           <div class="wrap-btn d-flex flex-column align-items-center">
-          
+          <router-link to='/bestilltime'>
             <button class="homepage-btn row">
               <p class="hompage-btn-text col-10">Bestill time </p>
               <img class="col-1 align-self-center" src="../assets/arrow-right.png">
             </button>
+            </router-link>
 
             <router-link to='/behandlinger'>
               <button class="homepage-btn row">
