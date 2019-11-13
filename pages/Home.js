@@ -1,5 +1,5 @@
 const Home = {
-    template: `
+  template: `
     <div>
         <header-component />
         <div class="home-page">
@@ -19,16 +19,9 @@ const Home = {
               </button>
             </router-link>
               
-<<<<<<< HEAD
-            <router-link to='/ansatte'>
-            <button class="homepage-btn row">
-              <p class="hompage-btn-text col-10">Sjekk dine timer</p>
-              <img class="align-self-center col-1" src="../assets/arrow-right.png">
-=======
             
             <button class="action-btn btn-clean btn-width-90">
               Sjekk dine timer
->>>>>>> 5e0c766118a350431821b40f08253f76665ffb78
             </button> 
             </router-link>
 
