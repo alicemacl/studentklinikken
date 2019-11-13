@@ -112,18 +112,19 @@ button:focus {
 
 .action-btn::after {
     content: '';
-	border-top: 10px solid transparent;
-	border-left: 15px solid var(--mainBlack);
-    border-bottom: 10px solid transparent;
+	  border-top: 8px solid transparent;
+	  border-left: 8px solid var(--mainBlack);
+    border-bottom: 8px solid transparent;
     float: right;
-    padding-top:0.5rem;
+    height:8px;
+    margin-top:4.5px;
 }
 
-.wrapper .action-btn {
-    margin-bottom: 2.2rem;
+.home-page .action-btn {
+    margin-bottom: 1rem;
 }
 
-.wrapper .action-btn::last-child {
+.home-page .action-btn::last-child {
     margin-bottom: 0;
 }
 
