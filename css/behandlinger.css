@@ -2,7 +2,7 @@
 
 .behandlinger {
   background-color: white;
-  border-radius: 70px 70px 0 0;
+  border-radius: 30px 30px 0 0;
   padding: 5rem;
 }
 
@@ -57,7 +57,7 @@
 
 .osteopati {
   background-color: white;
-  border-radius: 40px 40px 0 0;
+  border-radius: 30px 30px 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,9 +103,11 @@
   z-index: 3;
 }
 
+/* Her Alice */
+
 .osteopati-box {
   background-color: var(--lightBlue);
-  border-radius:40px 40px 0 0;
+  border-radius:30px 30px 0 0;
   padding: 5;
   text-align: center;
   margin-top: -3rem;
@@ -122,6 +124,7 @@
   font-size: var(--bodyText);
   padding: 1rem;
 }
+/* Til her! */
 
 .osteopati-box .info-box {
   background: url("../assets/ost-eop-ati-bakgrunn.png") left no-repeat;
@@ -172,5 +175,87 @@
 }
 
 .osteopati-box-last .info-box {
+  text-align: start;
+}
+
+/* AKUPUNKTUR */
+
+.akupunktur {
+  background-color: white;
+  border-radius: 30px 30px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5rem; 
+}
+
+.akupunktur .logo-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.akupunktur .akupunktur-logo {
+  width: 100px;
+  margin: auto;
+  margin-bottom: 20px; 
+  
+}
+
+.akupunktur h1 {
+  font-size: var(--firstHeader);
+  font-family: var(--boldFont);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.akupunktur .logo-header-info {
+  text-align: center;
+  font-size: var(--smallHeader);
+  font-family: var(--regularFont);
+  margin-bottom: 50px;
+  padding: 0 1rem 0 1rem; 
+}
+
+.akupunktur .btn {
+  margin: auto;
+  margin-bottom: 20px;
+}
+/* Her Alice */
+.akupunktur-box {
+  background-color: var(--lightBlue);
+  border-radius:30px 30px 0 0;
+  padding: 5;
+  text-align: center;
+  margin-top: -2rem;
+  z-index: 10;
+  right: 0;
+  left: 0;
+}
+
+.akupunktur-box h2 {
+  font-size: var(--secondHeader);
+  padding: 5rem 5rem 0 5rem;
+}
+.akupunktur-box p {
+  font-size: var(--bodyText);
+  padding: 1rem;
+}
+
+.akupunktur .når-akupunktur {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* Til her */
+
+.akupunktur .akupunktur-box-last {
+  padding-top: 50px;
+  background-color: white;
+  border-radius: 30px 30px 0 0;
+  text-align: center;
+  z-index: 13; 
+}
+
+.akupunktur-box-last .akupunktur-box-last-info {
   text-align: start;
 }

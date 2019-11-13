@@ -1,21 +1,22 @@
 @import url("fonts.css");
 @import url("menu.css");
 @import url("footer.css");
-@import url('behandlinger.css'); 
+@import url('behandlinger.css');
+@import url('bestilltime.css');
+
 /* @import url("grid.css"); */
 
-/* Basics */
-body, html {
-    margin: 0;
 
+/* Basics */
+
+body,
+html {
+    margin: 0;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-
     font-family: var(--regularFont);
-
     background-color: var(--lightBlue);
-
     scroll-behavior: smooth;
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
@@ -30,20 +31,22 @@ body, html {
 
 :root {
     /* colors */
-    --mainBlue: #87D0C7; /* primary */
-    --blueShade: #79A5B3; /* primary hover */
-    --lightBlue: #D4EBE4; /* for boxes and backgrounds */
-    
-    --mainPurple: #6B7A9B; /* secondary */
-    --purpleShade: #6F84A1; /* secondary hover */
-
-    --mainBlack: #333333; /* For all text */
-
+    --mainBlue: #87D0C7;
+    /* primary */
+    --blueShade: #79A5B3;
+    /* primary hover */
+    --lightBlue: #D4EBE4;
+    /* for boxes and backgrounds */
+    --mainPurple: #6B7A9B;
+    /* secondary */
+    --purpleShade: #6F84A1;
+    /* secondary hover */
+    --mainBlack: #333333;
+    /* For all text */
     /* font-family */
     --regularFont: 'GraphikRegular', sans-serif;
     --mediumFont: 'GraphikMedium', sans-serif;
     --boldFont: 'GraphikBold', sans-serif;
-
     /* font-size and line-height */
     --bodyText: 18px;
     --bodyTextHeight: 26px;
@@ -56,8 +59,8 @@ body, html {
     --secondHeaderHeight: 35px;
     --smallHeader: 24px;
     --smallHeaderHeight: 26px;
-
 }
+
 
 /* button styles */
 
@@ -88,7 +91,7 @@ button:focus {
 .btn-primary:visited {
     background-color: var(--blueShade);
     color: var(--mainBlack);
-    border:none;
+    border: none;
 }
 
 .btn-secondary {
@@ -103,7 +106,7 @@ button:focus {
 }
 
 .btn-width-90 {
-    width:90vw;
+    width: 90vw;
 }
 
 .btn-width-100 {
@@ -112,22 +115,25 @@ button:focus {
 
 .action-btn::after {
     content: '';
-	border-top: 10px solid transparent;
-	border-left: 15px solid var(--mainBlack);
-    border-bottom: 10px solid transparent;
+	  border-top: 8px solid transparent;
+	  border-left: 8px solid var(--mainBlack);
+    border-bottom: 8px solid transparent;
     float: right;
-    padding-top:0.5rem;
+    height:8px;
+    margin-top:4.5px;
 }
 
-.wrapper .action-btn {
-    margin-bottom: 2.2rem;
+.home-page .action-btn {
+    margin-bottom: 1rem;
 }
 
-.wrapper .action-btn::last-child {
+.home-page .action-btn::last-child {
     margin-bottom: 0;
 }
 
+
 /* button styles end */
+
 
 /* margins */
 
@@ -155,7 +161,9 @@ button:focus {
     margin-bottom: 1rem;
 }
 
+
 /* margins end */
+
 
 /* Typefaces */
 
@@ -170,6 +178,7 @@ button:focus {
 .bold-font {
     font-family: var(--boldFont)
 }
+
 
 /* header styles */
 
