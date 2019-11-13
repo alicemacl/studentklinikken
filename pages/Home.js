@@ -8,19 +8,18 @@ const Home = {
           <div class="wrap-btn d-flex flex-column align-items-center">
 
           <router-link to='/bestilltime'>
-            <button class="action-btn btn-primary btn-width-90 row">
+            <button class="action-btn btn-primary btn-width-90">
              Bestill time
             </button>
             </router-link>
-
-            <router-link to='/behandlinger'>
+                <router-link to='/behandlinger'>
               <button class="action-btn btn-secondary btn-width-90">
                 Se behandlinger
               </button>
             </router-link>
               
             
-            <button class="action-btn btn-clean btn-width-90">
+            <button class="action-btn btn-secondary btn-width-90">
               Sjekk dine timer
             </button> 
           </div>
