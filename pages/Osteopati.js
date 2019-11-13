@@ -2,45 +2,41 @@ const Osteopati = {
     template: `
     <div>
         <header-component />
-            <div class="osteopati">
-                <div class="osteopati-start">    
-                    <img class="osteopati-logo" src="../assets/osteopati.png">
-                    <h1>Osteopati</h1>
-                    <p class="info">En osteopat undersøker og behandler muskel- og 
-                    skjelettsmerter med manuelle behandlingsteknikker på 
-                    benk.</p>
-                    <button class="action-btn btn-primary btn-width-90 btn">Bestill time</button>
+            <div class="content-container">
+                <div class="white-bg">
+                    <div class="text-align-center">
+                        <img class="osteopati-logo" src="../assets/osteopati.png">
+                        <h1 class="main-header margin-tb-2">Osteopati</h1>
+                        <p class="margin-tb-2">En osteopat undersøker og behandler muskel- og 
+                        skjelettsmerter med manuelle behandlingsteknikker på 
+                        benk.</p>
+                        <button class="action-btn btn-primary btn-width-100 margin-bottom-2 margin-top-1">Bestill time</button>
+                    </div>
                 </div>
-            
-                <img class="img" src="../assets/img-osteopati.png">   
-            
-                <div class="osteopati-box">
-                    <h2>Når skal du til osteopat?</h2>
-                    <div class="when-osteopati d-flex justify-self-center">
-                        <div class="row">
-                            <p class="col-6">Ryggsmerter</p>
-                            <p class="col-1">Nakkesmerter</p>
-                        </div>
-                        <div class="row">
-                            <p class="col-6">Hodepine</p>
-                            <p class="col-1">Bekkensmerter</p>
-                        </div>
-                        <div class="row">
-                            <p class="col-6">Seneplager</p>
-                            <p class="col-1">Leddplager</p>
-                        </div>
-                        <div class="row">
-                            <p class="col-6">Idrettsplager</p>
-                            <p class="col-1">Belastningskader</p>
-                        </div>
+                <div class="article-image">
+                    <img src="../assets/img-osteopati.png">   
+                </div>
+                <div class="blue-bg over-imagepadding-top-4">
+                    <h2 class="second-header text-align-center">Hva kan en osteopat hjelpe med?</h2>
+                    <div class="d-flex justify-content-center text-align-center">
+                    <ul class="symptoms">
+                        <li class="item">Ryggsmerter</li>
+                        <li class="item">Nakkesmerter</li>
+                        <li class="item">Hodepine</li>
+                        <li class="item">Bekkensmerter</li>
+                    </ul>
+                    <ul class="symptoms">
+                        <li class="item">Seneplager</li>
+                        <li class="item">Leddplager</li>
+                        <li class="item">Idrettsplager</li>
+                        <li class="item">Belastningsskader</li>
+                    </ul>
                     </div>
-            
-                <div class="info-box">
-                    <div class="info-box-text">
-                    <h3>Terapeuten fokuserer på å avdekke funksjons- og 
+
+                <div class="big-quote">
+                    <p class="big-quote-text">Terapeuten fokuserer på å avdekke funksjons- og 
                     bevegelses forstyrrelser som kan være med på å skape siterte. 
-                    Behandlingen egner seg for pasienter i alle aldere.</h3>
-                    </div>
+                    Behandlingen egner seg for pasienter i alle aldere.</p>
                 </div>
                 
                 <div class="osteopati-box-last">
