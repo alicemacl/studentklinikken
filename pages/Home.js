@@ -1,5 +1,5 @@
 const Home = {
-    template: `
+  template: `
     <div>
         <header-component />
         <div class="home-page">
@@ -23,6 +23,8 @@ const Home = {
             <button class="action-btn btn-clean btn-width-90">
               Sjekk dine timer
             </button> 
+            </router-link>
+
           </div>
         </div>
         <footer-component></footer-component>
