@@ -423,3 +423,26 @@ h2.second-header {
   font-size: var(--bigQuote);
   padding: 1rem;
 }
+
+/* Fysiologisk testlab*/
+
+.margin-bottom-6 {
+  margin-bottom: 6rem; 
+}
+
+.small-header-margin-bottom {
+  font-size: var(--smallHeader); 
+  margin-bottom: 2rem; 
+}
+
+.letter-img {
+  height: 45px;
+  width: 40px;
+  padding-right: unset;
+  padding-left: unset; 
+  margin-top: 1rem;
+}
+
+.box {
+  padding-left: 3rem;
+}
