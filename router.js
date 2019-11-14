@@ -5,15 +5,18 @@ import Timebestilling from "./pages/Timebestilling.js";
 import Gjennomgang from "./pages/Gjennomgang.js";
 import Akupunktur from "./pages/Akupunktur.js";
 import Kostholdsveiledning from "./pages/Kostholdsveiledning.js";
+import FysiologiskTestLab from "./pages/AnsatteDesktop/FysiologiskTestLab.js";
 
 const router = new VueRouter({
   mode: "history",
   routes: [
 
     {
+
       path: "/",
       name: "home",
       component: Home
+
     },
 
     {
@@ -47,10 +50,19 @@ const router = new VueRouter({
       name: "akupunktur",
       component: Akupunktur
     },
+
     {
       path: "/behandlinger/kostholdsveiledning",
       name: "kostholdsveiledning",
       component: Kostholdsveiledning
+    },
+
+    {
+
+      path: "/behandlinger/fysiologisktestlab",
+      name: "fysiologisktestlab",
+      component: FysiologiskTestLab
+
     }
 
   ],
