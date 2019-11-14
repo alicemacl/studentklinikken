@@ -11,16 +11,11 @@ const router = new VueRouter({
     mode: "history",
     routes: [
 
-        {
-            path: "/",
-            name: "bestilltime",
-            component: BestillTime
-        },
-        /*     {
+             {
                 path: "/",
                 name: "home",
                 component: Home
-            }, */
+            }, 
 
         {
 
@@ -37,7 +32,7 @@ const router = new VueRouter({
         },
 
         {
-            path: "/",
+            path: "/timebestilling",
             name: "timebestilling",
             component: Timebestilling
         },
@@ -46,12 +41,6 @@ const router = new VueRouter({
             path: "/gjennomgang",
             name: "gjennomgang",
             component: Gjennomgang
-        },
-
-        {
-            path: "/timebestilling",
-            name: "timebestilling",
-            component: Timebestilling
         },
 
         {
@@ -64,11 +53,11 @@ const router = new VueRouter({
             name: "kostholdsveiledning",
             component: Kostholdsveiledning
         },
-        /*{
+        {
             path: "/bestilltime",
             name: "bestilltime",
             component: BestillTime
-        }*/
+        }
 
     ],
 
