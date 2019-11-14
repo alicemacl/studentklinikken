@@ -1,6 +1,6 @@
 import Home from "./pages/Home.js";
 import Behandlinger from "./pages/Behandlinger.js";
-import Osteopati from "./pages/Osteopati.js"; 
+import Osteopati from "./pages/Osteopati.js";
 import Timebestilling from "./pages/Timebestilling.js";
 import Gjennomgang from "./pages/Gjennomgang.js";
 import Akupunktur from "./pages/Akupunktur.js";
@@ -23,12 +23,12 @@ const router = new VueRouter({
     },
 
     {
-      
+
       path: "/behandlinger",
       name: "behandlinger",
       component: Behandlinger
-      
-    }, 
+
+    },
 
     {
       path: "/behandlinger/osteopati",
@@ -37,7 +37,7 @@ const router = new VueRouter({
     },
 
     {
-      path: "/",
+      path: "/timebestilling",
       name: "timebestilling",
       component: Timebestilling
     },
@@ -49,22 +49,16 @@ const router = new VueRouter({
     },
 
     {
-      path: "/timebestilling",
-      name: "timebestilling",
-      component: Timebestilling
-    },
-    
-    {
       path: "/behandlinger/akupunktur",
       name: "akupunktur",
       component: Akupunktur
-    }, 
+    },
     {
       path: "/behandlinger/kostholdsveiledning",
       name: "kostholdsveiledning",
       component: Kostholdsveiledning
     }
-    
+
   ],
 
 });
