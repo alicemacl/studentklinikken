@@ -5,7 +5,7 @@ import Timebestilling from "./pages/Timebestilling.js";
 import Gjennomgang from "./pages/Gjennomgang.js";
 import Akupunktur from "./pages/Akupunktur.js";
 import Kostholdsveiledning from "./pages/Kostholdsveiledning.js";
-import BestillTime from "./pages/BestillTime.js";
+import FysiologiskTestLab from "./pages/FysiologiskTestLab.js";
 
 const router = new VueRouter({
     mode: "history",
@@ -16,33 +16,27 @@ const router = new VueRouter({
                 name: "home",
                 component: Home
             }, 
-
         {
-
             path: "/behandlinger",
             name: "behandlinger",
             component: Behandlinger
 
         },
-
         {
             path: "/behandlinger/osteopati",
             name: "osteopati",
             component: Osteopati
         },
-
         {
             path: "/timebestilling",
             name: "timebestilling",
             component: Timebestilling
         },
-
         {
             path: "/gjennomgang",
             name: "gjennomgang",
             component: Gjennomgang
         },
-
         {
             path: "/behandlinger/akupunktur",
             name: "akupunktur",
@@ -54,13 +48,17 @@ const router = new VueRouter({
             component: Kostholdsveiledning
         },
         {
+            path: "/behandlinger/fysiologisktestlab",
+            name: "fysiologisktestlab",
+            component: FysiologiskTestLab
+        },
+        {
             path: "/bestilltime",
             name: "bestilltime",
             component: BestillTime
         }
 
     ],
-
 });
 
 export default router;
