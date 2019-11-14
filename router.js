@@ -5,19 +5,26 @@ import Timebestilling from "./pages/Timebestilling.js";
 import Gjennomgang from "./pages/Gjennomgang.js";
 import Akupunktur from "./pages/Akupunktur.js";
 import Kostholdsveiledning from "./pages/Kostholdsveiledning.js";
+import Bekreftelse from "./pages/Bekreftelse.js";
+import Logginn from "./pages/Logg-inn.js";
 
 const router = new VueRouter({
   mode: "history",
   routes: [
 
     {
-      path: "/",
+      path: "/home",
       name: "home",
       component: Home
     },
 
     {
-      
+      path: "/logg-inn",
+      name: "logg-inn",
+      component: Logginn
+    },
+
+    {
       path: "/behandlinger",
       name: "behandlinger",
       component: Behandlinger
@@ -31,7 +38,7 @@ const router = new VueRouter({
     },
 
     {
-      path: "/",
+      path: "/timebestilling",
       name: "timebestilling",
       component: Timebestilling
     },
@@ -43,11 +50,11 @@ const router = new VueRouter({
     },
 
     {
-      path: "/timebestilling",
-      name: "timebestilling",
-      component: Timebestilling
+      path: "/bekreftelse",
+      name: "bekreftelse",
+      component: Bekreftelse
     },
-    
+
     {
       path: "/behandlinger/akupunktur",
       name: "akupunktur",

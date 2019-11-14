@@ -5,6 +5,7 @@
 @import url("timebestilling.css");
 @import url('behandlinger.css');
 @import url('bestilltime.css');
+@import url('logg-inn.css');
 
 /* @import url("grid.css"); */
 
@@ -75,7 +76,7 @@ html {
     line-height: var(--bodyTextHeight);
     font-family: var(--mediumFont);
     text-align: left;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
 }
 
@@ -87,7 +88,7 @@ button:focus {
     background-color: var(--mainBlue);
     color: var(--mainBlack);
     border: none;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
 }
 
 .btn-primary:hover,
