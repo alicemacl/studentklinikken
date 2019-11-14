@@ -5,7 +5,12 @@ import Timebestilling from "./pages/Timebestilling.js";
 import Gjennomgang from "./pages/Gjennomgang.js";
 import Akupunktur from "./pages/Akupunktur.js";
 import Kostholdsveiledning from "./pages/Kostholdsveiledning.js";
-import FysiologiskTestLab from "./pages/AnsatteDesktop/FysiologiskTestLab.js";
+import FysiologiskTestLab from "./pages/FysiologiskTestLab.js";
+import AnsatteBehandlere from "./pages/AnsatteDesktop/AnsatteBehandlere.js";
+import AnsatteForside from "./pages/AnsatteDesktop/AnsatteForside.js";
+import AnsatteInnlogging from "./pages/AnsatteDesktop/AnsatteInnlogging.js";
+import AnsatteKunder from "./pages/AnsatteDesktop/AnsatteKunder.js";
+import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
 
 const router = new VueRouter({
   mode: "history",
@@ -28,33 +33,43 @@ const router = new VueRouter({
     },
 
     {
+
       path: "/behandlinger/osteopati",
       name: "osteopati",
       component: Osteopati
+
     },
 
     {
+
       path: "/timebestilling",
       name: "timebestilling",
       component: Timebestilling
+
     },
 
     {
+
       path: "/gjennomgang",
       name: "gjennomgang",
       component: Gjennomgang
+
     },
 
     {
+
       path: "/behandlinger/akupunktur",
       name: "akupunktur",
       component: Akupunktur
+
     },
 
     {
+
       path: "/behandlinger/kostholdsveiledning",
       name: "kostholdsveiledning",
       component: Kostholdsveiledning
+
     },
 
     {
@@ -63,7 +78,47 @@ const router = new VueRouter({
       name: "fysiologisktestlab",
       component: FysiologiskTestLab
 
-    }
+    },
+
+    {
+
+      path: "/ansatte/innlogging",
+      name: "innlogging",
+      component: AnsatteInnlogging
+
+    },
+
+    {
+
+      path: "/ansatte/behandlere",
+      name: "behandlere",
+      component: AnsatteBehandlere
+
+    },
+
+    {
+
+      path: "/ansatte/forside",
+      name: "forside",
+      component: AnsatteForside
+
+    },
+
+    {
+
+      path: "/ansatte/timeplaner",
+      name: "timeplaner",
+      component: AnsatteTimeplaner
+
+    },
+
+    {
+
+      path: "/ansatte/kunder",
+      name: "kunder",
+      component: AnsatteKunder
+
+    },
 
   ],
 
