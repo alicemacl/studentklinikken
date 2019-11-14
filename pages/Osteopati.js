@@ -13,7 +13,7 @@ const Osteopati = {
                         <button class="action-btn btn-primary btn-width-100 margin-bottom-2 margin-top-1">Bestill time</button>
                     </div>
                 </div>
-                <div class="article-image">
+                <div class="article-image image">
                     <img src="../assets/img-osteopati.png">   
                 </div>
                 <div class="blue-bg over-imagepadding-top-4">
