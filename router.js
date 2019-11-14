@@ -5,61 +5,61 @@ import Timebestilling from "./pages/Timebestilling.js";
 import Gjennomgang from "./pages/Gjennomgang.js";
 import Akupunktur from "./pages/Akupunktur.js";
 import Kostholdsveiledning from "./pages/Kostholdsveiledning.js";
-import FysiologiskTestLab from "./pages/AnsatteDesktop/FysiologiskTestLab.js";
+import BestillTime from "./pages/BestillTime.js";
 
 const router = new VueRouter({
-  mode: "history",
-  routes: [
+    mode: "history",
+    routes: [
 
-    {
-      path: "/", 
-      name: "fysiologisktestlab",
-      component: FysiologiskTestLab
-      /*
-      path: "/",
-      name: "home",
-      component: Home
-      */
-    },
+             {
+                path: "/",
+                name: "home",
+                component: Home
+            }, 
 
-    {
+        {
 
-      path: "/behandlinger",
-      name: "behandlinger",
-      component: Behandlinger
+            path: "/behandlinger",
+            name: "behandlinger",
+            component: Behandlinger
 
-    },
+        },
 
-    {
-      path: "/behandlinger/osteopati",
-      name: "osteopati",
-      component: Osteopati
-    },
+        {
+            path: "/behandlinger/osteopati",
+            name: "osteopati",
+            component: Osteopati
+        },
 
-    {
-      path: "/timebestilling",
-      name: "timebestilling",
-      component: Timebestilling
-    },
+        {
+            path: "/timebestilling",
+            name: "timebestilling",
+            component: Timebestilling
+        },
 
-    {
-      path: "/gjennomgang",
-      name: "gjennomgang",
-      component: Gjennomgang
-    },
+        {
+            path: "/gjennomgang",
+            name: "gjennomgang",
+            component: Gjennomgang
+        },
 
-    {
-      path: "/behandlinger/akupunktur",
-      name: "akupunktur",
-      component: Akupunktur
-    },
-    {
-      path: "/behandlinger/kostholdsveiledning",
-      name: "kostholdsveiledning",
-      component: Kostholdsveiledning
-    }
+        {
+            path: "/behandlinger/akupunktur",
+            name: "akupunktur",
+            component: Akupunktur
+        },
+        {
+            path: "/behandlinger/kostholdsveiledning",
+            name: "kostholdsveiledning",
+            component: Kostholdsveiledning
+        },
+        {
+            path: "/bestilltime",
+            name: "bestilltime",
+            component: BestillTime
+        }
 
-  ],
+    ],
 
 });
 
