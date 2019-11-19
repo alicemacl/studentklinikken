@@ -1,30 +1,22 @@
 const BestillTime = {
     template: `
-    <div class="bestilltime">
+    <div>
         <header-component />
-        <div class="bestill-time"> 
+        <div class="bestilltime d-flex flex-column white-bg">
+            <div class="bestill-time"> 
 
-            <h1> Bestill time  </h1>
-         </div>
+                <h1 class="main-header"> Bestill time  </h1>
+            </div>
 
-        <div class="box hva-onsker-du-time-til" id="time">
-            <h2> Hva ønsker du time til?</h2>
-            <button class="behandling" id="Osteopati"> 
-            <button class="behandling" id="Akupunktur">
-            <button class="behandling" id="kostholdsveiledning">
-            <button class="behandling" id="fysiologisk Testlab">
+            <div class="bestill-time-box">
+                <h2 class="bestill-time-header">Hva ønsker du time til?</h2>
+                <button class="action-btn btn-order">Osteopati</button> 
+                <button class="action-btn btn-order">Akupunktur</button>
+                <button class="action-btn btn-order">kostholdsveiledning</button>
+                <button class="action-btn btn-order">fysiologisk Testlab</button>
+            
+            </div>
         </div>
-
-        <div class="box velg-dato-og-tid" id="dato">
-            <h2> Velg dato og tid</h2>
-        </div>
-        <div class="box personopplysninger" id="personopplysninger">
-            <h2> Personopplysninger </h2>
-        </div>
-        <div class="box Gjennomgang" id="gjennomgang">
-            <h2> gjennomgang </h2>
-        </div>
-       
      </div>
     `
 };
