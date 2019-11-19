@@ -1,4 +1,4 @@
-const AdminBehandlere = {
+const AnsatteBehandlere = {
     template: `
     <div>
         /* Header */
@@ -103,4 +103,4 @@ const AdminBehandlere = {
     `,
 };
 
-export default AdminBehandlere;
+export default AnsatteBehandlere;

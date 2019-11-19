@@ -1,4 +1,4 @@
-const AnsatteHjem = {
+const AnsatteInnlogging = {
     template: `
     <div>
         <div>
@@ -13,4 +13,4 @@ const AnsatteHjem = {
     `,
 };
 
-export default AnsatteHjem;
+export default AnsatteInnlogging;

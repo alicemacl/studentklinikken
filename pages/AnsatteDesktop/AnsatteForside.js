@@ -1,4 +1,4 @@
-const AdminForside = {
+const AnsatteForside = {
     template: `
     <div>
         <div>
@@ -14,4 +14,4 @@ const AdminForside = {
     `,
 };
 
-export default AdminForside;
+export default AnsatteForside;

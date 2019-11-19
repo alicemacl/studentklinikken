@@ -1,4 +1,4 @@
-const AdminTimeplaner = {
+const AnsatteTimeplaner = {
     template: `
     <div>
         <div>
@@ -28,4 +28,4 @@ const AdminTimeplaner = {
     `,
 };
 
-export default AdminTimeplaner;
+export default AnsatteTimeplaner;
