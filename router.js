@@ -7,6 +7,10 @@ import Akupunktur from "./pages/Akupunktur.js";
 import Kostholdsveiledning from "./pages/Kostholdsveiledning.js";
 import Bekreftelse from "./pages/Bekreftelse.js";
 import Logginn from "./pages/Logg-inn.js";
+import Password from "./pages/Password.js";
+import Smscode from "./pages/Sms-code.js";
+import Dashboard from "./pages/Dashboard.js";
+import DashboardMS from "./pages/DashboardMS.js";
 
 const router = new VueRouter({
   mode: "history",
@@ -25,11 +29,35 @@ const router = new VueRouter({
     },
 
     {
+      path: "/password",
+      name: "password",
+      component: Password
+    },
+
+    {
+      path: "/sms-code",
+      name: "sms-code",
+      component: Smscode
+    },
+
+    {
+      path: "/",
+      name: "dashboardms",
+      component: DashboardMS
+    },
+
+    {
       path: "/behandlinger",
       name: "behandlinger",
       component: Behandlinger
-      
     }, 
+
+    {
+      path: "/dashboard",
+      name: "dashboard",
+      component: Dashboard
+    }, 
+
 
     {
       path: "/behandlinger/osteopati",

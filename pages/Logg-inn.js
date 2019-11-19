@@ -1,6 +1,7 @@
 const Logginn = {
     template: `
-        <div>
+    <div>
+        <header-component />
             <div class="logg-inn">
 
                 <div class="headline">
@@ -27,18 +28,21 @@ const Logginn = {
                         <input type="checkbox"> Husk meg<br>
                     </div>
                     <div class="forgot-password">
-                        <a href="#">Glemt passord?</a>
-                    </div>
-                    
+                        <router-link to="/password">
+                            <a href="">Glemt passord?</a>
+                        </router-link>
+                        
+                    </div>     
                 </div>
                 
-                <button class="btn action-btn btn-primary btn-width-100">Bestill time</button>
+                <router-link>
+                    <button class="btn action-btn btn-primary btn-width-100">Bestill time</button>
+                </router-link>  
                 
             </div>
-        </div>
-    
+        <footer-component />
+    </div>
     `
-
   };
   
   export default Logginn;
