@@ -14,6 +14,9 @@ import Dashboard from "./pages/Dashboard.js";
 import DashboardMS from "./pages/DashboardMS.js";
 
 import FysiologiskTestLab from "./pages/FysiologiskTestLab.js";
+
+
+import AdminKalender from "./pages/AnsatteDesktop/AdminKalender.js";
 import AnsatteBehandlere from "./pages/AnsatteDesktop/AnsatteBehandlere.js";
 import AnsatteForside from "./pages/AnsatteDesktop/AnsatteForside.js";
 import AnsatteInnlogging from "./pages/AnsatteDesktop/AnsatteInnlogging.js";
@@ -23,14 +26,11 @@ import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
 const router = new VueRouter({
   mode: "history",
   routes: [
-
     {
-      path: "/home",
+      path: "/",
       name: "home",
       component: Home
-
     },
-
     {
       path: "/logg-inn",
       name: "logg-inn",
@@ -116,7 +116,6 @@ const router = new VueRouter({
       name: "fysiologisktestlab",
       component: FysiologiskTestLab
     },
-
     {
 
       path: "/",
@@ -158,6 +157,7 @@ const router = new VueRouter({
     },
 
   ],
+
 });
 
 export default router;
