@@ -14,36 +14,22 @@ import Dashboard from "./pages/Dashboard.js";
 import DashboardMS from "./pages/DashboardMS.js";
 
 import FysiologiskTestLab from "./pages/FysiologiskTestLab.js";
-<<<<<<< HEAD
-=======
-
->>>>>>> 5fc7eabefc5a54a705edc775636789e56c6f8327
 import AnsatteBehandlere from "./pages/AnsatteDesktop/AnsatteBehandlere.js";
 import AnsatteForside from "./pages/AnsatteDesktop/AnsatteForside.js";
 import AnsatteInnlogging from "./pages/AnsatteDesktop/AnsatteInnlogging.js";
 import AnsatteKunder from "./pages/AnsatteDesktop/AnsatteKunder.js";
 import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
-<<<<<<< HEAD
-=======
-
->>>>>>> 5fc7eabefc5a54a705edc775636789e56c6f8327
 
 const router = new VueRouter({
   mode: "history",
   routes: [
 
-<<<<<<< HEAD
-    /* {
-
-      path: "/",
-=======
     {
       path: "/home",
->>>>>>> 5fc7eabefc5a54a705edc775636789e56c6f8327
       name: "home",
       component: Home
 
-    }, */
+    },
 
     {
       path: "/logg-inn",
@@ -73,13 +59,13 @@ const router = new VueRouter({
       path: "/behandlinger",
       name: "behandlinger",
       component: Behandlinger
-    }, 
+    },
 
     {
       path: "/dashboard",
       name: "dashboard",
       component: Dashboard
-    }, 
+    },
 
 
     {
@@ -104,6 +90,7 @@ const router = new VueRouter({
       path: "/gjennomgang",
       name: "gjennomgang",
       component: Gjennomgang
+    },
 
     {
       path: "/bekreftelse",
@@ -132,7 +119,7 @@ const router = new VueRouter({
 
     {
 
-      path: "/",
+      path: "/ansatte/innlogging",
       name: "innlogging",
       component: AnsatteInnlogging
 
@@ -171,58 +158,6 @@ const router = new VueRouter({
     },
 
   ],
-<<<<<<< HEAD
-=======
-
-             {
-                path: "/",
-                name: "home",
-                component: Home
-            }, 
-        {
-            path: "/behandlinger",
-            name: "behandlinger",
-            component: Behandlinger
-
-        },
-        {
-            path: "/behandlinger/osteopati",
-            name: "osteopati",
-            component: Osteopati
-        },
-        {
-            path: "/timebestilling",
-            name: "timebestilling",
-            component: Timebestilling
-        },
-        {
-            path: "/gjennomgang",
-            name: "gjennomgang",
-            component: Gjennomgang
-        },
-        {
-            path: "/behandlinger/akupunktur",
-            name: "akupunktur",
-            component: Akupunktur
-        },
-        {
-            path: "/behandlinger/kostholdsveiledning",
-            name: "kostholdsveiledning",
-            component: Kostholdsveiledning
-        },
-        {
-            path: "/behandlinger/fysiologisktestlab",
-            name: "fysiologisktestlab",
-            component: FysiologiskTestLab
-        },
-        {
-            path: "/bestilltime",
-            name: "bestilltime",
-            component: BestillTime
-        }
-
-    ],
->>>>>>> 5fc7eabefc5a54a705edc775636789e56c6f8327
 });
 
 export default router;
