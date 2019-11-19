@@ -16,13 +16,13 @@ const router = new VueRouter({
   mode: "history",
   routes: [
 
-    {
+    /* {
 
       path: "/",
       name: "home",
       component: Home
 
-    },
+    }, */
 
     {
 
@@ -82,7 +82,7 @@ const router = new VueRouter({
 
     {
 
-      path: "/ansatte/innlogging",
+      path: "/",
       name: "innlogging",
       component: AnsatteInnlogging
 
@@ -121,8 +121,6 @@ const router = new VueRouter({
     },
 
   ],
-
-    ],
 });
 
 export default router;
