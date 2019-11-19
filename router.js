@@ -50,7 +50,7 @@ const router = new VueRouter({
     },
 
     {
-      path: "/",
+      path: "/dashboardms",
       name: "dashboardms",
       component: DashboardMS
     },
@@ -119,7 +119,7 @@ const router = new VueRouter({
 
     {
 
-      path: "/ansatte/innlogging",
+      path: "/",
       name: "innlogging",
       component: AnsatteInnlogging
 
