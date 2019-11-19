@@ -95,8 +95,7 @@ html {
     top: 0;
     background-color: var(--lightBlue);
     z-index: 999;
-    height: 200px;
-}
+    height: 160px;
 
 .header .logo {
     /* height: 200px; */

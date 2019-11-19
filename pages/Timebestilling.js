@@ -4,9 +4,7 @@ const Timebestilling = {
       
       <div class="timebestilling">
 
-        <h5 id="headline">Personopplysninger</h5>
-
-        <div class="text-boxes">
+        <h2 id="headline">Personopplysninger</h2>
 
           <div class="box">
             <input type="text" class="info" placeholder="Fornavn">
@@ -43,8 +41,6 @@ const Timebestilling = {
           </div>
 
           <button class="btn btn action-btn btn-primary btn-width-100">Bestill time</button>
-
-        </div>
 
         </div>
     <div/>

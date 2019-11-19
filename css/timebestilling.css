@@ -2,30 +2,28 @@
 
 .timebestilling {
     background-color: white;
-    padding-top: 2rem;
-    border-radius: 60px 60px 0 0;
-    padding-bottom: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 100%;
-    height: 100%;
+    padding: 2rem;
+    border-radius: 40px 40px 0 0;
+    width: 100vw;
+    height: 100vh;
   }
 
 .timebestilling #headline{
-    margin: 0.5rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-family: var(--mediumFont);
+    margin-bottom: 4rem;
 }
    
 .timebestilling .box{
-    margin: 0.5rem 0;
+    margin: 1rem 0;
 }
 
 .timebestilling .info{
     width: 100%;
-    height: 3.5rem;
+    height: 5.5rem;
     border: solid black 1px;
     box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.25);
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 20px;
     padding-left: 20px;
 }
@@ -37,18 +35,18 @@
 
 .timebestilling .box1{
     margin-left:0rem;
-    margin-right:0.25rem;
+    margin-right:0.5rem;
     flex: 1;
 }
 
 .timebestilling .box2{ 
-    margin-left:0.25rem;
+    margin-left:0.5rem;
     margin-right:0rem;
     flex: 2;
 }
 
 .timebestilling .btn{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 
@@ -56,19 +54,20 @@
 
 .gjennomgang {
     background-color: white;
-    padding-top: 2rem;
-    border-radius: 60px 60px 0 0;
-    padding-bottom: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 100%;
-    height: 100%;
+    border-radius: 40px 40px 0 0;
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
 }
 
 .gjennomgang .headline{
-    margin: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: var(--mediumFont);
 }
 
 .gjennomgang .info-box{
@@ -76,11 +75,64 @@
     flex-direction: row;
 }
 
+
+.gjennomgang .big-box {
+    margin-top: 3rem;
+}
+
 .gjennomgang .info-1 {
     flex: 1;
-    
+    font-family: var(--mediumFont);
+    margin-right: 3rem;
 }
 
 .gjennomgang .info-2 {
     flex: 1;
+}
+
+.gjennomgang .btn {
+    margin-top: 4rem;
+}
+
+
+/*  Bekreftelse */
+
+.bekreftelse {
+    background-color: white;
+    border-radius: 40px 40px 0 0;
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
+}
+
+.bekreftelse .picture {
+    width: 40vw;
+    height: 17vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.bekreftelse .paragraf {
+    flex: 1;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.bekreftelse .headline{
+    font-family: var(--boldFont);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.bekreftelse .last-paragraf {
+    font-family: var(--boldFont);
+    text-align: center;
+    flex: 2;
+    margin-top: 2rem;
 }
