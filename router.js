@@ -14,17 +14,15 @@ import Dashboard from "./pages/Dashboard.js";
 import DashboardMS from "./pages/DashboardMS.js";
 
 import FysiologiskTestLab from "./pages/FysiologiskTestLab.js";
-
 import AnsatteBehandlere from "./pages/AnsatteDesktop/AnsatteBehandlere.js";
 import AnsatteForside from "./pages/AnsatteDesktop/AnsatteForside.js";
 import AnsatteInnlogging from "./pages/AnsatteDesktop/AnsatteInnlogging.js";
 import AnsatteKunder from "./pages/AnsatteDesktop/AnsatteKunder.js";
 import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
 
-
 const router = new VueRouter({
-    mode: "history",
-    routes: [
+  mode: "history",
+  routes: [
 
     {
       path: "/home",
@@ -61,13 +59,13 @@ const router = new VueRouter({
       path: "/behandlinger",
       name: "behandlinger",
       component: Behandlinger
-    }, 
+    },
 
     {
       path: "/dashboard",
       name: "dashboard",
       component: Dashboard
-    }, 
+    },
 
 
     {
@@ -92,6 +90,7 @@ const router = new VueRouter({
       path: "/gjennomgang",
       name: "gjennomgang",
       component: Gjennomgang
+    },
 
     {
       path: "/bekreftelse",
@@ -159,55 +158,6 @@ const router = new VueRouter({
     },
 
   ],
-
-             {
-                path: "/",
-                name: "home",
-                component: Home
-            }, 
-        {
-            path: "/behandlinger",
-            name: "behandlinger",
-            component: Behandlinger
-
-        },
-        {
-            path: "/behandlinger/osteopati",
-            name: "osteopati",
-            component: Osteopati
-        },
-        {
-            path: "/timebestilling",
-            name: "timebestilling",
-            component: Timebestilling
-        },
-        {
-            path: "/gjennomgang",
-            name: "gjennomgang",
-            component: Gjennomgang
-        },
-        {
-            path: "/behandlinger/akupunktur",
-            name: "akupunktur",
-            component: Akupunktur
-        },
-        {
-            path: "/behandlinger/kostholdsveiledning",
-            name: "kostholdsveiledning",
-            component: Kostholdsveiledning
-        },
-        {
-            path: "/behandlinger/fysiologisktestlab",
-            name: "fysiologisktestlab",
-            component: FysiologiskTestLab
-        },
-        {
-            path: "/bestilltime",
-            name: "bestilltime",
-            component: BestillTime
-        }
-
-    ],
 });
 
 export default router;
