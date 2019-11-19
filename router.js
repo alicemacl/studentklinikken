@@ -6,11 +6,16 @@ import Gjennomgang from "./pages/Gjennomgang.js";
 import Akupunktur from "./pages/Akupunktur.js";
 import Kostholdsveiledning from "./pages/Kostholdsveiledning.js";
 import FysiologiskTestLab from "./pages/FysiologiskTestLab.js";
+import AdminKalender from "./pages/AnsatteDesktop/AdminKalender.js";
+import AdminForside from "./pages/AnsatteDesktop/AdminForside.js";
+import * as Database from './db.js'; 
+
+ 
 
 const router = new VueRouter({
   mode: "history",
   routes: [
-    {
+    {  
       path: "/",
       name: "home",
       component: Home
@@ -60,6 +65,11 @@ const router = new VueRouter({
       path: "/behandlinger/fysiologisktestlab",
       name: "fysiologisktestlab",
       component: FysiologiskTestLab
+    },
+    {
+      path: '/adminforside',
+      name: 'adminforside',
+      component: AdminForside
     }
   ]
 });
