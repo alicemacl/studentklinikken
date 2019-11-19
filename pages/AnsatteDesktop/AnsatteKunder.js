@@ -1,4 +1,4 @@
-const AdminKundeOversikt = {
+const AnsatteKunder = {
     template: `
     <div>
         /* Header */
@@ -78,4 +78,4 @@ const AdminKundeOversikt = {
     `,
 };
 
-export default AdminKundeOversikt;
+export default AnsatteKunder;
