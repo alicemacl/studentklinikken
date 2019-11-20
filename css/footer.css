@@ -1,5 +1,5 @@
 .footer {
-    background-color:#6B7A9B;
+    background-color: #6B7A9B;
     width: 100vw;
     padding: 2rem 1rem;
     font-family: var(--regularFont);
@@ -7,7 +7,6 @@
 
 .footer-logo {
     display: block;
-
 }
 
 .footer-logo img {
@@ -34,7 +33,7 @@
 
 .footer .info-text {
     flex: 2;
-    margin-top:10%;
+    margin-top: 10%;
     color: white;
 }
 
@@ -55,4 +54,16 @@
 
 .footer .info-text .info-body-small {
     font-size: var(--bodySmall);
-} 
+}
+
+@media(min-width:968px) {
+    .footer {
+        display: flex;
+    }
+    .footer-logo {
+        width: 300px;
+    }
+    .footer .info-text {
+        margin-top: 10%;
+    }
+}

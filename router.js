@@ -24,142 +24,142 @@ import AnsatteKunder from "./pages/AnsatteDesktop/AnsatteKunder.js";
 import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
 
 const router = new VueRouter({
-  mode: "history",
-  routes: [
-   
-    {
-      
-      path: "/",
-      name: "home",
-      component: Home
-     
-    },
-    {
-      path: "/logg-inn",
-      name: "logg-inn",
-      component: Logginn
-    },
+    mode: "history",
+    routes: [
 
-    {
-      path: "/password",
-      name: "password",
-      component: Password
-    },
+        /*    {
 
-    {
-      path: "/sms-code",
-      name: "sms-code",
-      component: Smscode
-    },
+               path: "/",
+               name: "home",
+               component: Home
 
-    {
-      path: "/dashboardms",
-      name: "dashboardms",
-      component: DashboardMS
-    },
+           }, */
+        {
+            path: "/",
+            name: "logg-inn",
+            component: Logginn
+        },
 
-    {
-      path: "/behandlinger",
-      name: "behandlinger",
-      component: Behandlinger
-    },
+        {
+            path: "/password",
+            name: "password",
+            component: Password
+        },
 
-    {
-      path: "/dashboard",
-      name: "dashboard",
-      component: Dashboard
-    },
+        {
+            path: "/sms-code",
+            name: "sms-code",
+            component: Smscode
+        },
+
+        {
+            path: "/dashboardms",
+            name: "dashboardms",
+            component: DashboardMS
+        },
+
+        {
+            path: "/behandlinger",
+            name: "behandlinger",
+            component: Behandlinger
+        },
+
+        {
+            path: "/dashboard",
+            name: "dashboard",
+            component: Dashboard
+        },
 
 
-    {
-      path: "/behandlinger",
-      name: "behandlinger",
-      component: Behandlinger
-    },
+        {
+            path: "/behandlinger",
+            name: "behandlinger",
+            component: Behandlinger
+        },
 
-    {
-      path: "/behandlinger/osteopati",
-      name: "osteopati",
-      component: Osteopati
-    },
+        {
+            path: "/behandlinger/osteopati",
+            name: "osteopati",
+            component: Osteopati
+        },
 
-    {
-      path: "/timebestilling",
-      name: "timebestilling",
-      component: Timebestilling
-    },
+        {
+            path: "/timebestilling",
+            name: "timebestilling",
+            component: Timebestilling
+        },
 
-    {
-      path: "/gjennomgang",
-      name: "gjennomgang",
-      component: Gjennomgang
-    },
+        {
+            path: "/gjennomgang",
+            name: "gjennomgang",
+            component: Gjennomgang
+        },
 
-    {
-      path: "/bekreftelse",
-      name: "bekreftelse",
-      component: Bekreftelse
-    },
+        {
+            path: "/bekreftelse",
+            name: "bekreftelse",
+            component: Bekreftelse
+        },
 
-    {
-      path: "/behandlinger/akupunktur",
-      name: "akupunktur",
-      component: Akupunktur
+        {
+            path: "/behandlinger/akupunktur",
+            name: "akupunktur",
+            component: Akupunktur
 
-    },
+        },
 
-    {
-      path: "/behandlinger/kostholdsveiledning",
-      name: "kostholdsveiledning",
-      component: Kostholdsveiledning
-    },
+        {
+            path: "/behandlinger/kostholdsveiledning",
+            name: "kostholdsveiledning",
+            component: Kostholdsveiledning
+        },
 
-    {
-      path: "/behandlinger/fysiologisktestlab",
-      name: "fysiologisktestlab",
-      component: FysiologiskTestLab
-    },
-    {
+        {
+            path: "/behandlinger/fysiologisktestlab",
+            name: "fysiologisktestlab",
+            component: FysiologiskTestLab
+        },
+        {
 
-      path: "/ansatte/innlogging",
-      name: "innlogging",
-      component: AnsatteInnlogging
+            path: "/ansatte/innlogging",
+            name: "innlogging",
+            component: AnsatteInnlogging
 
-    },
+        },
 
-    {
+        {
 
-      path: "/ansatte/behandlere",
-      name: "behandlere",
-      component: AnsatteBehandlere
+            path: "/ansatte/behandlere",
+            name: "behandlere",
+            component: AnsatteBehandlere
 
-    },
+        },
 
-    {
+        {
 
-      path: "/ansatte/forside",
-      name: "forside",
-      component: AnsatteForside
+            path: "/ansatte/forside",
+            name: "forside",
+            component: AnsatteForside
 
-    },
+        },
 
-    {
+        {
 
-      path: "/ansatte/timeplaner",
-      name: "timeplaner",
-      component: AnsatteTimeplaner
+            path: "/ansatte/timeplaner",
+            name: "timeplaner",
+            component: AnsatteTimeplaner
 
-    },
+        },
 
-    {
+        {
 
-      path: "/ansatte/kunder",
-      name: "kunder",
-      component: AnsatteKunder
+            path: "/ansatte/kunder",
+            name: "kunder",
+            component: AnsatteKunder
 
-    },
+        },
 
-  ],
+    ],
 
 });
 
