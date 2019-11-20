@@ -96,7 +96,7 @@ html {
     background-color: var(--lightBlue);
     z-index: 999;
     height: 160px;
-
+}
 .header .logo {
     /* height: 200px; */
     width: 100px;
