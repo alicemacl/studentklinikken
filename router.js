@@ -26,13 +26,13 @@ import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
 const router = new VueRouter({
   mode: "history",
   routes: [
-   
+
     {
-      
+
       path: "/",
       name: "home",
       component: Home
-     
+
     },
     {
       path: "/logg-inn",
@@ -68,13 +68,6 @@ const router = new VueRouter({
       path: "/dashboard",
       name: "dashboard",
       component: Dashboard
-    },
-
-
-    {
-      path: "/behandlinger",
-      name: "behandlinger",
-      component: Behandlinger
     },
 
     {
