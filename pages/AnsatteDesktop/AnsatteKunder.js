@@ -1,10 +1,7 @@
 const AnsatteKunder = {
     template: `
     <div>
-        /* Header */
-        <div>
-            AnsatteHeader-component
-        </div>
+        <ansatte-header-component />
 
         /* Search menu */
         <div>
