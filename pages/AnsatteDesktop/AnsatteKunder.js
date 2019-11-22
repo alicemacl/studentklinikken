@@ -74,6 +74,8 @@ const AnsatteKunder = {
                 <p>Notater fra behandler</p>
             </div>
         </div>
+        <date-picker />
+        <date-picker-inline />
     </div>
     `,
 };
