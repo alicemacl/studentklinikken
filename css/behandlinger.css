@@ -151,6 +151,7 @@
 
 .article-image img {
   border-radius: 30px 30px 0 0;
+  width: 100vw;
 }
 
 h2.second-header {
@@ -162,14 +163,42 @@ h2.second-header {
 .symptoms {
   list-style: none;
   font-size: var(--bodyText);
-  line-height: 6rem;
-  padding:0;
-  margin: 1rem 2rem;
+  padding: 0;
+  margin: 1rem;
 }
 
 .symptoms .item {
-  width:100%;
+  line-height: var(--bodyTextHeight);
+  margin: 3rem 0;
 }
+
+.word-break-all {
+  word-break: break-all;
+  hyphens: auto;
+}
+
+
+.big-quote {
+  height: 400px;
+  margin: 2rem 0;
+}
+
+.big-quote .big-quote-bg {
+  background-image: url("/assets/ost-eop-ati-bakgrunn.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  background-attachment: fixed;
+  width:266px;
+  height: 290px;
+}
+
+.big-quote .big-quote-text {
+  font-size: var(--bigQuote);
+  line-height: var(--bigQuoteHeight);
+  margin: 0 .5rem 0 4rem;
+}
+
 
 .osteopati {
   background-color: white;
@@ -422,4 +451,27 @@ h2.second-header {
 .kostholdsveiledning p {
   font-size: var(--bigQuote);
   padding: 1rem;
+}
+
+/* Fysiologisk testlab*/
+
+.margin-bottom-6 {
+  margin-bottom: 6rem; 
+}
+
+.small-header-margin-bottom {
+  font-size: var(--smallHeader); 
+  margin-bottom: 2rem; 
+}
+
+.letter-img {
+  height: 45px;
+  width: 40px;
+  padding-right: unset;
+  padding-left: unset; 
+  margin-top: 1rem;
+}
+
+.box {
+  padding-left: 3rem;
 }

@@ -1,0 +1,29 @@
+.dashboard{
+    background-color: white;
+    border-radius: 40px 40px 0 0;
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
+}
+
+.dashboard .headline {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.dashboard .text {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.dashboard .btn {
+    margin-top: 1rem;
+}
+
+.dashboard .btn-2 {
+    margin-top: 6rem;
+}
+

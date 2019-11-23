@@ -1,5 +1,5 @@
 const Home = {
-  template: `
+    template: `
     <div>
         <header-component />
         <div class="home-page">
