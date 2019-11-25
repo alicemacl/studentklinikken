@@ -30,6 +30,30 @@ const router = new VueRouter({
       path: "/",
       name: "home",
       component: Home
+
+    },
+    {
+      path: "/logg-inn",
+      name: "logg-inn",
+      component: Logginn
+    },
+
+    {
+      path: "/password",
+      name: "password",
+      component: Password
+    },
+
+    {
+      path: "/sms-code",
+      name: "sms-code",
+      component: Smscode
+    },
+
+    {
+      path: "/dashboardms",
+      name: "dashboardms",
+      component: DashboardMS
     },
     {
       path: "/logg-inn",
@@ -64,6 +88,12 @@ const router = new VueRouter({
       path: "/behandlinger",
       name: "behandlinger",
       component: Behandlinger
+    },
+
+    {
+      path: "/dashboard",
+      name: "dashboard",
+      component: Dashboard
     },
 
     {
@@ -110,7 +140,7 @@ const router = new VueRouter({
     },
     {
 
-      path: "/innlogging",
+      path: "/ansatte/innlogging",
       name: "innlogging",
       component: AnsatteInnlogging
 
