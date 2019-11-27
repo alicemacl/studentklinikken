@@ -24,6 +24,7 @@ import AnsatteKunder from "./pages/AnsatteDesktop/AnsatteKunder.js";
 import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
 
 const router = new VueRouter({
+<<<<<<< HEAD
   mode: "history",
   routes: [
 
@@ -135,24 +136,144 @@ const router = new VueRouter({
       component: AnsatteForside
 
     },
+=======
+    mode: "history",
+    routes: [
 
-    {
+        /*    {
 
-      path: "/ansatte/timeplaner",
-      name: "timeplaner",
-      component: AnsatteTimeplaner
+               path: "/",
+               name: "home",
+               component: Home
 
-    },
+           }, */
+        {
+            path: "/logg-inn",
+            name: "logg-inn",
+            component: Logginn
+        },
 
-    {
+        {
+            path: "/",
+            name: "password",
+            component: Password
+        },
 
-      path: "/ansatte/kunder",
-      name: "kunder",
-      component: AnsatteKunder
+        {
+            path: "/sms-code",
+            name: "sms-code",
+            component: Smscode
+        },
 
-    },
+        {
+            path: "/dashboardms",
+            name: "dashboardms",
+            component: DashboardMS
+        },
 
-  ],
+        {
+            path: "/behandlinger",
+            name: "behandlinger",
+            component: Behandlinger
+        },
+
+        {
+            path: "/dashboard",
+            name: "dashboard",
+            component: Dashboard
+        },
+
+
+        {
+            path: "/behandlinger",
+            name: "behandlinger",
+            component: Behandlinger
+        },
+
+        {
+            path: "/behandlinger/osteopati",
+            name: "osteopati",
+            component: Osteopati
+        },
+
+        {
+            path: "/timebestilling",
+            name: "timebestilling",
+            component: Timebestilling
+        },
+
+        {
+            path: "/gjennomgang",
+            name: "gjennomgang",
+            component: Gjennomgang
+        },
+
+        {
+            path: "/bekreftelse",
+            name: "bekreftelse",
+            component: Bekreftelse
+        },
+
+        {
+            path: "/behandlinger/akupunktur",
+            name: "akupunktur",
+            component: Akupunktur
+
+        },
+
+        {
+            path: "/behandlinger/kostholdsveiledning",
+            name: "kostholdsveiledning",
+            component: Kostholdsveiledning
+        },
+
+        {
+            path: "/behandlinger/fysiologisktestlab",
+            name: "fysiologisktestlab",
+            component: FysiologiskTestLab
+        },
+        {
+
+            path: "/ansatte/innlogging",
+            name: "innlogging",
+            component: AnsatteInnlogging
+
+        },
+>>>>>>> mayamaria
+
+        {
+
+            path: "/ansatte/behandlere",
+            name: "behandlere",
+            component: AnsatteBehandlere
+
+        },
+
+        {
+
+            path: "/ansatte/forside",
+            name: "forside",
+            component: AnsatteForside
+
+        },
+
+        {
+
+            path: "/ansatte/timeplaner",
+            name: "timeplaner",
+            component: AnsatteTimeplaner
+
+        },
+
+        {
+
+            path: "/ansatte/kunder",
+            name: "kunder",
+            component: AnsatteKunder
+
+        },
+
+    ],
 
 });
 
