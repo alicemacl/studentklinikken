@@ -1,4 +1,5 @@
 import Home from "./pages/Home.js";
+import KontaktOss from "./pages/KontaktOss.js";
 import Behandlinger from "./pages/Behandlinger.js";
 import Osteopati from "./pages/Osteopati.js";
 import Timebestilling from "./pages/Timebestilling.js";
@@ -25,26 +26,59 @@ import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
 
 const router = new VueRouter({
     mode: "history",
-    routes: [{
-            path: "/home",
-            name: "home",
-            component: Home
+    routes: [
+        /* {
+                    path: "/",
+                    name: "home",
+                    component: Home
+                }, */
+        {
+            path: "/logg-inn",
+            name: "logg-inn",
+            component: Logginn
+        },
+
+        {
+            path: "/",
+            name: "kontaktoss",
+            component: KontaktOss
+        },
+
+        {
+            path: "/password",
+            name: "password",
+            component: Password
+        },
+
+        {
+            path: "/sms-code",
+            name: "sms-code",
+            component: Smscode
+        },
+
+        {
+            path: "/dashboardms",
+            name: "dashboardms",
+            component: DashboardMS
         },
         {
             path: "/logg-inn",
             name: "logg-inn",
             component: Logginn
         },
+
         {
             path: "/password",
             name: "password",
             component: Password
         },
+
         {
-            path: "/",
+            path: "/sms-code",
             name: "sms-code",
             component: Smscode
         },
+
         {
             path: "/dashboardms",
             name: "dashboardms",
@@ -61,10 +95,17 @@ const router = new VueRouter({
             component: Behandlinger
         },
         {
+            path: "/dashboard",
+            name: "dashboard",
+            component: Dashboard
+        },
+
+        {
             path: "/behandlinger/osteopati",
             name: "osteopati",
             component: Osteopati
         },
+
         {
             path: "/timebestilling",
             name: "timebestilling",
@@ -89,6 +130,7 @@ const router = new VueRouter({
             component: Akupunktur
 
         },
+
         {
             path: "/behandlinger/kostholdsveiledning",
             name: "kostholdsveiledning",
