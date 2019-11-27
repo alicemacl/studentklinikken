@@ -184,13 +184,20 @@ h2.second-header {
 }
 
 .big-quote .big-quote-bg {
-  background-image: url("/assets/ost-eop-ati-bakgrunn.png");
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: center;
   background-attachment: fixed;
   width:266px;
   height: 290px;
+}
+
+.big-quote-ost {
+  background-image: url("/assets/ost-eop-ati-bakgrunn.png");
+}
+
+.big-quote-kost {
+  background-image: url("/assets/kostholdsveiledning-bakgrunn.png");
 }
 
 .big-quote .big-quote-text {
@@ -461,11 +468,11 @@ h2.second-header {
 
 .small-header-margin-bottom {
   font-size: var(--smallHeader); 
+  line-height: var(--smallHeaderHeight);
   margin-bottom: 2rem; 
 }
 
-.letter-img {
-  height: 45px;
+.letter-img img {
   width: 40px;
   padding-right: unset;
   padding-left: unset; 

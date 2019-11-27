@@ -17,7 +17,7 @@ const FysiologiskTestLab = {
                     <img src="../assets/img-fysiologisk.png">   
                 </div>
             
-            <div class="white-bg over-image box">
+            <div class="white-bg over-image padding-top-4">
                 <p class="margin-bottom-2">Testing av egen helse er samtidig både 
                 motiverende og gir verdifull informasjon for mange andre. Derfor tilbyr 
                 vi tester til deg som ønsker å teste din fysiske tilstand og 
@@ -26,7 +26,7 @@ const FysiologiskTestLab = {
                 <p class="margin-bottom-6">På testlaboratoriet finner vi ut hva status er nå, måler fremgang 
                 og gir deg videre råd og tilpasning av mosjon og trening. </p>
             </div>
-            <div class="blue-bg over-image box">
+            <div class="blue-bg">
                 <h2 class="second-header">Vi tilbyr</h2>
                 
                 <h3 class="medium-font small-header-margin-bottom">Test av maksimalt oksygenopptak</h3>
@@ -62,7 +62,7 @@ const FysiologiskTestLab = {
                     I tillegg til blodlaktat måler vi hjertefrekvens og oksygenopptak.</p>
                 </div>
             </div>
-            <div class="white-bg">
+            <div class="white-bg padding-top-4">
                 <button class="action-btn btn-primary btn-width-100 margin-top-1">Bestill time</button>
                 <button class="action-btn btn-secondary btn-width-100 margin-bottom-2 margin-top-1">Se behandlinger</button>
 

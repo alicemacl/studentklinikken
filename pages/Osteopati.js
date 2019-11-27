@@ -33,7 +33,7 @@ const Osteopati = {
                         </ul>
                     </div>
                     <div class="big-quote">
-                        <div class="big-quote-bg">
+                        <div class="big-quote-bg big-quote-ost">
                             <div class="big-quote-text">Terapeuten fokuserer på å avdekke funksjons- og 
                             bevegelses forstyrrelser som kan være med på å skape siterte. 
                             Behandlingen egner seg for pasienter i alle aldere.</div>

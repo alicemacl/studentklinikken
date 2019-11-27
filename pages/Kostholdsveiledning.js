@@ -2,11 +2,11 @@ const Kostholdsveiledning = {
     template: `
     <div>
         <header-component /> 
-        <div class="kostholdsveiledning">
-            <div class="logo-header">
+        <div class="content-container">
+            <div class="white-bg text-align-center">
                 <img class="kostholdsveiledning-logo" src="../assets/kostholdveiledning-logo.png">
-                <h1>Kostholds- veiledning</h1>
-                <p class="logo-header-info">
+                <h1 class="main-header margin-tb-2">Kostholds- veiledning</h1>
+                <p class="margin-tb-2">
                 Veiledningen passer ypperlig for deg som ønsker å 
                 forebyge sykdom, gå ned eller opp i vekt, spise 
                 optimalt med tanke på trening og presentasjon, 
@@ -14,20 +14,27 @@ const Kostholdsveiledning = {
                 tilpasning av kosten eller ønsker å ha et generelt 
                 sunt kosthold. </p>
 
-                <button class="action-btn btn-primary btn-width-90 btn">Bestill time</button>
+                <button class="action-btn btn-primary btn-width-90 margin-bottom-2 margin-top-1">Bestill time</button>
             </div>
-
-            <img class="img" src="../assets/img-kostholdsveiledning.png">
-
-            <div class="kostholdsveiledning last-box">
-                <p class="kostholdsveiledning-info">Kostveiledningen gjøres av avgangsstudenter 
-                som tar en bachelorgrad i ernæring under veiledning av autoriserte kliniske 
-                ernæringsfysiologer.</p>
-            
-                <button class="action-btn btn-primary btn-width-90 btn">Bestill time</button>
-                <router-link to='/behandlinger'>
-                    <button class="action-btn btn-secondary btn-width-90 btn">Se behandlinger</button>
-                </router-link>
+            <div class="article-image image">
+                <img src="../assets/img-kostholdsveiledning.png">
+            </div>
+            <div class="white-bg over-image padding-top-4">
+                <div class="big-quote">
+                    <div class="big-quote-bg big-quote-kost">
+                        <div class="big-quote-text">
+                            Kostveiledningen gjøres av avgangsstudenter 
+                            som tar en bachelorgrad i ernæring under veiledning av autoriserte kliniske 
+                            ernæringsfysiologer.
+                        </div>
+                    </div>
+                </div>
+                
+                    <button class="action-btn btn-primary btn-width-90 margin-tb-1">Bestill time</button>
+                    <router-link to='/behandlinger'>
+                        <button class="action-btn btn-secondary btn-width-90 margin-bottom-2">Se behandlinger</button>
+                    </router-link>
+                </div>
             </div> 
         <footer-component />
     </div>
