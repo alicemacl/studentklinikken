@@ -96,4 +96,10 @@
         left: 10vh;
         margin-left: 22px;
     }
+    .footer .link {
+        list-style: none;
+    }
+    .footer .link li a {
+        color: white;
+    }
 }
