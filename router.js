@@ -1,7 +1,6 @@
 import Home from "./pages/Home.js";
 import Behandlinger from "./pages/Behandlinger.js";
 import Osteopati from "./pages/Osteopati.js";
-import Timebestilling from "./pages/Timebestilling.js";
 import Gjennomgang from "./pages/Gjennomgang.js";
 import Akupunktur from "./pages/Akupunktur.js";
 import Kostholdsveiledning from "./pages/Kostholdsveiledning.js";
@@ -22,17 +21,13 @@ import AnsatteForside from "./pages/AnsatteDesktop/AnsatteForside.js";
 import AnsatteInnlogging from "./pages/AnsatteDesktop/AnsatteInnlogging.js";
 import AnsatteKunder from "./pages/AnsatteDesktop/AnsatteKunder.js";
 import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
+import Bestille from "./pages/Bestille.js";
 
 const router = new VueRouter({
   mode: "history",
   routes: [
     {
-<<<<<<< HEAD
-
-      path: "/home",
-=======
       path: "/",
->>>>>>> 60d38d88d5c96d75d69038b4f17975c46246f58c
       name: "home",
       component: Home   
     },
@@ -72,11 +67,10 @@ const router = new VueRouter({
       component: Osteopati
     },
     {
-      path: "/timebestilling",
-      name: "timebestilling",
-      component: Timebestilling
+      path: "/bestille",
+      name: "bestille",
+      component: Bestille
     },
-
     {
       path: "/gjennomgang",
       name: "gjennomgang",
@@ -142,13 +136,7 @@ const router = new VueRouter({
             name: "timeplaner",
             component: AnsatteTimeplaner
 
-<<<<<<< HEAD
-      path: "/",
-      name: "kunder",
-      component: AnsatteKunder
-=======
         },
->>>>>>> 60d38d88d5c96d75d69038b4f17975c46246f58c
 
         {
             path: "/ansatte/kunder",
