@@ -24,6 +24,7 @@ import AnsatteKunder from "./pages/AnsatteDesktop/AnsatteKunder.js";
 import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
 
 const router = new VueRouter({
+<<<<<<< HEAD
   mode: "history",
   routes: [
     {
@@ -162,6 +163,133 @@ const router = new VueRouter({
       path: '/ansatte/kalender', 
       name: 'adminkalender', 
       component: AdminKalender
+=======
+    mode: "history",
+    routes: [
+
+        {
+
+            path: "/home",
+            name: "home",
+            component: Home
+
+        },
+        {
+            path: "/logg-inn",
+            name: "logg-inn",
+            component: Logginn
+        },
+
+        {
+            path: "/password",
+            name: "password",
+            component: Password
+        },
+
+        {
+            path: "/",
+            name: "sms-code",
+            component: Smscode
+        },
+
+        {
+            path: "/dashboardms",
+            name: "dashboardms",
+            component: DashboardMS
+        },
+
+        {
+            path: "/behandlinger",
+            name: "behandlinger",
+            component: Behandlinger
+        },
+
+        {
+            path: "/dashboard",
+            name: "dashboard",
+            component: Dashboard
+        },
+
+        {
+            path: "/behandlinger/osteopati",
+            name: "osteopati",
+            component: Osteopati
+        },
+
+        {
+            path: "/timebestilling",
+            name: "timebestilling",
+            component: Timebestilling
+        },
+
+        {
+            path: "/gjennomgang",
+            name: "gjennomgang",
+            component: Gjennomgang
+        },
+
+        {
+            path: "/bekreftelse",
+            name: "bekreftelse",
+            component: Bekreftelse
+        },
+
+        {
+            path: "/behandlinger/akupunktur",
+            name: "akupunktur",
+            component: Akupunktur
+
+        },
+
+        {
+            path: "/behandlinger/kostholdsveiledning",
+            name: "kostholdsveiledning",
+            component: Kostholdsveiledning
+        },
+
+        {
+            path: "/behandlinger/fysiologisktestlab",
+            name: "fysiologisktestlab",
+            component: FysiologiskTestLab
+        },
+        {
+
+            path: "/ansatte/innlogging",
+            name: "innlogging",
+            component: AnsatteInnlogging
+
+        },
+
+        {
+
+            path: "/ansatte/behandlere",
+            name: "behandlere",
+            component: AnsatteBehandlere
+
+        },
+
+        {
+
+            path: "/ansatte/forside",
+            name: "forside",
+            component: AnsatteForside
+
+        },
+
+        {
+
+            path: "/ansatte/behandlere",
+            name: "behandlere",
+            component: AnsatteBehandlere
+
+        },
+
+        {
+
+            path: "/ansatte/forside",
+            name: "forside",
+            component: AnsatteForside
+>>>>>>> desktop
 
         },
 
