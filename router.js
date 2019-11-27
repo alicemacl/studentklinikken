@@ -27,14 +27,9 @@ const router = new VueRouter({
   mode: "history",
   routes: [
     {
-<<<<<<< HEAD
-
-      path: "/home",
-=======
       path: "/",
->>>>>>> 60d38d88d5c96d75d69038b4f17975c46246f58c
       name: "home",
-      component: Home   
+      component: Home
     },
     {
       path: "/logg-inn",
@@ -130,34 +125,28 @@ const router = new VueRouter({
 
     },
     {
-      path: '/ansatte/kalender', 
-      name: 'adminkalender', 
+      path: '/ansatte/kalender',
+      name: 'adminkalender',
       component: AdminKalender
 
-        },
+    },
 
-        {
+    {
 
-            path: "/ansatte/timeplaner",
-            name: "timeplaner",
-            component: AnsatteTimeplaner
+      path: "/ansatte/timeplaner",
+      name: "timeplaner",
+      component: AnsatteTimeplaner
 
-<<<<<<< HEAD
-      path: "/",
+    },
+
+    {
+      path: "/ansatte/kunder",
       name: "kunder",
       component: AnsatteKunder
-=======
-        },
->>>>>>> 60d38d88d5c96d75d69038b4f17975c46246f58c
 
-        {
-            path: "/ansatte/kunder",
-            name: "kunder",
-            component: AnsatteKunder
+    },
 
-        },
-
-    ],
+  ],
 
 });
 
