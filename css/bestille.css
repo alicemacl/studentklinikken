@@ -1,0 +1,234 @@
+
+/* ---- Main-container ---- */
+
+.bestille .order {
+    background-color: white;
+    border-radius: 40px 40px 0 0;
+    width: 100vw;
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
+    display: flex;
+    flex-direction: column;
+}
+
+.bestille #headline-1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bestille .main-box-intro {
+    height: 12vh;
+    width: 100vw;
+    overflow: hidden;
+    padding-top: 0.2rem;
+}
+
+.bestille .main-box-intro:hover {
+    height: 55vh;
+}
+
+.bestille .main-box-info {
+    height: 12vh;
+    width: 100vw;
+    overflow: hidden;
+    padding-top: 0.2rem;
+}
+
+.bestille .main-box-info:hover {
+    height: 100vh;
+}
+
+.bestille .main-box-gjennomgang {
+    height: 12vh;
+    width: 100vw;
+    overflow: hidden;
+    padding-top: 0.2rem;
+}
+
+.bestille .main-box-gjennomgang:hover {
+    height: 95vh;
+}
+
+.bestille .main-box-last {
+    height: 12vh;
+    width: 100vw;  
+    overflow: hidden;
+    padding-top: 0.2rem;
+}
+
+.bestille .main-box-last:hover {
+    height: 100vh;
+    width: 100vw;  
+}
+
+
+
+
+/* ---- knappevalg ---- */
+
+.bestille .knappevalg {
+    background-color: white;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100vw;
+    height: 80vh;
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
+}
+
+.bestille #headline-6 {
+    margin-top: 1rem;
+    font-family: var(--mediumFont);
+    margin-bottom: 2rem;
+}
+
+.bestille .intro-btn {
+    margin-top: 1rem;
+}
+
+
+/* ---- Personopplysninger ---- */
+
+.bestille .info {
+    background-color:white;
+    padding: 2rem;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 80vh;
+  }
+
+.bestille #headline-2 {
+    margin-top: 1rem;
+    font-family: var(--mediumFont);
+    margin-bottom: 4rem;
+}
+   
+.bestille .info-main-box {
+    margin: 1rem 0;
+}
+
+.bestille .info-info {
+    width: 100%;
+    height: 5.5rem;
+    border: solid black 1px;
+    box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.25);
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.bestille .info-post-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.bestille .info-box1{
+    margin-left:0rem;
+    margin-right:0.5rem;
+    flex: 1;
+}
+
+.bestille .info-box2{ 
+    margin-left:0.5rem;
+    margin-right:0rem;
+    flex: 2;
+}
+
+.bestille .info-btn{
+    margin-top: 3rem;
+}
+
+
+/* ---- Gjennomgang ---- */
+
+.bestille .gjennomgang {
+    background-color: white;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
+}
+
+.bestille #headline-3{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: var(--mediumFont);
+}
+
+.bestille .gjennomgang-info-box{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bestille .gjennomgang-big-box {
+    margin-top: 3rem;
+}
+
+.bestille .gjennomgang-info-1 {
+    flex: 1;
+    font-family: var(--mediumFont);
+    margin-right: 3rem;
+}
+
+.bestille .gjennomgang-info-2 {
+    flex: 1;
+}
+
+.bestille .gjennomgang-btn {
+    margin-top: 6rem;
+}
+
+
+/* ---- Bekreftelse ---- */
+
+.bestille .bekreftelse{
+    background-color: white;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
+}
+
+.bestille #headline-4 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: var(--mediumFont);
+}
+
+.bestille .bekreftelse-picture {
+    width: 40vw;
+    height: 17vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.bestille .bekreftelse-paragraf {
+    flex: 1;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.bestille .bekreftelse-headline {
+    text-align: center;
+}
+
+.bestille .bekreftelse-last-paragraf {
+    font-family: var(--boldFont);
+    text-align: center;
+    flex: 2;
+    margin-top: 2rem;
+}

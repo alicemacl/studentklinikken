@@ -6,19 +6,19 @@ const Timebestilling = {
 
         <h2 id="headline">Personopplysninger</h2>
 
-          <div class="box">
+          <div class="main-box">
             <input type="text" class="info" placeholder="Fornavn">
           </div>
 
-          <div class="box">
+          <div class="main-box">
             <input type="text" class="info" placeholder="Etternavn">
           </div>
 
-          <div class="box">
+          <div class="main-box">
             <input type="number" class="info" placeholder="Fødselsdato (DDMMYY)">
           </div>
 
-          <div class="box">
+          <div class="main-box">
             <input type="text" class="info" placeholder="Gateadresse">
           </div>
 
@@ -32,18 +32,18 @@ const Timebestilling = {
               </div>
           </div>
 
-          <div class="box">
+          <div class="main-box">
             <input type="number" class="info" placeholder="Mobilnummer">
           </div>
 
-          <div class="box">
+          <div class="main-box">
             <input type="text" class="info" placeholder="E-post">
           </div>
 
           <button class="btn btn action-btn btn-primary btn-width-100">Bestill time</button>
 
         </div>
-    <div/>
+    </div>
   `
 };
 

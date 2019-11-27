@@ -19,16 +19,22 @@ import AnsatteForside from "./pages/AnsatteDesktop/AnsatteForside.js";
 import AnsatteInnlogging from "./pages/AnsatteDesktop/AnsatteInnlogging.js";
 import AnsatteKunder from "./pages/AnsatteDesktop/AnsatteKunder.js";
 import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
+import Bestille from "./pages/Bestille.js";
 
 const router = new VueRouter({
   mode: "history",
   routes: [
+    
+    {
+      path: "/",
+      name: "bestille",
+      component: Bestille
+    },
 
     {
       path: "/home",
       name: "home",
       component: Home
-
     },
 
     {
