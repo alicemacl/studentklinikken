@@ -47,7 +47,7 @@
 }
 
 .bestille .main-box-gjennomgang:hover {
-    height: 95vh;
+    height: 100vh;
 }
 
 .bestille .main-box-last {
@@ -150,6 +150,7 @@
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     font-size: var(--bodyText);
@@ -169,7 +170,7 @@
 
 
 .bestille .gjennomgang-big-box {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .bestille .gjennomgang-info-1 {

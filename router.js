@@ -1,7 +1,6 @@
 import Home from "./pages/Home.js";
 import Behandlinger from "./pages/Behandlinger.js";
 import Osteopati from "./pages/Osteopati.js";
-import Timebestilling from "./pages/Timebestilling.js";
 import Gjennomgang from "./pages/Gjennomgang.js";
 import Akupunktur from "./pages/Akupunktur.js";
 import Kostholdsveiledning from "./pages/Kostholdsveiledning.js";
@@ -84,12 +83,6 @@ const router = new VueRouter({
       path: "/behandlinger/osteopati",
       name: "osteopati",
       component: Osteopati
-    },
-
-    {
-      path: "/timebestilling",
-      name: "timebestilling",
-      component: Timebestilling
     },
 
     {
