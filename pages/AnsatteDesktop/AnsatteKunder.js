@@ -1,10 +1,7 @@
 const AnsatteKunder = {
     template: `
     <div>
-        /* Header */
-        <div>
-            AnsatteHeader-component
-        </div>
+        <ansatte-header-component />
 
         /* Search menu */
         <div>
@@ -74,6 +71,8 @@ const AnsatteKunder = {
                 <p>Notater fra behandler</p>
             </div>
         </div>
+        <date-picker />
+        <date-picker-inline />
     </div>
     `,
 };

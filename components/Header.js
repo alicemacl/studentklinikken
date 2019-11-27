@@ -1,7 +1,6 @@
 const Header = Vue.component("header-component", {
     template: `
   <div class="header">
-    <div class="row" id="menu-row-spacing"></div> 
     <div class="row" id="menu-row-content"> 
       <div class="col-sm-3 d-flex justify-content-center align-items-center">
       <img class="button display-none" src="../assets/menu-button.png"></div>

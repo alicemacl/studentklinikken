@@ -54,18 +54,45 @@ const router = new VueRouter({
       name: "dashboardms",
       component: DashboardMS
     },
-
     {
-      path: "/behandlinger",
-      name: "behandlinger",
-      component: Behandlinger
+      path: "/logg-inn",
+      name: "logg-inn",
+      component: Logginn
     },
 
+    {
+      path: "/password",
+      name: "password",
+      component: Password
+    },
+
+    {
+      path: "/sms-code",
+      name: "sms-code",
+      component: Smscode
+    },
+
+    {
+      path: "/dashboardms",
+      name: "dashboardms",
+      component: DashboardMS
+    },
     {
       path: "/dashboard",
       name: "dashboard",
       component: Dashboard
     },
+    {
+      path: "/behandlinger",
+      name: "behandlinger",
+      component: Behandlinger
+    },
+    {
+      path: "/dashboard",
+      name: "dashboard",
+      component: Dashboard
+    },
+
     {
       path: "/behandlinger/osteopati",
       name: "osteopati",
@@ -96,7 +123,7 @@ const router = new VueRouter({
       component: Akupunktur
 
     },
-
+    
     {
       path: "/behandlinger/kostholdsveiledning",
       name: "kostholdsveiledning",
@@ -131,28 +158,30 @@ const router = new VueRouter({
       component: AnsatteForside
 
     },
-
-    {
-
-      path: "/ansatte/timeplaner",
-      name: "timeplaner",
-      component: AnsatteTimeplaner
-
-    },
-
-    {
-
-      path: "/ansatte/kunder",
-      name: "kunder",
-      component: AnsatteKunder
-
-    },
     {
       path: '/ansatte/kalender', 
       name: 'adminkalender', 
       component: AdminKalender
-    }
-  ],
+
+        },
+
+        {
+
+            path: "/ansatte/timeplaner",
+            name: "timeplaner",
+            component: AnsatteTimeplaner
+
+        },
+
+        {
+            path: "/ansatte/kunder",
+            name: "kunder",
+            component: AnsatteKunder
+
+        },
+
+    ],
+
 });
 
 export default router;

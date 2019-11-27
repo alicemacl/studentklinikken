@@ -1,6 +1,5 @@
 const Menu = Vue.component("menu-component", {
   template: `
-
     <div  scroll="no" class="menu">
       <div class="popup d-flex flex-column">
         <div class="first-box margin-top-5">
