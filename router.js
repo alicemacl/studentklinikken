@@ -29,8 +29,7 @@ const router = new VueRouter({
     {
       path: "/",
       name: "home",
-      component: Home
-
+      component: Home   
     },
     {
       path: "/logg-inn",
@@ -83,13 +82,11 @@ const router = new VueRouter({
       name: "dashboard",
       component: Dashboard
     },
-
     {
       path: "/behandlinger",
       name: "behandlinger",
       component: Behandlinger
     },
-
     {
       path: "/dashboard",
       name: "dashboard",
@@ -126,7 +123,7 @@ const router = new VueRouter({
       component: Akupunktur
 
     },
-
+    
     {
       path: "/behandlinger/kostholdsveiledning",
       name: "kostholdsveiledning",
@@ -161,20 +158,10 @@ const router = new VueRouter({
       component: AnsatteForside
 
     },
-
-        {
-
-            path: "/ansatte/behandlere",
-            name: "behandlere",
-            component: AnsatteBehandlere
-
-        },
-
-        {
-
-            path: "/ansatte/forside",
-            name: "forside",
-            component: AnsatteForside
+    {
+      path: '/ansatte/kalender', 
+      name: 'adminkalender', 
+      component: AdminKalender
 
         },
 
@@ -187,7 +174,6 @@ const router = new VueRouter({
         },
 
         {
-
             path: "/ansatte/kunder",
             name: "kunder",
             component: AnsatteKunder
