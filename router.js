@@ -26,12 +26,12 @@ import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
 const router = new VueRouter({
   mode: "history",
   routes: [
-/*     {
+    {
       path: "/",
       name: "home",
       component: Home
 
-    }, */
+    },
     {
       path: "/logg-inn",
       name: "logg-inn",
@@ -134,7 +134,7 @@ const router = new VueRouter({
     },
 
     {
-      path: "/",
+      path: "/behandlinger/fysiologisktestlab",
       name: "fysiologisktestlab",
       component: FysiologiskTestLab
     },
@@ -162,23 +162,39 @@ const router = new VueRouter({
 
     },
 
-    {
+        {
 
-      path: "/ansatte/timeplaner",
-      name: "timeplaner",
-      component: AnsatteTimeplaner
+            path: "/ansatte/behandlere",
+            name: "behandlere",
+            component: AnsatteBehandlere
 
-    },
+        },
 
-    {
+        {
 
-      path: "/ansatte/kunder",
-      name: "kunder",
-      component: AnsatteKunder
+            path: "/ansatte/forside",
+            name: "forside",
+            component: AnsatteForside
 
-    },
+        },
 
-  ],
+        {
+
+            path: "/ansatte/timeplaner",
+            name: "timeplaner",
+            component: AnsatteTimeplaner
+
+        },
+
+        {
+
+            path: "/ansatte/kunder",
+            name: "kunder",
+            component: AnsatteKunder
+
+        },
+
+    ],
 
 });
 
