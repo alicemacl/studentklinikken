@@ -4,10 +4,11 @@
 }
 
 #menu-row-content {
-    height: 10vh;
+    height: 25vh;
     width: 100vw;
     justify-content: space-between;
 }
+
 
 /* MENU */
 
@@ -68,14 +69,12 @@
     height: 80vh;
 }
 
-
-
 .header {
     position: sticky;
     top: 0;
     background-color: var(--lightBlue);
     z-index: 999;
-    height: 130px;
+    height: 190px;
     border-radius: 0 0 20px 20px;
 }
 
@@ -102,10 +101,7 @@
         position: unset!important;
         border-radius: unset!important;
     }
-
-    .header .logo {
-        
-    }
+    .header .logo {}
 }
 
 
