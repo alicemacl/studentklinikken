@@ -4,7 +4,7 @@ const AnsatteForside = {
         <ansatte-header-component />
         <div class="ansatte-container">
             <div class="ansatte-forside">
-                <h2 class="headline">God morgen, {{Navn}} !</h2>
+                <h2 class="headline">God morgen,  !</h2>
                 <h3 class="second-headline">Hva ønsker du å gjøre i dag? </h3>
                 <div class="buttons d-flex">
                     <button class="btn d-flex justify-content-between align-items-center">
