@@ -29,7 +29,7 @@ const router = new VueRouter({
 
     {
 
-      path: "/",
+      path: "/home",
       name: "home",
       component: Home
 
@@ -146,7 +146,7 @@ const router = new VueRouter({
 
     {
 
-      path: "/ansatte/kunder",
+      path: "/",
       name: "kunder",
       component: AnsatteKunder
 
