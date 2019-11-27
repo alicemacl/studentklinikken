@@ -35,13 +35,13 @@ const router = new VueRouter({
 
            }, */
         {
-            path: "/",
+            path: "/logg-inn",
             name: "logg-inn",
             component: Logginn
         },
 
         {
-            path: "/password",
+            path: "/",
             name: "password",
             component: Password
         },
