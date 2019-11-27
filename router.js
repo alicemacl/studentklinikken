@@ -26,56 +26,51 @@ import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
 const router = new VueRouter({
   mode: "history",
   routes: [
-
     {
+<<<<<<< HEAD
 
       path: "/home",
+=======
+      path: "/",
+>>>>>>> 60d38d88d5c96d75d69038b4f17975c46246f58c
       name: "home",
-      component: Home
-
+      component: Home   
     },
     {
       path: "/logg-inn",
       name: "logg-inn",
       component: Logginn
     },
-
     {
       path: "/password",
       name: "password",
       component: Password
     },
-
     {
       path: "/sms-code",
       name: "sms-code",
       component: Smscode
     },
-
     {
       path: "/dashboardms",
       name: "dashboardms",
       component: DashboardMS
     },
-
-    {
-      path: "/behandlinger",
-      name: "behandlinger",
-      component: Behandlinger
-    },
-
     {
       path: "/dashboard",
       name: "dashboard",
       component: Dashboard
     },
-
+    {
+      path: "/behandlinger",
+      name: "behandlinger",
+      component: Behandlinger
+    },
     {
       path: "/behandlinger/osteopati",
       name: "osteopati",
       component: Osteopati
     },
-
     {
       path: "/timebestilling",
       name: "timebestilling",
@@ -100,7 +95,6 @@ const router = new VueRouter({
       component: Akupunktur
 
     },
-
     {
       path: "/behandlinger/kostholdsveiledning",
       name: "kostholdsveiledning",
@@ -135,24 +129,35 @@ const router = new VueRouter({
       component: AnsatteForside
 
     },
-
     {
+      path: '/ansatte/kalender', 
+      name: 'adminkalender', 
+      component: AdminKalender
 
-      path: "/ansatte/timeplaner",
-      name: "timeplaner",
-      component: AnsatteTimeplaner
+        },
 
-    },
+        {
 
-    {
+            path: "/ansatte/timeplaner",
+            name: "timeplaner",
+            component: AnsatteTimeplaner
 
+<<<<<<< HEAD
       path: "/",
       name: "kunder",
       component: AnsatteKunder
+=======
+        },
+>>>>>>> 60d38d88d5c96d75d69038b4f17975c46246f58c
 
-    },
+        {
+            path: "/ansatte/kunder",
+            name: "kunder",
+            component: AnsatteKunder
 
-  ],
+        },
+
+    ],
 
 });
 
