@@ -136,16 +136,12 @@ const router = new VueRouter({
       name: "timeplaner",
       component: AnsatteTimeplaner
 
-<<<<<<< HEAD
     },
 
     {
       path: "/ansatte/kunder",
       name: "kunder",
       component: AnsatteKunder
-=======
-        },
->>>>>>> 1d5aa60b86b16cfe4ebac02efa99db96d305c259
 
     },
 
