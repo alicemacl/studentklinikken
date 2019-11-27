@@ -13,7 +13,7 @@ const Home = {
             </button>
             </router-link>
                 <router-link to='/behandlinger'>
-              <button class="action-btn btn-secondary btn-width-90">
+              <button class="action-btn btn-primary btn-width-90">
                 Se behandlinger
               </button>
             </router-link>

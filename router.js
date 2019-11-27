@@ -13,6 +13,9 @@ import Dashboard from "./pages/Dashboard.js";
 import DashboardMS from "./pages/DashboardMS.js";
 
 import FysiologiskTestLab from "./pages/FysiologiskTestLab.js";
+
+
+import AdminKalender from "./pages/AnsatteDesktop/AdminKalender.js";
 import AnsatteBehandlere from "./pages/AnsatteDesktop/AnsatteBehandlere.js";
 import AnsatteForside from "./pages/AnsatteDesktop/AnsatteForside.js";
 import AnsatteInnlogging from "./pages/AnsatteDesktop/AnsatteInnlogging.js";
@@ -23,68 +26,51 @@ import Bestille from "./pages/Bestille.js";
 const router = new VueRouter({
   mode: "history",
   routes: [
-    
     {
       path: "/",
-      name: "bestille",
-      component: Bestille
-    },
-
-    {
-      path: "/home",
       name: "home",
-      component: Home
+      component: Home   
     },
-
     {
       path: "/logg-inn",
       name: "logg-inn",
       component: Logginn
     },
-
     {
       path: "/password",
       name: "password",
       component: Password
     },
-
     {
       path: "/sms-code",
       name: "sms-code",
       component: Smscode
     },
-
     {
       path: "/dashboardms",
       name: "dashboardms",
       component: DashboardMS
     },
-
-    {
-      path: "/behandlinger",
-      name: "behandlinger",
-      component: Behandlinger
-    },
-
     {
       path: "/dashboard",
       name: "dashboard",
       component: Dashboard
     },
-
-
     {
       path: "/behandlinger",
       name: "behandlinger",
       component: Behandlinger
     },
-
     {
       path: "/behandlinger/osteopati",
       name: "osteopati",
       component: Osteopati
     },
-
+    {
+      path: "/bestille",
+      name: "bestille",
+      component: Bestille
+    },
     {
       path: "/gjennomgang",
       name: "gjennomgang",
@@ -103,7 +89,6 @@ const router = new VueRouter({
       component: Akupunktur
 
     },
-
     {
       path: "/behandlinger/kostholdsveiledning",
       name: "kostholdsveiledning",
@@ -115,7 +100,6 @@ const router = new VueRouter({
       name: "fysiologisktestlab",
       component: FysiologiskTestLab
     },
-
     {
 
       path: "/ansatte/innlogging",
@@ -139,24 +123,30 @@ const router = new VueRouter({
       component: AnsatteForside
 
     },
-
     {
+      path: '/ansatte/kalender', 
+      name: 'adminkalender', 
+      component: AdminKalender
 
-      path: "/ansatte/timeplaner",
-      name: "timeplaner",
-      component: AnsatteTimeplaner
+        },
 
-    },
+        {
 
-    {
+            path: "/ansatte/timeplaner",
+            name: "timeplaner",
+            component: AnsatteTimeplaner
 
-      path: "/ansatte/kunder",
-      name: "kunder",
-      component: AnsatteKunder
+        },
 
-    },
+        {
+            path: "/ansatte/kunder",
+            name: "kunder",
+            component: AnsatteKunder
 
-  ],
+        },
+
+    ],
+
 });
 
 export default router;

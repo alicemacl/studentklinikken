@@ -1,0 +1,186 @@
+.ansatte-header {
+  background-color: white;
+  height: 15vh;
+}
+
+.ansatte-logo {
+  height: 70px;
+  margin-left: 100px;
+  margin-right: 70px;
+}
+
+.ansatte-link {
+  margin: 30px;
+}
+
+.login-header {
+  text-align: end;
+  margin-right: 100px;
+}
+
+.ansatte-header h3 {
+  font-family: var(--regularFont);
+}
+
+.ansatte-header h1 {
+  font-family: var(--regularFont);
+  font-size: var(--secondHeader);
+}
+
+.ansatte-container {
+  background-color: white;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+.ansatte-forside {
+  background-color: white;
+  margin-left: 100px;
+}
+
+.ansatte-forside h2 {
+  font-family: var(--regularFont);
+  font-size: var(--secondHeader);
+}
+
+.ansatte-forside .headline {
+  background-color: white;
+  padding-top: 50px;
+}
+
+.ansatte-forside .second-headline {
+  margin-top: 40px;
+}
+
+.ansatte-forside .buttons {
+  margin-top: 50px;
+}
+
+.ansatte-forside .btn {
+  background-color: #f2f2f2;
+  width: 15vw;
+  max-width: 200px;
+  min-width: 130px;
+  margin-right: 1rem;
+  padding: 1.2rem;
+  border-radius: 0;
+}
+
+.forside-btn-logo {
+  height: 2rem;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: white;
+}
+
+.calendar-card {
+  font-size: var(--bodyText);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 125px;
+}
+
+.calender-info {
+  flex: 1 0 auto;
+}
+
+.ansatte-kalender {
+  background-color: white;
+  width: 100vw;
+  height: 100%;
+}
+
+.calendar {
+  color: #828282;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 80px;
+  margin-right: 50px;
+}
+
+.calendar-table {
+  width: 90vw;
+}
+
+.tid-component {
+  margin-left: 100px;
+}
+
+.rom-component {
+  margin-left: 80px;
+}
+
+.tidspunkter-calendar {
+  width: 100px;
+}
+.container-rom {
+  width: 100px;
+}
+.rom-nr {
+  font-size: 40px;
+}
+
+tr,
+hr,
+th,
+td {
+  border-bottom: 1px solid rgb(196, 190, 190);
+  border-right: 1px solid rgb(196, 190, 190);
+}
+
+.calendar-table .tid-component {
+  text-align: center;
+  font-size: 18px;
+}
+
+.calendar-table h2 {
+  font-size: 50px;
+}
+
+td {
+  padding: 2rem;
+}
+
+.room-number {
+  width: 30px;
+}
+
+.calendar-table .border {
+  background-color: #7eb5ba;
+  height: 10px;
+  border-radius: 1rem;
+  border: none !important;
+  flex-shrink: 0;
+}
+
+.calendar-table .border-darkblue {
+  background-color: var(--mainPurple);
+}
+
+.calendar-table .border-gray {
+  background-color: #bdbdbd;
+}
+
+.calendar-table h5 {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+
+.calendar-table h4 {
+  font-size: 16px;
+  font-family: var(--boldFont);
+}
+
+.calendar-table .break {
+  background-color: var(--mainBlue);
+}
+
+.ledig {
+    margin-top: 2rem;
+}

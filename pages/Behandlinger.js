@@ -29,16 +29,18 @@ const Behandlinger = {
                         <button class="action-btn btn-clean btn-width-100">Akupunktur</button>
                     </div>
                     </router-link>
-                <router-link to="/behandlinger/kosthildsveiledning">
+                <router-link to="/behandlinger/kostholdsveiledning">
                     <div class="two-line-btn">
                         <p>Vil du spise riktig?</p>
                         <button class="action-btn btn-clean btn-width-100">Kostholdsveiledning</button>
                     </div>
                 </router-link>
+                <router-link to="/behandlinger/fysiologisktestlab">
                     <div class="two-line-btn">
                         <p>Teste din fysiske tilstand?</p>
                         <button class="action-btn btn-clean btn-width-100">Fysiologisk Testlab</button>
                     </div>
+                </router-link>
                 </div>
             </div>
             <div class="info-container d-flex flex-column align-self-start">
