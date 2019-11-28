@@ -12,7 +12,7 @@ const Smscode = {
                     <p>Sjekk dine meldinger du fikk fra oss og skriv inn kode under</p> 
                 </div>
                 
-                <div class="inputfields-2">
+                <div class="inputfields-2 margin-auto">
                     <input type="tel" pattern="[0-9]{3}[0-9]{2}[0-9]{3}" class="input-2" placeholder="Kode fra SMS">
                 
                 

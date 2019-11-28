@@ -4,10 +4,11 @@
 }
 
 #menu-row-content {
-  height: 10vh;
-  width: 100vw;
-  justify-content: space-between;
+    height: 25vh;
+    width: 100vw;
+    justify-content: space-between;
 }
+
 
 /* MENU */
 

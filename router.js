@@ -1,4 +1,5 @@
 import Home from "./pages/Home.js";
+import KontaktOss from "./pages/KontaktOss.js";
 import Behandlinger from "./pages/Behandlinger.js";
 import Osteopati from "./pages/Osteopati.js";
 import Gjennomgang from "./pages/Gjennomgang.js";
@@ -26,6 +27,7 @@ import Kunder from './pages/AnsatteDesktop/Kunder.js';
 import Bestille from "./pages/Bestille.js";
 
 const router = new VueRouter({
+
   mode: "history",
   routes: [
     {
