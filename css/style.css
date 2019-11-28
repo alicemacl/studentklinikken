@@ -11,9 +11,7 @@
 @import url('bestille.css');
 @import url('innlogging-ansatte.css');
 @import url('testFile.css');
-@import url('kontaktOss.css');
 @import url('behandlere.css'); 
-
 
 /* @import url("grid.css"); */
 
@@ -33,6 +31,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 62.5%;
+
     color: var(--mainBlack);
 }
 
@@ -44,22 +43,18 @@ html {
 
 :root {
     /* colors */
-    --mainBlue: #87D0C7;
-    /* primary */
-    --blueShade: #79A5B3;
-    /* primary hover */
-    --lightBlue: #D4EBE4;
-    /* for boxes and backgrounds */
-    --mainPurple: #6B7A9B;
-    /* secondary */
-    --purpleShade: #6F84A1;
-    /* secondary hover */
-    --mainBlack: #333333;
-    /* For all text */
+    --mainBlue: #87D0C7; /* primary */
+    --blueShade: #79A5B3; /* primary hover */
+    --lightBlue: #D4EBE4; /* for boxes and backgrounds */
+    --mainPurple: #6B7A9B; /* secondary */
+    --purpleShade: #6F84A1; /* secondary hover */
+    --mainBlack: #333333; /* For all text */
+   
     /* font-family */
     --regularFont: 'GraphikRegular', sans-serif;
     --mediumFont: 'GraphikMedium', sans-serif;
     --boldFont: 'GraphikBold', sans-serif;
+   
     /* font-size and line-height */
     --bodyText: 1.8rem;
     --bodyTextHeight: 2.5rem;
@@ -113,6 +108,10 @@ button:focus {
     border: 3px solid var(--mainBlue);
     color: var(--mainBlack);
     padding: 1rem 2rem;
+}
+
+.btn-secondary:hover {
+    background-color: none;
 }
 
 .btn-clean {
