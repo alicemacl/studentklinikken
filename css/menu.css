@@ -21,7 +21,7 @@
     overflow: hidden;
     background-color: var(--lightBlue);
     z-index: 999;
-    margin-top: -2rem;
+    margin-top: -5rem;
     font-family: var(--regularFont);
 }
 
@@ -129,7 +129,8 @@
     line-height: var(--firstHeaderHeight);
     font-family: var(--regularFont);
     text-align: center;
-    margin: 1rem 1rem 3rem 1rem;
+    padding: 2rem 1rem;
+    background-color: var(--lightBlue);
 }
 
 .homepage-btn {

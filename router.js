@@ -27,111 +27,6 @@ import Kunder from './pages/AnsatteDesktop/Kunder.js';
 import Bestille from "./pages/Bestille.js";
 
 const router = new VueRouter({
-<<<<<<< HEAD
-  mode: "history",
-  routes: [
-    {
-      path: "/",
-      name: "home",
-      component: Home   
-    },
-    {
-      path: "/bestille",
-      name: "bestille",
-      component: Bestille
-    },
-    {
-      path: "/bekreftelse",
-      name: "bekreftelse",
-      component: Bekreftelse
-    },
-    {
-      path: "/logg-inn",
-      name: "logg-inn",
-      component: Logginn
-    },
-    {
-      path: "/password",
-      name: "password",
-      component: Password
-    },
-    {
-      path: "/sms-code",
-      name: "sms-code",
-      component: Smscode
-    },
-    {
-      path: "/dashboardms",
-      name: "dashboardms",
-      component: DashboardMS
-    },
-    {
-      path: "/dashboard",
-      name: "dashboard",
-      component: Dashboard
-    },
-    {
-      path: "/behandlinger",
-      name: "behandlinger",
-      component: Behandlinger
-    },
-    {
-      path: "/behandlinger/osteopati",
-      name: "osteopati",
-      component: Osteopati
-    },
-    {
-      path: "/gjennomgang",
-      name: "gjennomgang",
-      component: Gjennomgang
-    },
-    {
-      path: "/behandlinger/akupunktur",
-      name: "akupunktur",
-      component: Akupunktur
-    },
-    {
-      path: "/behandlinger/kostholdsveiledning",
-      name: "kostholdsveiledning",
-      component: Kostholdsveiledning
-    },
-    {
-      path: "/behandlinger/fysiologisktestlab",
-      name: "fysiologisktestlab",
-      component: FysiologiskTestLab
-    },
-    {
-      path: "/ansatte/innlogging",
-      name: "innlogging",
-      component: AnsatteInnlogging
-    },
-    {
-      path: "/ansatte/behandlere",
-      name: "behandlere",
-      component: AnsatteBehandlere
-    },
-    {
-      path: "/ansatte/forside",
-      name: "forside",
-      component: AnsatteForside
-    },
-    {
-      path: '/ansatte/kalender', 
-      name: 'adminkalender', 
-      component: AdminKalender
-    },
-    {
-        path: "/ansatte/timeplaner",
-        name: "timeplaner",
-        component: AnsatteTimeplaner
-    },
-    {
-        path: "/ansatte/kunder",
-        name: "kunder",
-        component: AnsatteKunder
-    },
-
-=======
 
     mode: "history",
     routes: [{
@@ -143,6 +38,11 @@ const router = new VueRouter({
             path: "/logg-inn",
             name: "logg-inn",
             component: Logginn
+        },
+        {
+          path: "/kontakt-oss",
+          name: "kontakt-oss",
+          component: KontaktOss
         },
         {
             path: "/password",
@@ -256,7 +156,6 @@ const router = new VueRouter({
             name: "kunder",
             component: AnsatteKunder
         },
->>>>>>> 08f5450f1db01f0a34ffcdb93bd05f0b87f1b4cb
     ],
 
 });
