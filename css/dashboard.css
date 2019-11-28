@@ -43,7 +43,34 @@
 .dashboardms .headline {
     text-align: center;
     margin-top: 3rem;
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
+}
+
+.dashboardms .menu-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.dashboardms #line-1 {
+    color: #87D0C7;
+}
+
+.dashboardms .dboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboardms .arrow {
+    transform: rotate(90deg);
+    padding: 1rem;
+}
+
+.dashboardms .info-container:hover .arrow{
+    transform: rotate(270deg);
 }
 
 .dashboardms .treatment {
@@ -86,4 +113,3 @@
     height: 30vh;
     text-align: left;
 }
-
