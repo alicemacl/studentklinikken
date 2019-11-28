@@ -9,7 +9,9 @@ const AnsatteInnlogging = {
             <div class="d-flex flex-column">
                 <input type="text" class="input align-self-center" placeholder="E-post/telefonnummer">
                 <input type="text" class="input align-self-center" placeholder="Passord">
-                <button class="btn action-btn btn-primary logg-inn-btn align-self-center">Logg inn</button>
+                <router-link class="align-self-center" to="/ansatte/forside">
+                    <button class="btn action-btn btn-primary logg-inn-btn">Logg inn</button>
+                </router-link>
             </div>
 
             <div class="">

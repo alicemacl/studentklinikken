@@ -22,6 +22,9 @@ import AnsatteForside from "./pages/AnsatteDesktop/AnsatteForside.js";
 import AnsatteInnlogging from "./pages/AnsatteDesktop/AnsatteInnlogging.js";
 import AnsatteKunder from "./pages/AnsatteDesktop/AnsatteKunder.js";
 import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
+import Behandlere from './pages/AnsatteDesktop/Behandlere.js';
+import Kunder from './pages/AnsatteDesktop/Kunder.js';
+
 
 const router = new VueRouter({
   mode: "history",
@@ -112,42 +115,44 @@ const router = new VueRouter({
     {
 
       path: "/ansatte/behandlere",
-      name: "behandlere",
+      name: "ansattebehandlere",
       component: AnsatteBehandlere
 
     },
-
+    {
+      path:'/behandlere/:id', 
+      name:'behandlere', 
+      component: Behandlere, 
+      props: true
+    },
+        {
+      path:'/kunder/:id', 
+      name:'kunder', 
+      component: Kunder, 
+      props: true
+    },
     {
 
       path: "/ansatte/forside",
       name: "forside",
       component: AnsatteForside
-
     },
     {
       path: '/ansatte/kalender', 
       name: 'adminkalender', 
       component: AdminKalender
-
-        },
-
-        {
-
-            path: "/ansatte/timeplaner",
-            name: "timeplaner",
-            component: AnsatteTimeplaner
-
-        },
-
-        {
-            path: "/ansatte/kunder",
-            name: "kunder",
-            component: AnsatteKunder
-
-        },
-
-    ],
-
+    },
+    {
+      path: "/ansatte/timeplaner",
+      name: "timeplaner",
+      component: AnsatteTimeplaner
+    },
+    {
+      path: "/ansatte/kunder",
+      name: "kunder",
+      component: AnsatteKunder
+    },
+  ],
 });
 
 export default router;

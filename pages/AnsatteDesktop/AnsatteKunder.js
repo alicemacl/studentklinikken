@@ -1,80 +1,53 @@
+import UserService from '../../UserService.js'; 
+
 const AnsatteKunder = {
     template: `
     <div>
         <ansatte-header-component />
-
-        /* Search menu */
-        <div>
-            <div>
-                <p>Søk kunde</p>
-                <input type="text" placeholder="navn eller telefon"/>
+        <div class="behandlere">
+            <div class="row headline">
+                <h1 class="col">Kunder</h1>
             </div>
-            <div>
-                <button>Legg til ny kunde</button>
-            </div>
+            <input class="inputfield" placeholder="Søk...">
+            <table>
+                <thead> 
+                    <tr>
+                        <th>Navn</th>
+                        <th>Telefon</th>
+                        <th>Epost</th>
+                        <th></th> 
+                    </tr> 
+                </thead>
+                <tr v-for="(kunde, idx) in kunder">
+                    <td>{{kunde.fornavn}} {{kunde.etternavn}}</td>
+                    <td>{{kunde.telefon }}</td>
+                    <td>{{kunde.mail}} </td>               
+                    <td class="link-til-behandlere">
+                        <router-link class="behandlere-link" :to="{name: 'kunder', params: {id: kunde.id}}">
+                            Se/endre
+                        </router-link>
+                    </td>
+                </tr>
+            </table> 
         </div>
 
-        /* Search result */
-        <div>
-            <div>
-                <p>Resultat</p>
-            </div>
-            <div>
-                <p>Vis resultat av søk dynamisk</p>
-            </div>
-        </div>
-
-        /* Show info picked serach result / empty if create new */
-        <div>
-            <div>
-                <p>Navn: </p>
-                <input type="text" placeholder="Navn kunde"/>
-            </div>
-            <div>
-                <p>Prisgruppe: </p>
-                <select name="" id="">
-                    <option value="">Velg prisgruppe</option>
-                    <option value="">Ordinær</option>
-                    <option value="">Student</option>
-                    <option value="">Honør</option>
-                    <option value="">Ungdom</option>
-                </select>
-            </div>
-            <div>
-                <p>Telefonnummer: </p>
-                <input type="text" placeholder="Telefonnummer"/>
-            </div>
-            <div>
-                <p>E-post: </p>
-                <input type="text" placeholder="E-post"/>
-            </div>
-            <div>
-                <p>Adresse: </p>
-                <input type="text" placeholder="Skriv inn adresse"/>
-            </div>
-            <div>
-                <p>Postnummer: </p>
-                <input type="text" placeholder="Postnummer"/>
-                <p>Sted: </p>
-                <input type="text" placeholder="Sted"/>
-            </div>
-            <div>
-                <p>Fødtselsdato: </p>
-                Calendar-component
-            </div>
-            <div>
-                <button>Oppdater/opprett kunde</button>
-            </div>
-            <div>
-                <p>Tidligere behandlinger</p>
-                <p>Planlagte behandlinger</p>
-                <p>Notater fra behandler</p>
-            </div>
-        </div>
-        <date-picker />
-        <date-picker-inline />
     </div>
-    `,
+    `, 
+    data() {
+        return {
+            kunder: []
+        };
+    }, 
+    created() {
+        UserService.getKunder()
+            .then(response => {
+                this.kunder = response.data
+                console.log(this.kunder)
+            })
+            .catch(error => {
+                console.log('There was an error:', error.response)
+            })
+    }
 };
 
 export default AnsatteKunder;
