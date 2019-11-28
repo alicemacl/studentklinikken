@@ -74,7 +74,7 @@
     top: 0;
     background-color: var(--lightBlue);
     z-index: 999;
-    height: 190px;
+    height: 130px;
     border-radius: 0 0 20px 20px;
 }
 
@@ -92,43 +92,20 @@
 
 .col-sm-6 {
     width: unset;
-    right: 35vh;
-    top: 8vh;
 }
 
 .col-sm-3 {
     width: unset;
-    left: 90vh;
-}
-
-.student {
-    top: 8vh;
-    padding-left: 25vh;
 }
 
 @media (min-width: 968px) {
     .header {
         display: flex;
-        height: 250px!important;
-        position: unset!important;
-        border-radius: unset!important;
+        height: 250px !important;
+        position: unset !important;
+        border-radius: unset !important;
     }
-    .header-logo {
-        background-image: url(/assets/logo-big.png)!important;
-        background-size: contain contain;
-        background-repeat: no-repeat;
-        background-position-x: left;
-        background-position-y: center;
-        width: 305px!important;
-        height: 84.7px;
-    }
-}
-
-.header-logo {
-    background-image: url(/assets/Logo-farger.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 300px;
+    .header .logo {}
 }
 
 
@@ -176,7 +153,7 @@
     background-color: white;
     padding-top: 2rem;
     border-radius: 30px 30px 0 0;
-    padding-bottom: 10rem;
+    padding-bottom: 3rem;
 }
 
 

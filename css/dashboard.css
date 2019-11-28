@@ -27,3 +27,63 @@
     margin-top: 6rem;
 }
 
+
+/* ----- Mine sider Dashboard -----*/
+
+.dashboardms {
+    background-color: white;
+    border-radius: 40px 40px 0 0;
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
+}
+
+.dashboardms .headline {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+.dashboardms .treatment {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardms .big-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.dashboardms .box-1 {
+    margin-right: 2rem;
+    flex: 1;
+}
+
+.dashboardms .box-2 {
+    margin-left: 2rem;
+    flex: 1;
+}
+
+.dashboardms .info-container {
+    background-color: #D4EBE4;
+    width: 100%;
+    height: 12vh;
+    border-radius: 8px;
+    text-align: left;
+    padding: 1.5rem;
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.dashboardms .info-container:hover {
+    background-color: #D4EBE4;
+    width: 100%;
+    height: 30vh;
+    text-align: left;
+}
+
