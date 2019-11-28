@@ -9,6 +9,7 @@ const Menu = Vue.component("menu-component", {
           <div class="menu-item"><router-link to='/ansatte/innlogging'>Ansatte</router-link></div>
 
         </div>
+         
         <div class="second-box fixed-bottom">
           <div class="menu-item">Ny bruker</div>
           <div class="menu-item"><router-link to='/'>Logg inn</div>  
