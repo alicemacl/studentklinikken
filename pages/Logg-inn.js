@@ -35,9 +35,11 @@ const Logginn = {
                     </div>     
                 </div>
                 
-                <router-link>
-                    <button class="btn action-btn btn-primary btn-width-100">Bestill time</button>
-                </router-link>  
+                <router-link to="/dashboard">
+                    <button class="btn action-btn btn-primary btn-width-100">Logg inn</button>
+                </router-link>
+                
+             
                 
             </div>
         <footer-component />

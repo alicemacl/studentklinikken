@@ -291,9 +291,9 @@ const Bestille = {
                                     <p>Tid</p>
                                 </div>
                                 <div class="gjennomgang-info-2">
-                                    <p>Osteopati</p>
+                                    <p>Akupunktur</p>
                                     <p>Kari Nordmann</p>
-                                    <p>09.30</p>
+                                    <p>12.00</p>
                                 </div>
                             </div>
                             

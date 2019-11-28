@@ -28,6 +28,10 @@ const Bekreftelse = {
                 <p>Velkommen til oss!</p>
             </div>
 
+            <router-link to="/dashboard">
+                <button class="btn action-btn btn-primary btn-width-100">Mine sider</button>
+              </router-link>
+
         </div>
 
         <footer-component />

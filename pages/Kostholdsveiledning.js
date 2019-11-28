@@ -14,7 +14,9 @@ const Kostholdsveiledning = {
                 tilpasning av kosten eller ønsker å ha et generelt 
                 sunt kosthold. </p>
 
-                <button class="action-btn btn-primary btn-width-90 margin-bottom-2 margin-top-1">Bestill time</button>
+                <router-link to="/bestille">
+                    <button class="action-btn btn-primary btn-width-90 margin-bottom-2 margin-top-1">Bestill time</button>
+                </router-link>              
             </div>
             <div class="article-image image">
                 <img src="../assets/img-kostholdsveiledning.png">
@@ -29,8 +31,9 @@ const Kostholdsveiledning = {
                         </div>
                     </div>
                 </div>
-                
-                    <button class="action-btn btn-primary btn-width-90 margin-tb-1">Bestill time</button>
+                    <router-link to="/bestille">
+                        <button class="action-btn btn-primary btn-width-90 margin-tb-1">Bestill time</button>
+                    </router-link>                  
                     <router-link to='/behandlinger'>
                         <button class="action-btn btn-secondary btn-width-90 margin-bottom-2">Se behandlinger</button>
                     </router-link>

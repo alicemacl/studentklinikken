@@ -70,7 +70,6 @@
 
 .header {
     position: sticky;
-    
     background-color: var(--lightBlue);
     z-index: 999;
     height: 130px;
