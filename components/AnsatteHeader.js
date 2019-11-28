@@ -1,5 +1,5 @@
 const AnsatteHeader = Vue.component("ansatte-header-component", {
-  template: `
+    template: `
     <div class="ansatte-header d-flex justify-content-between">
         <div class="d-flex flex-row align-items-center">
             <img class="ansatte-logo" src="../assets/logoSort.png">

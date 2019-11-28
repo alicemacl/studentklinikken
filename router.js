@@ -1,7 +1,6 @@
 import Home from "./pages/Home.js";
 import Behandlinger from "./pages/Behandlinger.js";
 import Osteopati from "./pages/Osteopati.js";
-import Timebestilling from "./pages/Timebestilling.js";
 import Gjennomgang from "./pages/Gjennomgang.js";
 import Akupunktur from "./pages/Akupunktur.js";
 import Kostholdsveiledning from "./pages/Kostholdsveiledning.js";
@@ -24,7 +23,7 @@ import AnsatteKunder from "./pages/AnsatteDesktop/AnsatteKunder.js";
 import AnsatteTimeplaner from "./pages/AnsatteDesktop/AnsatteTimeplaner.js";
 import Behandlere from './pages/AnsatteDesktop/Behandlere.js';
 import Kunder from './pages/AnsatteDesktop/Kunder.js';
-
+import Bestille from "./pages/Bestille.js";
 
 const router = new VueRouter({
   mode: "history",
@@ -32,7 +31,7 @@ const router = new VueRouter({
     {
       path: "/",
       name: "home",
-      component: Home   
+      component: Home
     },
     {
       path: "/logg-inn",
@@ -70,11 +69,10 @@ const router = new VueRouter({
       component: Osteopati
     },
     {
-      path: "/timebestilling",
-      name: "timebestilling",
-      component: Timebestilling
+      path: "/bestille",
+      name: "bestille",
+      component: Bestille
     },
-
     {
       path: "/gjennomgang",
       name: "gjennomgang",
@@ -138,8 +136,8 @@ const router = new VueRouter({
       component: AnsatteForside
     },
     {
-      path: '/ansatte/kalender', 
-      name: 'adminkalender', 
+      path: '/ansatte/kalender',
+      name: 'adminkalender',
       component: AdminKalender
     },
     {
@@ -153,6 +151,7 @@ const router = new VueRouter({
       component: AnsatteKunder
     },
   ],
+
 });
 
 export default router;
