@@ -77,17 +77,17 @@
 }
 
 .ansatte-forside .btn {
-  background-color: #ffffff;
-  width: 20vw;
-  max-width: 300px;
+  background-color: #f2f2f2;
+  width: 15vw;
+  max-width: 200px;
   min-width: 130px;
   margin-right: 1rem;
   padding: 1.2rem;
-  border-radius: 20;
+  border-radius: 0;
 }
 
 .forside-btn-logo {
-  height: 7rem;
+  height: 2rem;
 }
 
 .calendar {
