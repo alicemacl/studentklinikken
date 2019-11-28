@@ -1,12 +1,8 @@
 @import url("fonts.css");
 @import url("menu.css");
 @import url("footer.css");
-<<<<<<< HEAD
-@import url("behandlinger.css"); 
-=======
 @import url("behandlinger.css");
 @import url("timebestilling.css");
->>>>>>> 4c1ed6db455148bf13add4075d7adf0336149d3d
 @import url('behandlinger.css');
 @import url('bestilltime.css');
 @import url('ansatte.css');
@@ -14,12 +10,9 @@
 @import url('password.css');
 @import url('sms-code.css');
 @import url('dashboard.css');
-<<<<<<< HEAD
-@import url('bestille.css');
-=======
 @import url('innlogging-ansatte.css');
 @import url('testFile.css');
->>>>>>> 4c1ed6db455148bf13add4075d7adf0336149d3d
+@import url('bestille.css');
 
 /* @import url("grid.css"); */
 

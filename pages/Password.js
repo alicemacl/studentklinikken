@@ -22,8 +22,8 @@ const Password = {
                 <div class="inputfields-1">
                     <input type="number" class="input-1" placeholder="Telefonnummer">
                     <router-link to="/sms-code">
-                    <button class="btn-1 action-btn btn-primary btn-width-100">Få kode på SMS</button>
-                </router-link>
+                        <button class="btn-1 action-btn btn-primary btn-width-100">Få kode på SMS</button>
+                    </router-link>
                 </div>
                 
                 

@@ -27,9 +27,19 @@ const router = new VueRouter({
   mode: "history",
   routes: [
     {
-      path: "/",
+      path: "/home",
       name: "home",
       component: Home   
+    },
+    {
+      path: "/",
+      name: "bestille",
+      component: Bestille
+    },
+    {
+      path: "/bekreftelse",
+      name: "bekreftelse",
+      component: Bekreftelse
     },
     {
       path: "/logg-inn",
@@ -67,83 +77,55 @@ const router = new VueRouter({
       component: Osteopati
     },
     {
-      path: "/bestille",
-      name: "bestille",
-      component: Bestille
-    },
-    {
       path: "/gjennomgang",
       name: "gjennomgang",
       component: Gjennomgang
     },
-
-    {
-      path: "/bekreftelse",
-      name: "bekreftelse",
-      component: Bekreftelse
-    },
-
     {
       path: "/behandlinger/akupunktur",
       name: "akupunktur",
       component: Akupunktur
-
     },
     {
       path: "/behandlinger/kostholdsveiledning",
       name: "kostholdsveiledning",
       component: Kostholdsveiledning
     },
-
     {
       path: "/behandlinger/fysiologisktestlab",
       name: "fysiologisktestlab",
       component: FysiologiskTestLab
     },
     {
-
       path: "/ansatte/innlogging",
       name: "innlogging",
       component: AnsatteInnlogging
-
     },
-
     {
-
       path: "/ansatte/behandlere",
       name: "behandlere",
       component: AnsatteBehandlere
-
     },
-
     {
-
       path: "/ansatte/forside",
       name: "forside",
       component: AnsatteForside
-
     },
     {
       path: '/ansatte/kalender', 
       name: 'adminkalender', 
       component: AdminKalender
-
-        },
-
-        {
-
-            path: "/ansatte/timeplaner",
-            name: "timeplaner",
-            component: AnsatteTimeplaner
-
-        },
-
-        {
-            path: "/ansatte/kunder",
-            name: "kunder",
-            component: AnsatteKunder
-
-        },
+    },
+    {
+        path: "/ansatte/timeplaner",
+        name: "timeplaner",
+        component: AnsatteTimeplaner
+    },
+    {
+        path: "/ansatte/kunder",
+        name: "kunder",
+        component: AnsatteKunder
+    },
 
     ],
 
