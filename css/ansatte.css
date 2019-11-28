@@ -75,6 +75,8 @@
   flex-direction: row;
   height: 100vh;
   background-color: white;
+  color: var(--mainBlack);
+  margin: 3rem 2rem;
 }
 
 .calendar-card {
@@ -83,7 +85,8 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  height: 125px;
+  min-height: 125px;
+  max-height: 150px;
 }
 
 .calender-info {
@@ -94,14 +97,7 @@
   background-color: white;
   width: 100vw;
   height: 100%;
-}
-
-.calendar {
-  color: #828282;
-  font-size: 20px;
-  margin-left: 100px;
-  margin-top: 80px;
-  margin-right: 50px;
+  margin: 0 2rem;
 }
 
 .calendar-table {
@@ -132,6 +128,10 @@ th,
 td {
   border-bottom: 1px solid rgb(196, 190, 190);
   border-right: 1px solid rgb(196, 190, 190);
+  /* overflow: hidden; */
+/*   white-space: pre-wrap;
+  word-wrap: break-word;
+  text-overflow: ellipsis; */
 }
 
 .calendar-table .tid-component {
@@ -183,4 +183,78 @@ td {
 
 .ledig {
     margin-top: 2rem;
+}
+
+.admin-content-container {
+  margin: auto;
+  min-width: 968px;
+  margin: 0 4rem;
+}
+
+.filter-options {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.filter-btn {
+  background:none;
+  width: 20vw;
+  text-align: left;
+  border: 3px solid var(--mainBlack);
+  font-size: var(--bodyText);
+  font-family: var(--mediumFont);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+.filter-btn::after {
+  content: '';
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--mainBlack);
+  float: right;
+  margin-top: 1rem;
+}
+.filter-btn-dropdown {
+  position:relative;
+  display: inline-block;
+}
+.filter-btn-drop {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 20vw;
+  padding: 2rem 3rem;
+  z-index: 1;
+  font-size: var(--bodyText);
+  border: 3px solid var(--mainBlack);
+  margin-top: -3px;
+}
+
+.filter-btn-drop ul {
+  list-style: none;
+  padding:0;
+}
+
+.filter-btn-drop ul li {
+  margin-top: 2rem;
+}
+
+.filter-btn-drop ul li:after {
+  content: '';
+  background-color: transparent;
+  border: 3px solid var(--mainBlack);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+
+.filter-btn-drop ul li:after:hover {
+  background-color: var(--mainBlack);
+}
+
+.filter-btn-dropdown:hover .filter-btn-drop {
+  display: block;
 }
