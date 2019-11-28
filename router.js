@@ -29,7 +29,8 @@ import Bestille from "./pages/Bestille.js";
 const router = new VueRouter({
 
     mode: "history",
-    routes: [{
+    routes: [
+      {
             path: "/",
             name: "home",
             component: Home
@@ -156,8 +157,8 @@ const router = new VueRouter({
             name: "kunder",
             component: AnsatteKunder
         },
-    ],
+    ]
 
 });
 
-export default router;
+export default router; 
