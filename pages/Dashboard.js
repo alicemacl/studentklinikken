@@ -4,22 +4,22 @@ const Dashboard = {
           <header-component />
             <div class="dashboard">
               <div class="headline">
-                <h1 class="main-header">God kveld, ..!</h1>
+                <h1 class="main-header">God kveld!</h1>
               </div>
               <div class="text">
                 <p>Hva ønsker du å gjøre</p>
               </div>
-              <route-link>
+              <router-link to="/dashboardms">
                 <button class="btn action-btn btn-primary btn-width-100">Se dine timer</button>
-              </route-link>
-              <route-link>
+              </router-link>
+              <router-link to="/bestille">
                 <button class="btn action-btn btn-primary btn-width-100">Bestill time</button>
-              </route-link>
-              <route-link>
+              </router-link>
+              <router-link to=""> 
                 <button class="btn action-btn btn-primary btn-width-100">Endre instillinger</button>
-              </route-link>
+              </router-link>
 
-              <route-link>
+              <route-link to="/">
                 <button class="btn-2 action-btn btn-secondary btn-width-100">Logg ut</button>
               </route-link>
 

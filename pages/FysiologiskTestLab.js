@@ -10,7 +10,9 @@ const FysiologiskTestLab = {
                     <p class="margin-tb-2">En osteopat undersøker og behandler muskel- og 
                     skjelettsmerter med manuelle behandlingsteknikker på 
                     benk.</p>
-                    <button class="action-btn btn-primary btn-width-100 margin-bottom-2 margin-top-1">Bestill time</button>
+                    <router-link to="/bestille">
+                        <button class="action-btn btn-primary btn-width-90 margin-tb-1">Bestill time</button>
+                    </router-link> 
                 </div> 
                 </div>
                 <div class="article-image image">
@@ -63,8 +65,12 @@ const FysiologiskTestLab = {
                 </div>
             </div>
             <div class="white-bg padding-top-4">
-                <button class="action-btn btn-primary btn-width-100 margin-top-1">Bestill time</button>
-                <button class="action-btn btn-secondary btn-width-100 margin-bottom-2 margin-top-1">Se behandlinger</button>
+            <router-link to="/bestille">
+                    <button class="action-btn btn-primary btn-width-90 margin-tb-1">Bestill time</button>
+                </router-link> 
+                <router-link to='/behandlinger'>
+                    <button class="action-btn btn-secondary btn-width-90 margin-bottom-2">Se behandlinger</button>
+                </router-link>
 
             </div>
         </div>

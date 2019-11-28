@@ -1,22 +1,25 @@
 const DashboardMS = {
     template: `
     <div>
-        
+        <header-component />
             <div class="dashboardms">
                 <div class="headline">
                     <h1 class="main-header">Dine timer</h1>
                 </div>
 
-                <div>
-                    <h1>dette er en test</h1>
+                <div class="menu-2">
+                    <h2 id="line-1">Aktive</h2>
+                    <h2 id="line-2">Historikk</h2>
                 </div>
 
                 <div class="info-container">
-                    <div>
-                        <p class="info">Oppfølging<br><b>12/11-19, kl 12.00</b></p>
-                    </div>
-
+                    
                     <div class="treatment">
+
+                    <div class="dboard">
+                        <p class="info">Oppfølging<br><b>12/12-19, kl 12.00</b></p>
+                        <img class="arrow" src="../assets/arrow-right.png">
+                    </div>
 
                         <div class="big-box">
 
@@ -24,7 +27,7 @@ const DashboardMS = {
                                 <p class="info">Behandling:<br><b>Akupunktur</b></p>
                             </div>
                             <div class="box-2">
-                                <p class="info">Behandler:<br><b>Hulk Hogan</b></p>
+                                <p class="info">Behandler:<br><b>Kari Nordmann</b></p>
                             </div>
                     
                         </div>
@@ -45,13 +48,15 @@ const DashboardMS = {
 
                 </div>
 
-                <div class="info-container">              
-
-                <div>
-                    <p class="info">Oppfølging<br><b>23/11-19, kl 14.00</b></p>
-                </div>     
+                <div class="info-container">                  
 
                 <div class="treatment">
+
+                    <div class="dboard">
+                        <p class="info">Oppfølging<br><b>23/12-19, kl 14.00</b></p>
+                        <img class="arrow" src="../assets/arrow-right.png">
+                    </div>
+
                     <div class="big-box">
 
                         <div class="box-1">
