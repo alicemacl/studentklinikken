@@ -23,14 +23,18 @@ const Footer = Vue.component('footer-component', {
            
             <div class="footer-col2">
             <p class="snarvei">Snarveier</p>
-                 <ul>
-                    <li>Startside</li>
-                    <li>Behandlinger</li>
-                    <li>Kontakt oss</li>
+                
+                 <ul class="link">
+                    <li><a href="#">Startside</a></li>
+                    <li><a href="#">Behandlinger</a></li>
+                    <li><a href="#">Kontakt oss </a></li>
                     <br>
-                    <li>Bestill Time</li>
-                    <li>Se dine timer</li>
+                    <br>
+                    
+                    <li><a href="#">Bestill Time</a></li>
+                    <li><a href ="#">Se dine timer</a></li>
                 </ul>
+               
                 </div>            
             
 

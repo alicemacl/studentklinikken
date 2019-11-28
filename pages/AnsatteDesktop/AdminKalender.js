@@ -2,8 +2,25 @@ import UserService from '../../UserService.js';
 
 const AdminKalender = {
   template: `
-  <div class="ansatte-kalender">
+  <div class="admin-content-container">
     <ansatte-header-component />
+    <h1 class="main-header margin-tb-2">Timeplan Oversikt</h1>
+    <div class="filter-options">
+      <div class="filter-btn-dropdown">
+      <button class="filter-btn">Velg behandling</button>
+      <div class="filter-btn-drop">
+        <ul>
+          <li>Osteopati</li>
+          <li>Akupunktur</li>
+          <li>Kostholdsveiledning</li>
+          <li>Fysiologisk Testlab</li>
+</ul>
+</div>
+      </div>
+      <button class="filter-btn">Velg dato</button>
+      <button class="filter-btn">Velg tid</button>
+      <button class="filter-btn">Velg behandler</button>
+    </div>
     <calendar-component /> 
 
    <!-- <calendar-component v-for="ansatt in ansatte" :key="ansatt.id" :ansatt="ansatt"></calendar-component> -->

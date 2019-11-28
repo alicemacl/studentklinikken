@@ -4,10 +4,11 @@
 }
 
 #menu-row-content {
-    height: 10vh;
+    height: 25vh;
     width: 100vw;
     justify-content: space-between;
 }
+
 
 /* MENU */
 
@@ -76,6 +77,10 @@
     border-radius: 0 0 20px 20px;
 }
 
+.header-container {
+    display: flex;
+}
+
 .header .logo {
     width: 80px;
 }
@@ -95,14 +100,11 @@
 @media (min-width: 968px) {
     .header {
         display: flex;
-        height: 250px!important;
-        position: unset!important;
-        border-radius: unset!important;
+        height: 250px !important;
+        position: unset !important;
+        border-radius: unset !important;
     }
-
-    .header .logo {
-        
-    }
+    .header .logo {}
 }
 
 
@@ -150,7 +152,7 @@
     background-color: white;
     padding-top: 2rem;
     border-radius: 30px 30px 0 0;
-    padding-bottom: 10rem;
+    padding-bottom: 3rem;
 }
 
 
