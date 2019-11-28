@@ -11,8 +11,10 @@ const Akupunktur = {
                     behandling der diagnostikk, behandling 
                     og oppfølging er skreddersydd for 
                     hver pasient med sine unike særtrekk 
-                    og behov under hvert trinn av behandlingen.</p> 
-                    <button class="action-btn btn-primary btn-width-90 margin-tb-2">Bestill time</button>
+                    og behov under hvert trinn av behandlingen.</p>
+                    <router-link to="/bestille">
+                        <button class="action-btn btn-primary btn-width-90 margin-tb-2">Bestill time</button>
+                    </router-link>
                 </div>
             </div>
             <div class="article-image image">
@@ -50,8 +52,12 @@ const Akupunktur = {
                 behandling. Det gis veiledning om kosthold og fysisk aktivitet når 
                 dette er aktuelt. </p>
 
-                <button class="action-btn btn-primary btn-width-90 margin-tb-1">Bestill time</button>
-                <button class="action-btn btn-secondary btn-width-90 margin-bottom-2">Se behandlinger</button>
+                <router-link to="/bestille">
+                    <button class="action-btn btn-primary btn-width-90 margin-tb-1">Bestill time</button>
+                </router-link>               
+                <router-link to='/behandlinger'>
+                    <button class="action-btn btn-secondary btn-width-90 margin-bottom-2">Se behandlinger</button>
+                </router-link>
             </div>
         </div> 
         <footer-component />

@@ -8,6 +8,9 @@
 @import url('password.css');
 @import url('sms-code.css');
 @import url('dashboard.css');
+@import url('innlogging-ansatte.css');
+@import url('testFile.css');
+@import url('bestille.css');
 @import url('bestille.css');
 @import url('innlogging-ansatte.css');
 @import url('testFile.css');
@@ -25,7 +28,6 @@ html {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     font-family: var(--regularFont);
-    /* background-color: var(--lightBlue); */
     scroll-behavior: smooth;
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;

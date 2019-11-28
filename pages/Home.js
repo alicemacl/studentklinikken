@@ -7,20 +7,21 @@ const Home = {
           hvor ditt behov står sentralt.</div>
           <div class="wrap-btn d-flex flex-column align-items-center">
 
-          <router-link to='/bestilltime'>
+          <router-link to='/bestille'>
             <button class="action-btn btn-primary btn-width-90">
              Bestill time
             </button>
             </router-link>
-                <router-link to='/behandlinger'>
+                
+            <router-link to='/behandlinger'>
               <button class="action-btn btn-primary btn-width-90">
                 Se behandlinger
               </button>
             </router-link>
               
-            
+            <router-link to="/dashboard">
             <button class="action-btn btn-secondary btn-width-90">
-              Sjekk dine timer
+              Mine sider
             </button> 
             </router-link>
 

@@ -71,7 +71,6 @@
 
 .header {
     position: sticky;
-    top: 0;
     background-color: var(--lightBlue);
     z-index: 999;
     height: 130px;

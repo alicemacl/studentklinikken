@@ -2,6 +2,8 @@ const Bestille = {
     template: `
         <div class="bestille">
 
+        <header-component />
+
             <div class="order">
             
                 <div id="headline-1">
@@ -21,6 +23,210 @@ const Bestille = {
 
                     </div>
                                 
+                </div>
+
+                <div class="main-box-calendar">
+
+                    <div class="order-calendar">
+
+                        <h2 id="headline-7">Dato</h2>
+
+                            <h2 class="choose-date">Velg dato</h2>
+
+                            <div class="choose-month">
+                                <img class="arrow" id="arrow-left" src="../assets/arrow-right.png">
+                                <h2>Desember</h2>
+                                <img class="arrow" src="../assets/arrow-right.png">
+                            </div>
+                            
+
+                            <div class="c-main-box">
+
+                                <div class="box-vertical">
+
+                                    <div class="box-date">
+                                        <p>1</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>7</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>13</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>19</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>25</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>31</p>
+                                    </div>
+                                   
+                                </div>
+                                <div class="box-vertical">
+                                    <div class="box-date">
+                                        <p>2</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>8</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>14</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>20</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>26</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box-vertical">
+                                    <div class="box-date">
+                                        <p>3</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>9</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>15</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>21</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>27</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box-vertical">
+                                    <div class="box-date">
+                                        <p>4</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>10</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>16</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>22</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>28</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box-vertical">
+                                    <div class="box-date">
+                                        <p>5</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>11</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>17</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>23</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>29</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="box-vertical">
+                                    <div class="box-date">
+                                        <p>6</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>12</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>18</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>24</p>
+                                    </div>
+                                    <div class="box-date">
+                                        <p>30</p>
+                                    </div>
+                                </div>
+                                                              
+                            </div>
+                    </div>
+
+                </div>
+
+                <div class=main-box-time>
+
+                    <div class="order-time">
+
+                        <h2 id="headline-8">Tid</h2>
+
+                        <h2 class="choose-time">Velg tidspunkt</h2>
+
+                        <div class="choose-clock">
+                            <img class="arrow" id="arrow-left" src="../assets/arrow-right.png">
+                            <h2>24. Desember</h2>
+                            <img class="arrow" src="../assets/arrow-right.png">
+                        </div>
+
+                        <div class="t-main-box">
+                            <div class="t-box-vertical">
+
+                                <div class="box-time">
+                                    <p>8:30</p>
+                                </div>
+                                <div class="box-time">
+                                    <p>11:00</p>
+                                </div>
+                                <div class="box-time">
+                                    <p>14:00</p>
+                                </div>
+                            </div>
+
+                            <div class="t-box-vertical">
+
+                                <div class="box-time">
+                                    <p>8:45</p>
+                                </div>
+                                <div class="box-time">
+                                    <p>11:45</p>
+                                </div>
+                                <div class="box-time">
+                                    <p>14:45</p>
+                                </div>
+                            </div>
+
+                            <div class="t-box-vertical">
+
+                                <div class="box-time">
+                                    <p>9:30</p>
+                                </div>
+                                <div class="box-time">
+                                    <p>12:30</p>
+                                </div>
+                                <div class="box-time">
+                                    <p>15:30</p>
+                                </div>
+                            </div>
+
+                            <div class="t-box-vertical">
+
+                                <div class="box-time">
+                                    <p>10:15</p>
+                                </div>
+                                <div class="box-time">
+                                    <p>13:15</p>
+                                </div>
+                                <div class="box-time">
+                                    <p>16:15</p>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>                    
                 </div>
 
                 <div class="main-box-info">
@@ -85,9 +291,9 @@ const Bestille = {
                                     <p>Tid</p>
                                 </div>
                                 <div class="gjennomgang-info-2">
-                                    <p>Osteopati</p>
+                                    <p>Akupunktur</p>
                                     <p>Kari Nordmann</p>
-                                    <p>09.30</p>
+                                    <p>12.00</p>
                                 </div>
                             </div>
                             
@@ -120,43 +326,13 @@ const Bestille = {
                             </div>
                         </div>
 
-                        <button class="gjennomgang-btn action-btn btn-primary btn-width-100">Bekreft og bestill</button>
+                        <router-link to="/bekreftelse">
+                            <button class="gjennomgang-btn action-btn btn-primary btn-width-100">Bekreft og bestill</button>
+                        </router-link>
 
                     </div>
                 </div>
                 
-                </div>
-
-                <div class="main-box-last">
-
-                    <div class="bekreftelse">
-
-                        <h2 id="headline-4">Takk!</h2>
-                    
-                        <img class="bekreftelse-picture" src="../assets/takk-bilde.png">
-
-                        <div class="bekreftelse-headline">
-                            <p>Takk for din<br>bestilling!</p>
-                        </div>
-                    
-                        <div class="bekreftelse-paragraf">
-                            <p>Informasjon om din timebestilling har blitt sendt til deg på e-post og SMS.</p>
-                        </div>
-
-                        <div class="bekreftelse-paragraf">
-                            <p>Du får en påminnelse på SMS, 24 timer før timen. Du kan også sjekke dine timer på dine sider.</p>
-                        </div>
-
-                        <div class="bekreftelse-paragraf">
-                            <p>Husk at du må avbestille timen innen klokken 10 dagen før. Dette kan gjøres over telefon eller på dine sider. </p>
-                        </div>
-
-                        <div class="bekreftelse-last-paragraf">
-                            <p>Velkommen til oss!</p>
-                        </div>
-
-                    </div>
-                    
                 </div>
             
             </div>
