@@ -6,6 +6,7 @@ const Menu = Vue.component("menu-component", {
           <div class="menu-item"><router-link to='/'>Startsiden</router-link></div>
           <div class="menu-item"><router-link to='/behandlinger'>Behandlinger</router-link></div>
           <div class="menu-item">Om Oss</div>
+          <div class="menu-item"><router-link to='/ansatte/innlogging'>Ansatte</router-link></div>
         </div>
         <div class="second-box fixed-bottom">
           <div class="menu-item">Ny bruker</div>

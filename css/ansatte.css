@@ -3,6 +3,11 @@
   height: 15vh;
 }
 
+.ansatte-header a {
+  color: var(--mainBlack); 
+  text-decoration: none;
+}
+
 .ansatte-logo {
   height: 70px;
   margin-left: 100px;
@@ -20,6 +25,17 @@
 
 .ansatte-header h3 {
   font-family: var(--regularFont);
+  font-size: var(--smallHeaderHeight);
+}
+
+.ansatte-forside h4 {
+  font-family: var(--regularFont);
+  font-size: var(--smallHeader);
+}
+
+.forside-btn-info {
+  font-family: var(--regularFont);
+  font-size: var(--bodySmall);
 }
 
 .ansatte-header h1 {
@@ -36,6 +52,10 @@
 .ansatte-forside {
   background-color: white;
   margin-left: 100px;
+}
+.ansatte-forside a {
+  color: var(--mainBlack); 
+  text-decoration: none;
 }
 
 .ansatte-forside h2 {

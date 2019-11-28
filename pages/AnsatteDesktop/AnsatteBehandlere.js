@@ -1,103 +1,53 @@
+import UserService from '../../UserService.js'; 
+
 const AnsatteBehandlere = {
     template: `
     <div>
         <ansatte-header-component />
-
-        /* Search menu */
-        <div>
-            <div>
-                <p>Søk ansatte</p>
-                <input type="text" placeholder="navn, studentnummer eller telefon"/>
+        <div class="behandlere">
+            <div class="row headline">
+                <h1 class="col">Behandlere</h1>
             </div>
-            <div>
-                <div>
-                    <checkbox></checkbox>
-                    <p>Gjeldende semester</p>
-                </div>
-                <div>
-                    <checkbox></checkbox>
-                    <p>Alle</p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <checkbox></checkbox>
-                    <p>Osteopati</p>
-                </div>
-                <div>
-                    <checkbox></checkbox>
-                    <p>Akupunktur</p>
-                </div>
-                <div>
-                    <checkbox></checkbox>
-                    <p>Kostholdsveiledning</p>
-                </div>
-                <div>
-                    <checkbox></checkbox>
-                    <p>Fysiologisk Testlab</p>
-                </div>
-                <div>
-                    <button>Legg til ny behandler</button>
-                </div>
-            </div>
+            <input class="inputfield" placeholder="Søk...">
+            <table>
+                <thead> 
+                    <tr>
+                        <th>Navn</th>
+                        <th>Studie</th>
+                        <th>Semester</th> 
+                        <th></th> 
+                    </tr> 
+                </thead>
+                <tr v-for="(ansatt, idx) in ansatte">
+                    <td>{{ansatt.navn}}</td>
+                    <td>{{ansatt.fordypning }}</td>
+                    <td>{{ansatt.semester}} </td>
+                    <td class="link-til-behandlere">
+                        <router-link class="behandlere-link" :to="{name: 'behandlere', params: {id: ansatt.id}}">
+                            Se/endre
+                        </router-link>
+                    </td>
+                </tr>
+            </table> 
         </div>
 
-        /* Search result */
-        <div>
-            <div>
-                <p>Resultat</p>
-            </div>
-            <div>
-                <p>Vis resultat av søk dynamisk</p>
-            </div>
-        </div>
-
-        /* Show info picked serach result / empty if create new */
-        <div>
-            <div>
-                <p>Navn: </p>
-                <input type="text" placeholder="Navn behandler"/>
-            </div>
-            <div>
-                <p>Studentnummer: </p>
-                <input type="text" placeholder="Studentnummer"/>
-            </div>
-            <div>
-                <p>Behandler innen: </p>
-                <select name="" id="">
-                    <option value="">Velg behandling</option>
-                    <option value="">Osteopati</option>
-                    <option value="">Akupunktur</option>
-                    <option value="">Kostholdsveiledning</option>
-                    <option value="">Fysiologisk Testlab</option>
-                </select>
-            </div>
-            <div>
-                <p>Telefonnummer: </p>
-                <input type="text" placeholder="Telefonnummer"/>
-            </div>
-            <div>
-                <p>E-post: </p>
-                <input type="text" placeholder="E-post"/>
-            </div>
-            <div>
-                <p>Adresse: </p>
-                <input type="text" placeholder="Skriv inn adresse"/>
-            </div>
-            <div>
-                <p>Postnummer: </p>
-                <input type="text" placeholder="Postnummer"/>
-                <p>Sted: </p>
-                <input type="text" placeholder="Sted"/>
-            </div>
-            <div>
-                <p>Fødtselsdato: </p>
-                Calendar-component
-            </div>
-            <button>Lagre</button>
-        </div>
     </div>
-    `,
+    `, 
+    data() {
+        return {
+            ansatte: []
+        };
+    }, 
+    created() {
+        UserService.getAnsatte()
+            .then(response => {
+                this.ansatte = response.data
+                console.log(this.ansatte)
+            })
+            .catch(error => {
+                console.log('There was an error:', error.response)
+            })
+    }
 };
 
 export default AnsatteBehandlere;
