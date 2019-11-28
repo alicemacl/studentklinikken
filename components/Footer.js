@@ -15,9 +15,6 @@ const Footer = Vue.component('footer-component', {
             
                 <p class="info-title">E-post</p>
                 <p class="info-body">studentklinikken@kristiania.no</p>
-              
-                
-            
             </div>
 
            
