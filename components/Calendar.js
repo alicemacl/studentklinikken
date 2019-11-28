@@ -6,6 +6,7 @@ import UserService from "../../UserService.js";
 
 const Calendar = Vue.component("calendar-component", {
   template: `
+
   <div>
     <div class="calendar">
       <table class="calendar-table">
