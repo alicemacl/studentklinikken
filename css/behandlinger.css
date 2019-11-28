@@ -1,484 +1,496 @@
 /* BEHANDLINGER*/
 
 .behandlinger {
-  background-color: white;
-  border-radius: 30px 30px 0 0;
-  padding: 1.5rem;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    padding: 1.5rem;
 }
 
 .behandlinger .headline {
-  font-size: var(--firstHeader);
-  line-height: var(--firstHeaderHeight);
-  padding: 2rem 0;
+    font-size: var(--firstHeader);
+    line-height: var(--firstHeaderHeight);
+    padding: 2rem 0;
 }
 
 .behandlinger .text {
-  font-size: 3rem;
-  margin: 2rem;
+    font-size: 3rem;
+    margin: 2rem;
 }
 
 .behandlinger .btn {
-  width: 80vw;
-  height: 160px;
-  background-color: #d4ebe4;
-  padding-left: 3rem;
-  margin: 10px;
-  font-size: 30px;
-  text-align: left;
-  justify-self: center;
-  border-radius: 1rem;
+    width: 80vw;
+    height: 160px;
+    background-color: #d4ebe4;
+    padding-left: 3rem;
+    margin: 10px;
+    font-size: 30px;
+    text-align: left;
+    justify-self: center;
+    border-radius: 1rem;
 }
 
 .behandlinger .two-line-btn {
-  background: var(--lightBlue);
-  color: var(--mainBlack);
-  padding: 1.3rem 1rem;
-  border-radius: 20px;
-  margin-bottom: 1rem;
-  width: 100%;
+    background: var(--lightBlue);
+    color: var(--mainBlack);
+    padding: 1.3rem 1rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 .behandlinger .two-line-btn p:first-child {
-  font-size: var(--bodySmall);
-  line-height: var(--bodySmallHeight);
-  padding: 0 0.5rem;
-  margin: 0;
+    font-size: var(--bodySmall);
+    line-height: var(--bodySmallHeight);
+    padding: 0 0.5rem;
+    margin: 0;
 }
 
 .behandlinger .two-line-btn button {
-  font-size: var(--bigQuote);
-  line-height: var(--bigQuoteHeight);
-  font-family: var(--mediumFont);
-  padding: 0 0.5rem;
-  margin: .5rem 0 0 0;
+    font-size: var(--bigQuote);
+    line-height: var(--bigQuoteHeight);
+    font-family: var(--mediumFont);
+    margin: .5rem 0 0 0;
 }
 
 .behandlinger .two-line-btn .action-btn::after {
-  margin-top: 8px;
+    margin-top: 8px;
 }
 
 .behandlinger .info-container {
-  margin: 1rem 0;
+    margin: 1rem 0;
 }
 
 .behandlinger .info-container p {
-  font-family: var(--regularFont);
+    font-family: var(--regularFont);
 }
 
 .behandlinger h3 {
-  font-size: var(--secondHeader);
-  line-height: var(--secondHeaderHeight);
-  font-family: var(--mediumFont);
-  margin: 1rem 0;
+    font-size: var(--secondHeader);
+    line-height: var(--secondHeaderHeight);
+    font-family: var(--mediumFont);
+    margin: 1rem 0;
 }
 
 .behandlinger h4 {
-  font-size: 3rem;
+    font-size: 3rem;
 }
 
 .behandlinger .info-bokser {
-  font-size: var(--bodyText);
-  line-height: var(--bodyTextHeight);
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
 }
 
 .behandlinger p {
-  font-size: var(--bodyText);
-  line-height: var(--bodyTextHeight);
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
 }
 
 .behandlinger .info-bokser p:first-child {
-  font-family: var(--mediumFont);
-  padding: 0;
-  margin-bottom: .5rem;
+    font-family: var(--mediumFont);
+    padding: 0;
+    margin-bottom: .5rem;
 }
 
-.behandlinger .info-bokser p:last-child{
-  font-family: var(--regularFont);
-  padding: 0;
-  margin-bottom: 1.5rem;
+.behandlinger .info-bokser p:last-child {
+    font-family: var(--regularFont);
+    padding: 0;
+    margin-bottom: 1.5rem;
 }
 
 .behandlinger .info {
-  font-size: var(--bodySmall);
-  line-height: var(--bodySmallHeight);
+    font-size: var(--bodySmall);
+    line-height: var(--bodySmallHeight);
 }
 
 .behandlinger .rettigheter {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
+
 
 /* OSTEOPATI */
 
 .content-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .white-bg {
-  background-color: white;
-  border-radius: 30px 30px 0 0;
-  padding: 2rem 1.5rem;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    padding: 2rem 1.5rem;
 }
 
 .blue-bg {
-  background-color: var(--lightBlue);
-  border-radius: 30px 30px 0 0;
-  padding: 2rem 1.5rem;
+    background-color: var(--lightBlue);
+    border-radius: 30px 30px 0 0;
+    padding: 2rem 1.5rem;
 }
 
 .padding-top-4 {
-  padding-top: 4rem;
+    padding-top: 4rem;
 }
 
 .over-image {
-  margin-top: -3rem;
-  z-index: 10;
+    margin-top: -3rem;
+    z-index: 10;
 }
 
 .text-align-center {
-  text-align: center;
+    text-align: center;
 }
 
 .content-container p {
-  font-size: var(--bodyText);
-  line-height: var(--bodyTextHeight);
+    font-size: var(--bodyText);
+    line-height: var(--bodyTextHeight);
 }
 
 .article-image {
-  background: white;
+    background: white;
 }
 
 .article-image img {
-  border-radius: 30px 30px 0 0;
-  width: 100vw;
+    border-radius: 30px 30px 0 0;
+    width: 100vw;
 }
 
 h2.second-header {
-  font-family: var(--mediumFont);
-  font-size: var(--secondHeader);
-  line-height: var(--secondHeaderHeight);
+    font-family: var(--mediumFont);
+    font-size: var(--secondHeader);
+    line-height: var(--secondHeaderHeight);
 }
 
 .symptoms {
-  list-style: none;
-  font-size: var(--bodyText);
-  padding: 0;
-  margin: 1rem;
+    list-style: none;
+    font-size: var(--bodyText);
+    padding: 0;
+    margin: 1rem;
 }
 
 .symptoms .item {
-  line-height: var(--bodyTextHeight);
-  margin: 3rem 0;
+    line-height: var(--bodyTextHeight);
+    margin: 3rem 0;
 }
 
 .word-break-all {
-  word-break: break-all;
-  hyphens: auto;
+    word-break: break-all;
+    hyphens: auto;
 }
 
-
 .big-quote {
-  height: 400px;
-  margin: 2rem 0;
+    height: 400px;
+    margin: 2rem 0;
 }
 
 .big-quote .big-quote-bg {
-  background-repeat: no-repeat;
-  background-position-x: left;
-  background-position-y: center;
-  background-attachment: fixed;
-  width:266px;
-  height: 290px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-attachment: fixed;
+    width: 266px;
+    height: 290px;
 }
 
 .big-quote-ost {
-  background-image: url("/assets/ost-eop-ati-bakgrunn.png");
+    background-image: url("/assets/ost-eop-ati-bakgrunn.png");
 }
 
 .big-quote-kost {
-  background-image: url("/assets/kostholdsveiledning-bakgrunn.png");
+    background-image: url("/assets/kostholdsveiledning-bakgrunn.png");
 }
 
 .big-quote .big-quote-text {
-  font-size: var(--bigQuote);
-  line-height: var(--bigQuoteHeight);
-  margin: 0 .5rem 0 4rem;
+    font-size: var(--bigQuote);
+    line-height: var(--bigQuoteHeight);
+    margin: 0 .5rem 0 4rem;
 }
 
-
 .osteopati {
-  background-color: white;
-  border-radius: 30px 30px 0 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 5rem;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
 }
 
 .osteopati .osteopati-start {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .osteopati .osteopati-logo {
-  width: 100px;
-  margin: auto;
-  margin-bottom: 20px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .osteopati h1 {
-  font-size: var(--firstHeader);
-  font-family: var(--boldFont);
-  text-align: center;
-  margin-bottom: 20px;
+    font-size: var(--firstHeader);
+    font-family: var(--boldFont);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .osteopati .info {
-  text-align: center;
-  font-size: var(--smallHeader);
-  font-family: var(--regularFont);
-  margin-bottom: 50px;
-  padding: 0 1rem 0 1rem;
+    text-align: center;
+    font-size: var(--smallHeader);
+    font-family: var(--regularFont);
+    margin-bottom: 50px;
+    padding: 0 1rem 0 1rem;
 }
 
 .osteopati .img-box {
-  display: flex;
-  width: 100vw;
+    display: flex;
+    width: 100vw;
 }
 
 .osteopati .img {
-  display: flex;
-  width: 100vw;
-  margin-top: 50px;
-  z-index: 3;
+    display: flex;
+    width: 100vw;
+    margin-top: 50px;
+    z-index: 3;
 }
+
 
 /* Her Alice */
 
 .osteopati-box h2 {
-  font-size: var(--secondHeader);
-  padding: 5rem 5rem 0 5rem;
+    font-size: var(--secondHeader);
+    padding: 5rem 5rem 0 5rem;
 }
+
 .osteopati-box p {
-  font-size: var(--bodyText);
-  padding: 1rem;
+    font-size: var(--bodyText);
+    padding: 1rem;
 }
+
+
 /* Til her! */
 
 .osteopati-box .info-box {
-  background: url("../assets/ost-eop-ati-bakgrunn.png") left no-repeat;
-  background-size: contain;
+    background: url("../assets/ost-eop-ati-bakgrunn.png") left no-repeat;
+    background-size: contain;
 }
 
 .osteopati-box .info-box-text {
-  margin: 0 2rem 0 3rem;
-  padding: 2rem 0 2rem 2rem;
+    margin: 0 2rem 0 3rem;
+    padding: 2rem 0 2rem 2rem;
 }
 
 .osteopati-box h3 {
-  font-size: var(--bodyTextHeight);
-  font-family: var(--regularFont);
-  margin-left: 3rem;
-  padding-right: 0rem;
-  text-align: left;
+    font-size: var(--bodyTextHeight);
+    font-family: var(--regularFont);
+    margin-left: 3rem;
+    padding-right: 0rem;
+    text-align: left;
 }
 
 .osteopati .when-osteopati {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+
 .osteopati .row {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
 }
 
 .osteopati .btn {
-  margin: auto;
-  margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .osteopati .osteopati-box-last {
-  padding-top: 50px;
-  background-color: white;
-  border-radius: 30px 30px 0 0;
-  text-align: center;
-  z-index: 13;
+    padding-top: 50px;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    z-index: 13;
 }
 
 .osteopati-box-last h1 {
-  text-align: start;
-  padding-left: 1rem;
+    text-align: start;
+    padding-left: 1rem;
 }
 
 .osteopati-box-last .info-box {
-  text-align: start;
+    text-align: start;
 }
+
 
 /* AKUPUNKTUR */
 
 .akupunktur {
-  background-color: white;
-  border-radius: 30px 30px 0 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 5rem;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
 }
 
 .akupunktur .logo-header {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .akupunktur .akupunktur-logo {
-  width: 100px;
-  margin: auto;
-  margin-bottom: 20px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .akupunktur h1 {
-  font-size: var(--firstHeader);
-  font-family: var(--boldFont);
-  text-align: center;
-  margin-bottom: 20px;
+    font-size: var(--firstHeader);
+    font-family: var(--boldFont);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .akupunktur .logo-header-info {
-  text-align: center;
-  font-size: var(--smallHeader);
-  font-family: var(--regularFont);
-  margin-bottom: 50px;
-  padding: 0 1rem 0 1rem;
+    text-align: center;
+    font-size: var(--smallHeader);
+    font-family: var(--regularFont);
+    margin-bottom: 50px;
+    padding: 0 1rem 0 1rem;
 }
 
 .akupunktur .btn {
-  margin: auto;
-  margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 20px;
 }
+
+
 /* Her Alice */
+
 .akupunktur-box {
-  background-color: var(--lightBlue);
-  border-radius: 30px 30px 0 0;
-  padding: 5;
-  text-align: center;
-  margin-top: -2rem;
-  z-index: 10;
-  right: 0;
-  left: 0;
+    background-color: var(--lightBlue);
+    border-radius: 30px 30px 0 0;
+    padding: 5;
+    text-align: center;
+    margin-top: -2rem;
+    z-index: 10;
+    right: 0;
+    left: 0;
 }
 
 .akupunktur-box h2 {
-  font-size: var(--secondHeader);
-  padding: 5rem 5rem 0 5rem;
+    font-size: var(--secondHeader);
+    padding: 5rem 5rem 0 5rem;
 }
+
 .akupunktur-box p {
-  font-size: var(--bodyText);
-  padding: 1rem;
+    font-size: var(--bodyText);
+    padding: 1rem;
 }
 
 .akupunktur .når-akupunktur {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+
+
 /* Til her */
 
 .akupunktur .akupunktur-box-last {
-  padding-top: 50px;
-  background-color: white;
-  border-radius: 30px 30px 0 0;
-  text-align: center;
-  z-index: 13;
+    padding-top: 50px;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    z-index: 13;
 }
 
 .akupunktur-box-last .akupunktur-box-last-info {
-  text-align: start;
+    text-align: start;
 }
+
 
 /* KOSTHOLDSVEILEDNING*/
 
 .kostholdsveiledning {
-  background-color: white;
-  border-radius: 30px 30px 0 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 5rem;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
 }
 
 .kostholdsveiledning .logo-header {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .kostholdsveiledning .kostholdsveiledning-logo {
-  width: 100px;
-  margin: auto;
-  margin-bottom: 20px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .kostholdsveiledning h1 {
-  font-size: var(--firstHeader);
-  font-family: var(--boldFont);
-  text-align: center;
-  margin-bottom: 20px;
+    font-size: var(--firstHeader);
+    font-family: var(--boldFont);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .kostholdsveiledning .logo-header-info {
-  text-align: center;
-  font-size: var(--smallHeader);
-  font-family: var(--regularFont);
-  margin-bottom: 50px;
-  padding: 0 1rem 0 1rem;
+    text-align: center;
+    font-size: var(--smallHeader);
+    font-family: var(--regularFont);
+    margin-bottom: 50px;
+    padding: 0 1rem 0 1rem;
 }
 
 .kostholdsveiledning .btn {
-  margin-bottom: 20px;
-  margin-left: 1.3rem;
+    margin-bottom: 20px;
+    margin-left: 1.3rem;
 }
 
 .kostholdsveiledning .last-box {
-  margin-top: -2rem;
-  z-index: 13;
-  padding-top: 2rem;
+    margin-top: -2rem;
+    z-index: 13;
+    padding-top: 2rem;
 }
 
 .kostholdsveiledning .kostholdsveiledning-info {
-  text-align: start;
-  padding-right: 130px;
-  padding-left: 30px;
-  padding-bottom: 2rem;
-  background-image: url(../assets/kostholdsveiledning-bakgrunn.png);
-  background-size: 300px 400px;
+    text-align: start;
+    padding-right: 130px;
+    padding-left: 30px;
+    padding-bottom: 2rem;
+    background-image: url(../assets/kostholdsveiledning-bakgrunn.png);
+    background-size: 300px 400px;
 }
 
 .kostholdsveiledning p {
-  font-size: var(--bigQuote);
-  padding: 1rem;
+    font-size: var(--bigQuote);
+    padding: 1rem;
 }
+
 
 /* Fysiologisk testlab*/
 
 .margin-bottom-6 {
-  margin-bottom: 6rem; 
+    margin-bottom: 6rem;
 }
 
 .small-header-margin-bottom {
-  font-size: var(--smallHeader); 
-  line-height: var(--smallHeaderHeight);
-  margin-bottom: 2rem; 
+    font-size: var(--smallHeader);
+    line-height: var(--smallHeaderHeight);
+    margin-bottom: 2rem;
 }
 
 .letter-img img {
-  width: 40px;
-  padding-right: unset;
-  padding-left: unset; 
-  margin-top: 1rem;
+    width: 40px;
+    padding-right: unset;
+    padding-left: unset;
+    margin-top: 1rem;
 }
 
 .box {
-  padding-left: 3rem;
+    padding-left: 3rem;
 }

@@ -11,6 +11,8 @@
 
 .footer-logo img {
     width: 100%;
+    margin-left: -12vh;
+    padding: 5vh;
 }
 
 .footer .text {
@@ -56,9 +58,15 @@
     font-size: var(--bodySmall);
 }
 
+.footer-col {
+    color: white;
+    text-size-adjust: 15px;
+}
+
 @media(min-width:968px) {
     .footer button {
         display: none;
+        font-size: 10px;
     }
     .footer {
         display: flex;

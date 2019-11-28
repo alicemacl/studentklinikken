@@ -78,6 +78,10 @@
     border-radius: 0 0 20px 20px;
 }
 
+.header-container {
+    display: flex;
+}
+
 .header .logo {
     width: 80px;
 }
@@ -88,10 +92,18 @@
 
 .col-sm-6 {
     width: unset;
+    right: 35vh;
+    top: 8vh;
 }
 
 .col-sm-3 {
     width: unset;
+    left: 90vh;
+}
+
+.student {
+    top: 8vh;
+    padding-left: 25vh;
 }
 
 @media (min-width: 968px) {
@@ -101,7 +113,22 @@
         position: unset!important;
         border-radius: unset!important;
     }
-    .header .logo {}
+    .header-logo {
+        background-image: url(/assets/logo-big.png)!important;
+        background-size: contain contain;
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-position-y: center;
+        width: 305px!important;
+        height: 84.7px;
+    }
+}
+
+.header-logo {
+    background-image: url(/assets/Logo-farger.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
 }
 
 
