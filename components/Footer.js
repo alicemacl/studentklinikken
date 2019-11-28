@@ -4,7 +4,7 @@ const Footer = Vue.component('footer-component', {
             <div class="footer-logo">
                 <img src="./assets/logo-hvit-stor.png" />
             </div>
-            <div class="footer-col">
+            <div class="footer-col margin-tb-2">
             <p class="info-title">Besøk oss</p>
                 <p class="info-body">Prinsens gate 9</p>
                 <p class="info-body">0153 Oslo</p>
@@ -21,26 +21,19 @@ const Footer = Vue.component('footer-component', {
             </div>
 
            
-            <div class="footer-col2">
-            <p class="snarvei">Snarveier</p>
+            <div class="footer-col margin-bottom-2">
+            <p class="info-title">Snarveier</p>
                 
                  <ul class="link">
                     <li><a href="#">Startside</a></li>
                     <li><a href="#">Behandlinger</a></li>
                     <li><a href="#">Kontakt oss </a></li>
-                    <br>
-                    <br>
                     
                     <li><a href="#">Bestill Time</a></li>
                     <li><a href ="#">Se dine timer</a></li>
                 </ul>
                
                 </div>            
-            
-
-                <button class="action-btn btn-primary btn-width-100 margin-tb-2">
-                    Bestill time
-                <button/>
                 
             </div>
         </footer>,

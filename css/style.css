@@ -1,31 +1,20 @@
 @import url("fonts.css");
 @import url("menu.css");
 @import url("footer.css");
-<<<<<<< HEAD
-@import url("behandlinger.css");
-@import url("timebestilling.css");
-@import url('behandlinger.css');
-=======
 @import url("behandlinger.css"); 
->>>>>>> 08f5450f1db01f0a34ffcdb93bd05f0b87f1b4cb
 @import url('bestilltime.css');
 @import url('ansatte.css');
 @import url('logg-inn.css');
 @import url('password.css');
 @import url('sms-code.css');
 @import url('dashboard.css');
-<<<<<<< HEAD
 @import url('innlogging-ansatte.css');
 @import url('testFile.css');
 @import url('bestille.css');
-=======
 @import url('bestille.css');
 @import url('innlogging-ansatte.css');
 @import url('testFile.css');
-@import url('kontaktOss.css');
 @import url('behandlere.css'); 
-
->>>>>>> 08f5450f1db01f0a34ffcdb93bd05f0b87f1b4cb
 
 /* @import url("grid.css"); */
 
@@ -39,12 +28,12 @@ html {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     font-family: var(--regularFont);
-    /* background-color: var(--lightBlue); */
     scroll-behavior: smooth;
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 62.5%;
+
     color: var(--mainBlack);
 }
 
@@ -56,22 +45,18 @@ html {
 
 :root {
     /* colors */
-    --mainBlue: #87D0C7;
-    /* primary */
-    --blueShade: #79A5B3;
-    /* primary hover */
-    --lightBlue: #D4EBE4;
-    /* for boxes and backgrounds */
-    --mainPurple: #6B7A9B;
-    /* secondary */
-    --purpleShade: #6F84A1;
-    /* secondary hover */
-    --mainBlack: #333333;
-    /* For all text */
+    --mainBlue: #87D0C7; /* primary */
+    --blueShade: #79A5B3; /* primary hover */
+    --lightBlue: #D4EBE4; /* for boxes and backgrounds */
+    --mainPurple: #6B7A9B; /* secondary */
+    --purpleShade: #6F84A1; /* secondary hover */
+    --mainBlack: #333333; /* For all text */
+   
     /* font-family */
     --regularFont: 'GraphikRegular', sans-serif;
     --mediumFont: 'GraphikMedium', sans-serif;
     --boldFont: 'GraphikBold', sans-serif;
+   
     /* font-size and line-height */
     --bodyText: 1.8rem;
     --bodyTextHeight: 2.5rem;
@@ -125,6 +110,10 @@ button:focus {
     border: 3px solid var(--mainBlue);
     color: var(--mainBlack);
     padding: 1rem 2rem;
+}
+
+.btn-secondary:hover {
+    background-color: none;
 }
 
 .btn-clean {
