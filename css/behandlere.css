@@ -1,0 +1,132 @@
+.behandlere {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.behandlere-id {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.behandlere .headline {
+  width: 90vw;
+  align-self: center;
+}
+
+.behandlere h1 {
+  font-size: var(--firstHeader);
+  padding-left: unset;
+}
+
+.behandlere .inputfield {
+  height: 50px;
+  width: 90vw;
+  font-size: var(--bigQuote);
+  align-self: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.behandlere table {
+  width: 90vw;
+  align-self: center;
+  margin-top: 40px;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.behandlere tr,
+hr,
+th,
+td {
+  border-bottom: 1px solid rgb(196, 190, 190);
+  border-right: none;
+}
+
+.behandlere td {
+  padding-left: 0;
+}
+
+.arrow-left {
+  transform: rotate(180deg);
+  align-self: center;
+  margin: 2rem 1rem 2rem 0;
+}
+
+.behandlere-id .show-ansatt {
+  align-self: center;
+}
+
+.behandlere-id h2 {
+    font-size: var(--bigQuote);
+    font-family: var(--boldFont);
+}
+
+.behandlere-id .ansatt-box {
+  border: 2px solid var(--mainBlack);
+  padding: 3rem;
+  width: 90vw;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.behandlere-id .box-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+
+.behandlere-id .ansatt-img {
+  align-self: flex-end;
+  margin: 3rem;
+  height: 300px;
+}
+
+.behandlere-id .col {
+  height: 80px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.behandlere-id h4 {
+  font-size: var(--smallHeader);
+  font-family: var(--boldFont);
+}
+
+.behandlere-id h5 {
+  font-size: var(--smallHeader);
+}
+
+.inactive-btn-id {
+  border: 1px solid var(--mainBlack);
+  font-size: var(--bodyText);
+  border-radius: 2px;
+  padding: 3px 30px 3px 30px;
+  align-self: baseline;
+}
+
+.link-til-behandlere a {
+    color: var(--mainPurple); 
+}
+
+.link-til-behandlere a:hover {
+  text-decoration: none;
+  color: var(--mainPurple); 
+}
+
+.behandlere a:hover {
+  text-decoration: none;
+}
+
+.tilbake-til-behandlere a {
+    color: var(--mainBlack); 
+    text-decoration: none;
+}
+

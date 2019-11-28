@@ -1,18 +1,19 @@
 @import url("fonts.css");
 @import url("menu.css");
 @import url("footer.css");
-@import url("behandlinger.css");
-@import url("timebestilling.css");
-@import url('behandlinger.css');
+@import url("behandlinger.css"); 
 @import url('bestilltime.css');
 @import url('ansatte.css');
 @import url('logg-inn.css');
 @import url('password.css');
 @import url('sms-code.css');
 @import url('dashboard.css');
+@import url('bestille.css');
 @import url('innlogging-ansatte.css');
 @import url('testFile.css');
 @import url('kontaktOss.css');
+@import url('behandlere.css'); 
+
 
 /* @import url("grid.css"); */
 
@@ -26,7 +27,7 @@ html {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     font-family: var(--regularFont);
-    background-color: var(--lightBlue);
+    /* background-color: var(--lightBlue); */
     scroll-behavior: smooth;
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
@@ -118,6 +119,10 @@ button:focus {
     background: none;
     border: none;
     padding: 0;
+}
+
+.btn-back {
+
 }
 
 .btn-width-90 {
